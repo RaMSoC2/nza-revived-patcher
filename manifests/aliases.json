@@ -1,0 +1,31 @@
+[
+  {
+    "resource_name": "ui_assets-hd/window_main.png",
+    "kind": "original_asset_reuse_experimental",
+    "source_archive_entry": "assets/ui_assets-hd/window_short.png",
+    "sha256": "c755aa7336172aebf70e31cc486b32eb7385d1c9d678c720caf288644b6811f1",
+    "reason": "ZTDialogView.commonInit requests window_main.png, absent in all four APKs; trial fallback reuses original window_short.png unchanged, not a recovered authentic window_main design"
+  },
+  {
+    "resource_name": "ui_assets-hd/button_blue.png",
+    "kind": "original_asset_reuse_experimental",
+    "source_archive_entry": "assets/ui_assets-hd/outpost_route_buttonblue.png",
+    "sha256": "d63233d84063c2e2fcaa959c0dfe34a525e2de8e188554688ccc63809b8018b9",
+    "reason": "Verified missing nameplate fill/frame; reuse original turquoise route-button pixels for the original nameplate compositor; adaptation, not authentic recovery; resample the original component to the compositor aspect ratio 150:53 to keep inherited text/icon scaling uniform",
+    "resample_size": [
+      300,
+      106
+    ]
+  },
+  {
+    "resource_name": "ui_assets-hd/button_frame.png",
+    "kind": "original_asset_reuse_experimental",
+    "source_archive_entry": "assets/ui_assets-hd/outpost_route_buttonframe.png",
+    "sha256": "b34ab67d21d4c9cd7d7659b7ac40b23f980b58dca0e62409b89c26043986eade",
+    "reason": "Verified missing nameplate fill/frame; reuse original turquoise route-button pixels for the original nameplate compositor; adaptation, not authentic recovery; resample the original component to the compositor aspect ratio 150:53 to keep inherited text/icon scaling uniform",
+    "resample_size": [
+      300,
+      106
+    ]
+  }
+]

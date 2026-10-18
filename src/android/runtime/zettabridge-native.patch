@@ -1,0 +1,737 @@
+diff --git a/core/android/egl_driver_backend.h b/core/android/egl_driver_backend.h
+index ef8a282..138e877 100644
+--- a/core/android/egl_driver_backend.h
++++ b/core/android/egl_driver_backend.h
+@@ -6,6 +6,15 @@
+ 
+ namespace zb {
+ 
++// EXP-010: keep the Android 26 lab loadable; EGL 1.5 symbols are optional here.
++// The real entry point is used where the device implements it; absent calls fail.
++template <typename Fn, typename... Args>
++auto optional_egl(const char* name, Args... args) -> decltype(Fn{}(args...)) {
++    using Result = decltype(Fn{}(args...));
++    const auto fn = reinterpret_cast<Fn>(::eglGetProcAddress(name));
++    return fn ? fn(args...) : Result{};
++}
++
+ // Phase 7a Task 8: a thin passthrough EglBackend that calls the real device driver
+ // (libEGL.so). All marshaling (handle translation, bounds checks) already happened in HostEgl
+ // before a call reaches here, so every override below is a direct forward with no logic of its
+diff --git a/core/android/egl_driver_backend_overrides.inc b/core/android/egl_driver_backend_overrides.inc
+index e1b6dba..a633add 100644
+--- a/core/android/egl_driver_backend_overrides.inc
++++ b/core/android/egl_driver_backend_overrides.inc
+@@ -5,21 +5,21 @@
+     EGLBoolean eglBindAPI(EGLenum api) override { return static_cast<EGLBoolean>(::eglBindAPI(api)); }
+     EGLBoolean eglBindTexImage(EGLDisplay dpy, EGLSurface surface, EGLint buffer) override { return static_cast<EGLBoolean>(::eglBindTexImage(dpy, surface, buffer)); }
+     EGLBoolean eglChooseConfig(EGLDisplay dpy, const EGLint *attrib_list, EGLConfig *configs, EGLint config_size, EGLint *num_config) override { return static_cast<EGLBoolean>(::eglChooseConfig(dpy, attrib_list, configs, config_size, num_config)); }
+-    EGLint eglClientWaitSync(EGLDisplay dpy, EGLSync sync, EGLint flags, EGLTime timeout) override { return static_cast<EGLint>(::eglClientWaitSync(dpy, sync, flags, timeout)); }
++    EGLint eglClientWaitSync(EGLDisplay dpy, EGLSync sync, EGLint flags, EGLTime timeout) override { return static_cast<EGLint>(optional_egl<decltype(&::eglClientWaitSync)>("eglClientWaitSync", dpy, sync, flags, timeout)); }
+     EGLBoolean eglCopyBuffers(EGLDisplay dpy, EGLSurface surface, EGLNativePixmapType target) override { return static_cast<EGLBoolean>(::eglCopyBuffers(dpy, surface, reinterpret_cast<::EGLNativePixmapType>(target))); }
+     EGLContext eglCreateContext(EGLDisplay dpy, EGLConfig config, EGLContext share_context, const EGLint *attrib_list) override { return reinterpret_cast<EGLContext>(::eglCreateContext(dpy, config, share_context, attrib_list)); }
+-    EGLImage eglCreateImage(EGLDisplay dpy, EGLContext ctx, EGLenum target, EGLClientBuffer buffer, const EGLAttrib *attrib_list) override { return reinterpret_cast<EGLImage>(::eglCreateImage(dpy, ctx, target, buffer, attrib_list)); }
++    EGLImage eglCreateImage(EGLDisplay dpy, EGLContext ctx, EGLenum target, EGLClientBuffer buffer, const EGLAttrib *attrib_list) override { return reinterpret_cast<EGLImage>(optional_egl<decltype(&::eglCreateImage)>("eglCreateImage", dpy, ctx, target, buffer, attrib_list)); }
+     EGLSurface eglCreatePbufferFromClientBuffer(EGLDisplay dpy, EGLenum buftype, EGLClientBuffer buffer, EGLConfig config, const EGLint *attrib_list) override { return reinterpret_cast<EGLSurface>(::eglCreatePbufferFromClientBuffer(dpy, buftype, buffer, config, attrib_list)); }
+     EGLSurface eglCreatePbufferSurface(EGLDisplay dpy, EGLConfig config, const EGLint *attrib_list) override { return reinterpret_cast<EGLSurface>(::eglCreatePbufferSurface(dpy, config, attrib_list)); }
+     EGLSurface eglCreatePixmapSurface(EGLDisplay dpy, EGLConfig config, EGLNativePixmapType pixmap, const EGLint *attrib_list) override { return reinterpret_cast<EGLSurface>(::eglCreatePixmapSurface(dpy, config, reinterpret_cast<::EGLNativePixmapType>(pixmap), attrib_list)); }
+-    EGLSurface eglCreatePlatformPixmapSurface(EGLDisplay dpy, EGLConfig config, void *native_pixmap, const EGLAttrib *attrib_list) override { return reinterpret_cast<EGLSurface>(::eglCreatePlatformPixmapSurface(dpy, config, native_pixmap, attrib_list)); }
+-    EGLSurface eglCreatePlatformWindowSurface(EGLDisplay dpy, EGLConfig config, void *native_window, const EGLAttrib *attrib_list) override { return reinterpret_cast<EGLSurface>(::eglCreatePlatformWindowSurface(dpy, config, native_window, attrib_list)); }
+-    EGLSync eglCreateSync(EGLDisplay dpy, EGLenum type, const EGLAttrib *attrib_list) override { return reinterpret_cast<EGLSync>(::eglCreateSync(dpy, type, attrib_list)); }
++    EGLSurface eglCreatePlatformPixmapSurface(EGLDisplay dpy, EGLConfig config, void *native_pixmap, const EGLAttrib *attrib_list) override { return reinterpret_cast<EGLSurface>(optional_egl<decltype(&::eglCreatePlatformPixmapSurface)>("eglCreatePlatformPixmapSurface", dpy, config, native_pixmap, attrib_list)); }
++    EGLSurface eglCreatePlatformWindowSurface(EGLDisplay dpy, EGLConfig config, void *native_window, const EGLAttrib *attrib_list) override { return reinterpret_cast<EGLSurface>(optional_egl<decltype(&::eglCreatePlatformWindowSurface)>("eglCreatePlatformWindowSurface", dpy, config, native_window, attrib_list)); }
++    EGLSync eglCreateSync(EGLDisplay dpy, EGLenum type, const EGLAttrib *attrib_list) override { return reinterpret_cast<EGLSync>(optional_egl<decltype(&::eglCreateSync)>("eglCreateSync", dpy, type, attrib_list)); }
+     EGLSurface eglCreateWindowSurface(EGLDisplay dpy, EGLConfig config, EGLNativeWindowType win, const EGLint *attrib_list) override { return reinterpret_cast<EGLSurface>(::eglCreateWindowSurface(dpy, config, reinterpret_cast<::EGLNativeWindowType>(win), attrib_list)); }
+     EGLBoolean eglDestroyContext(EGLDisplay dpy, EGLContext ctx) override { return static_cast<EGLBoolean>(::eglDestroyContext(dpy, ctx)); }
+-    EGLBoolean eglDestroyImage(EGLDisplay dpy, EGLImage image) override { return static_cast<EGLBoolean>(::eglDestroyImage(dpy, image)); }
++    EGLBoolean eglDestroyImage(EGLDisplay dpy, EGLImage image) override { return static_cast<EGLBoolean>(optional_egl<decltype(&::eglDestroyImage)>("eglDestroyImage", dpy, image)); }
+     EGLBoolean eglDestroySurface(EGLDisplay dpy, EGLSurface surface) override { return static_cast<EGLBoolean>(::eglDestroySurface(dpy, surface)); }
+-    EGLBoolean eglDestroySync(EGLDisplay dpy, EGLSync sync) override { return static_cast<EGLBoolean>(::eglDestroySync(dpy, sync)); }
++    EGLBoolean eglDestroySync(EGLDisplay dpy, EGLSync sync) override { return static_cast<EGLBoolean>(optional_egl<decltype(&::eglDestroySync)>("eglDestroySync", dpy, sync)); }
+     EGLBoolean eglGetConfigAttrib(EGLDisplay dpy, EGLConfig config, EGLint attribute, EGLint *value) override { return static_cast<EGLBoolean>(::eglGetConfigAttrib(dpy, config, attribute, value)); }
+     EGLBoolean eglGetConfigs(EGLDisplay dpy, EGLConfig *configs, EGLint config_size, EGLint *num_config) override { return static_cast<EGLBoolean>(::eglGetConfigs(dpy, configs, config_size, num_config)); }
+     EGLContext eglGetCurrentContext(void) override { return reinterpret_cast<EGLContext>(::eglGetCurrentContext()); }
+@@ -27,9 +27,9 @@
+     EGLSurface eglGetCurrentSurface(EGLint readdraw) override { return reinterpret_cast<EGLSurface>(::eglGetCurrentSurface(readdraw)); }
+     EGLDisplay eglGetDisplay(EGLNativeDisplayType display_id) override { return reinterpret_cast<EGLDisplay>(::eglGetDisplay(display_id)); }
+     EGLint eglGetError(void) override { return static_cast<EGLint>(::eglGetError()); }
+-    EGLDisplay eglGetPlatformDisplay(EGLenum platform, void *native_display, const EGLAttrib *attrib_list) override { return reinterpret_cast<EGLDisplay>(::eglGetPlatformDisplay(platform, native_display, attrib_list)); }
++    EGLDisplay eglGetPlatformDisplay(EGLenum platform, void *native_display, const EGLAttrib *attrib_list) override { return reinterpret_cast<EGLDisplay>(optional_egl<decltype(&::eglGetPlatformDisplay)>("eglGetPlatformDisplay", platform, native_display, attrib_list)); }
+     __eglMustCastToProperFunctionPointerType eglGetProcAddress(const char *procname) override { return reinterpret_cast<__eglMustCastToProperFunctionPointerType>(::eglGetProcAddress(procname)); }
+-    EGLBoolean eglGetSyncAttrib(EGLDisplay dpy, EGLSync sync, EGLint attribute, EGLAttrib *value) override { return static_cast<EGLBoolean>(::eglGetSyncAttrib(dpy, sync, attribute, value)); }
++    EGLBoolean eglGetSyncAttrib(EGLDisplay dpy, EGLSync sync, EGLint attribute, EGLAttrib *value) override { return static_cast<EGLBoolean>(optional_egl<decltype(&::eglGetSyncAttrib)>("eglGetSyncAttrib", dpy, sync, attribute, value)); }
+     EGLBoolean eglInitialize(EGLDisplay dpy, EGLint *major, EGLint *minor) override { return static_cast<EGLBoolean>(::eglInitialize(dpy, major, minor)); }
+     EGLBoolean eglMakeCurrent(EGLDisplay dpy, EGLSurface draw, EGLSurface read, EGLContext ctx) override { return static_cast<EGLBoolean>(::eglMakeCurrent(dpy, draw, read, ctx)); }
+     EGLenum eglQueryAPI(void) override { return static_cast<EGLenum>(::eglQueryAPI()); }
+@@ -45,4 +45,4 @@
+     EGLBoolean eglWaitClient(void) override { return static_cast<EGLBoolean>(::eglWaitClient()); }
+     EGLBoolean eglWaitGL(void) override { return static_cast<EGLBoolean>(::eglWaitGL()); }
+     EGLBoolean eglWaitNative(EGLint engine) override { return static_cast<EGLBoolean>(::eglWaitNative(engine)); }
+-    EGLBoolean eglWaitSync(EGLDisplay dpy, EGLSync sync, EGLint flags) override { return static_cast<EGLBoolean>(::eglWaitSync(dpy, sync, flags)); }
++    EGLBoolean eglWaitSync(EGLDisplay dpy, EGLSync sync, EGLint flags) override { return static_cast<EGLBoolean>(optional_egl<decltype(&::eglWaitSync)>("eglWaitSync", dpy, sync, flags)); }
+diff --git a/core/android/jni_env_backend.cpp b/core/android/jni_env_backend.cpp
+index 063883a..9d189f4 100644
+--- a/core/android/jni_env_backend.cpp
++++ b/core/android/jni_env_backend.cpp
+@@ -9,6 +9,8 @@
+ #include <vector>
+ 
+ #include "zb/jni_descriptor.h"
++#include "zb/log.h"
++#include "zb/runtime_report.h"
+ 
+ namespace zb {
+ 
+@@ -432,8 +434,15 @@ bool JniEnvBackend::is_assignable_from(Env env, Ref from, Ref to) {
+ 
+ JniBackend::Id JniEnvBackend::get_method_id(Env env, Ref cls, const char* name, const char* signature,
+                                             bool is_static) {
+-    return I(is_static ? E(env)->GetStaticMethodID(C(cls), name, signature)
+-                       : E(env)->GetMethodID(C(cls), name, signature));
++    const auto method = is_static ? E(env)->GetStaticMethodID(C(cls), name, signature)
++                                  : E(env)->GetMethodID(C(cls), name, signature);
++    // Local NZA diagnostic: leave pending exceptions and the returned ID unchanged.
++    if (method == nullptr) {
++        log("NZA JNI method lookup failed: %s%s static=%d", name, signature, is_static ? 1 : 0);
++        runtime_report().note_jni_detail("failed-method-lookup",
++            std::string(is_static ? "static " : "instance ") + name + signature, true);
++    }
++    return I(method);
+ }
+ 
+ JniBackend::Id JniEnvBackend::get_field_id(Env env, Ref cls, const char* name, const char* signature,
+diff --git a/core/include/zb/host_platform_compat.h b/core/include/zb/host_platform_compat.h
+index 6d61caa..daee7cf 100644
+--- a/core/include/zb/host_platform_compat.h
++++ b/core/include/zb/host_platform_compat.h
+@@ -1,17 +1,36 @@
+ #pragma once
+ 
+ #include <cstdint>
++#include <mutex>
++#include <vector>
+ 
+ #include "zb/guest_thread.h"
+ 
+ namespace zb {
++class LibraryRuntime;
++class HostJni;
+ 
+ // Safe loader-compatibility fallbacks for platform entry points whose full pointer bridges are
+ // deferred. Every handled call is reported as unimplemented; pointer-returning or output-writing
+ // APIs return an explicit failure instead of letting the generic r0=0 path claim success.
+ class HostPlatformCompat {
+ public:
++    HostPlatformCompat(LibraryRuntime* runtime = nullptr, HostJni* jni = nullptr)
++        : runtime_(runtime), jni_(jni) {}
+     bool handle_host_call(std::uint32_t index, GuestThread& thread);
++private:
++    bool bitmap_call(std::uint32_t index, GuestThread& thread);
++    struct Pixels {
++        std::uint64_t bitmap;
++        void* host;
++        std::uint32_t guest;
++        std::uint64_t size;
++        unsigned depth = 1;
++    };
++    LibraryRuntime* runtime_;
++    HostJni* jni_;
++    std::mutex pixels_mutex_;
++    std::vector<Pixels> pixels_;
+ };
+ 
+ }  // namespace zb
+diff --git a/core/include/zb/process.h b/core/include/zb/process.h
+index 9bb9ba9..2d20209 100644
+--- a/core/include/zb/process.h
++++ b/core/include/zb/process.h
+@@ -7,6 +7,7 @@
+ #include <cstdint>
+ #include <functional>
+ #include <memory>
++#include <map>
+ #include <mutex>
+ #include <set>
+ #include <string>
+@@ -148,6 +149,10 @@ public:
+     // must describe the 32-bit guest rather than the host. Returns false if guest_path is not
+     // one of them; otherwise sets result to a file descriptor or -errno (proc_files.cpp).
+     bool open_synthetic_file(const char* guest_path, int flags, std::int32_t& result);
++    // Private EXP-010: real memfd storage for legacy ashmem when its device is unavailable.
++    std::int32_t open_legacy_ashmem(int flags);
++    bool legacy_ashmem_ioctl(int fd, std::uint32_t request, std::uint32_t arg, std::int32_t& result);
++    bool legacy_ashmem_allows(int fd, int prot);
+     // True if addr lies in the image of the guest dynamic linker.
+     bool in_guest_linker(std::uint32_t addr) const { return addr >= linker_start_ && addr < linker_end_; }
+ 
+@@ -224,6 +229,10 @@ private:
+     std::mutex seen_mutex_;
+     std::set<std::uint64_t> seen_;
+     std::vector<FileMapping> file_mappings_;
++    struct LegacyAshmem { std::string name; unsigned prot = 7; };
++    std::mutex ashmem_mutex_;
++    // Inode identity keeps dup/close/reused-fd operations independent of descriptor numbers.
++    std::map<std::pair<std::uint64_t, std::uint64_t>, LegacyAshmem> legacy_ashmem_;
+     std::vector<std::pair<std::uint32_t, std::uint32_t>> textrel_ranges_;
+     mutable std::mutex path_aliases_mutex_;
+     std::vector<std::pair<std::string, std::string>> path_aliases_;
+diff --git a/core/src/android/host_platform_compat.cpp b/core/src/android/host_platform_compat.cpp
+index 4f9bf59..c51e62c 100644
+--- a/core/src/android/host_platform_compat.cpp
++++ b/core/src/android/host_platform_compat.cpp
+@@ -1,6 +1,14 @@
+ #include "zb/host_platform_compat.h"
+ 
+ #include <cerrno>
++#include <cstring>
++#include "zb/host_jni.h"
++#include "zb/library_runtime.h"
++#if defined(__ANDROID__)
++#include <android/bitmap.h>
++#include <dlfcn.h>
++#include <jni.h>
++#endif
+ 
+ #include "zb/platform_compat_hostcalls.h"
+ #include "zb/runtime_report.h"
+@@ -32,6 +40,7 @@ constexpr Fallback kFallbacks[] = {
+ }  // namespace
+ 
+ bool HostPlatformCompat::handle_host_call(std::uint32_t index, GuestThread& thread) {
++    if (runtime_ && jni_ && bitmap_call(index, thread)) return true;
+     for (const Fallback& fallback : kFallbacks) {
+         if (fallback.index != index) continue;
+         runtime_report().note_unimplemented_host_call(index, fallback.library, fallback.function);
+@@ -42,4 +51,101 @@ bool HostPlatformCompat::handle_host_call(std::uint32_t index, GuestThread& thre
+     return false;
+ }
+ 
++bool HostPlatformCompat::bitmap_call(std::uint32_t index, GuestThread& thread) {
++#if defined(__ANDROID__)
++    if (index != ZB_COMPAT_HC_AndroidBitmap_getInfo &&
++        index != ZB_COMPAT_HC_AndroidBitmap_lockPixels &&
++        index != ZB_COMPAT_HC_AndroidBitmap_unlockPixels) return false;
++    struct Api {
++        void* library = dlopen("libjnigraphics.so", RTLD_NOW | RTLD_LOCAL);
++        decltype(&AndroidBitmap_getInfo) info = library ? reinterpret_cast<decltype(info)>(dlsym(library,"AndroidBitmap_getInfo")) : nullptr;
++        decltype(&AndroidBitmap_lockPixels) lock = library ? reinterpret_cast<decltype(lock)>(dlsym(library,"AndroidBitmap_lockPixels")) : nullptr;
++        decltype(&AndroidBitmap_unlockPixels) unlock = library ? reinterpret_cast<decltype(unlock)>(dlsym(library,"AndroidBitmap_unlockPixels")) : nullptr;
++    };
++    static Api api;
++    if (!api.info || !api.lock || !api.unlock) return false;
++    auto& regs = thread.regs();
++    const auto destination = regs[2];
++    auto* env = reinterpret_cast<JNIEnv*>(static_cast<std::uintptr_t>(jni_->current_env()));
++    auto bitmap = reinterpret_cast<jobject>(static_cast<std::uintptr_t>(jni_->resolve_ref(regs[1],"AndroidBitmap")));
++    regs[0] = static_cast<std::uint32_t>(ANDROID_BITMAP_RESULT_BAD_PARAMETER);
++    if (!env || !bitmap) return true;
++    if (env->ExceptionCheck()) {regs[0]=static_cast<std::uint32_t>(ANDROID_BITMAP_RESULT_JNI_EXCEPTION);return true;}
++    if (index == ZB_COMPAT_HC_AndroidBitmap_unlockPixels) {
++        Pixels entry{};
++        bool found=false;
++        {
++            std::lock_guard<std::mutex> guard(pixels_mutex_);
++            for (auto it=pixels_.begin();it!=pixels_.end();++it) {
++                auto real=reinterpret_cast<jobject>(static_cast<std::uintptr_t>(it->bitmap));
++                if (!env->IsSameObject(bitmap,real)) continue;
++                if (it->depth>1) {--it->depth;regs[0]=0;return true;}
++                entry=*it;pixels_.erase(it);found=true;break;
++            }
++        }
++        if (!found) return true;
++        const auto* guest=runtime_->memory().host_ptr(entry.guest,entry.size,kPageRead);
++        if (guest) std::memcpy(entry.host,guest,entry.size);
++        regs[0]=static_cast<std::uint32_t>(api.unlock(env,bitmap));
++        env->DeleteGlobalRef(reinterpret_cast<jobject>(static_cast<std::uintptr_t>(entry.bitmap)));
++        GuestCall free_call;free_call.regs={entry.guest,0,0,0};
++        runtime_->call_on_current(runtime_->service_api().free_fn,free_call);
++        if (!guest) regs[0]=static_cast<std::uint32_t>(ANDROID_BITMAP_RESULT_BAD_PARAMETER);
++        runtime_report().note_jni_detail("bitmap-bridge","real pixels copied back and unlocked",true);
++        return true;
++    }
++    AndroidBitmapInfo info{};
++    const int info_result=api.info(env,bitmap,&info);
++    regs[0]=static_cast<std::uint32_t>(info_result);
++    if (info_result != ANDROID_BITMAP_RESULT_SUCCESS) return true;
++    if (index == ZB_COMPAT_HC_AndroidBitmap_getInfo) {
++        static_assert(sizeof(AndroidBitmapInfo)==20);
++        auto* guest=runtime_->memory().host_ptr(destination,sizeof(info),kPageWrite);
++        if (guest) std::memcpy(guest,&info,sizeof(info));
++        else regs[0]=static_cast<std::uint32_t>(ANDROID_BITMAP_RESULT_BAD_PARAMETER);
++        return true;
++    }
++    auto* pointer=runtime_->memory().host_ptr(destination,4,kPageWrite);
++    regs[0]=static_cast<std::uint32_t>(ANDROID_BITMAP_RESULT_BAD_PARAMETER);
++    const std::uint64_t size=static_cast<std::uint64_t>(info.stride)*info.height;
++    if (!pointer || !size || size>128*1024*1024) return true;
++    {
++        std::lock_guard<std::mutex> guard(pixels_mutex_);
++        for (auto& entry:pixels_) {
++            if (env->IsSameObject(bitmap,reinterpret_cast<jobject>(static_cast<std::uintptr_t>(entry.bitmap)))) {
++                ++entry.depth;std::memcpy(pointer,&entry.guest,4);regs[0]=0;return true;
++            }
++        }
++    }
++    void* pixels=nullptr;
++    const int locked=api.lock(env,bitmap,&pixels);
++    regs[0]=static_cast<std::uint32_t>(locked);
++    if (locked != ANDROID_BITMAP_RESULT_SUCCESS) return true;
++    GuestCall allocate;allocate.regs={static_cast<std::uint32_t>(size),0,0,0};
++    const auto allocation=runtime_->call_on_current(runtime_->service_api().malloc_fn,allocate);
++    auto* guest=allocation && allocation->r0 ? runtime_->memory().host_ptr(allocation->r0,size,kPageWrite) : nullptr;
++    jobject global=guest ? env->NewGlobalRef(bitmap) : nullptr;
++    if (!guest || !global || !pixels) {
++        api.unlock(env,bitmap);
++        if (global) env->DeleteGlobalRef(global);
++        if (allocation && allocation->r0) {
++            GuestCall release;release.regs={allocation->r0,0,0,0};
++            runtime_->call_on_current(runtime_->service_api().free_fn,release);
++        }
++        regs[0]=static_cast<std::uint32_t>(ANDROID_BITMAP_RESULT_ALLOCATION_FAILED);return true;
++    }
++    std::memcpy(guest,pixels,size);
++    {
++        std::lock_guard<std::mutex> guard(pixels_mutex_);
++        pixels_.push_back({reinterpret_cast<std::uintptr_t>(global),pixels,allocation->r0,size});
++    }
++    std::memcpy(pointer,&allocation->r0,4);regs[0]=0;
++    runtime_report().note_jni_detail("bitmap-bridge","real pixels copied to guest, bytes="+std::to_string(size),true);
++    return true;
++#else
++    (void)index;(void)thread;
++    return false;
++#endif
++}
++
+ }  // namespace zb
+diff --git a/core/src/initial_stack.cpp b/core/src/initial_stack.cpp
+index dd91620..2c219c8 100644
+--- a/core/src/initial_stack.cpp
++++ b/core/src/initial_stack.cpp
+@@ -2,6 +2,8 @@
+ 
+ #include <elf.h>
+ #include <sys/random.h>
++#include <sys/syscall.h>
++#include <unistd.h>
+ 
+ #include <cstring>
+ 
+@@ -39,7 +41,7 @@ std::uint32_t build_initial_stack(GuestMemory& mem, std::uint32_t stack_top, con
+     for (const auto& a : argv) arg_addrs.push_back(push_string(a));
+ 
+     std::uint8_t random_bytes[16];
+-    if (getrandom(random_bytes, sizeof random_bytes, 0) != sizeof random_bytes) {
++    if (::syscall(SYS_getrandom, random_bytes, sizeof random_bytes, 0) != sizeof random_bytes) {
+         for (std::size_t i = 0; i < sizeof random_bytes; ++i) random_bytes[i] = static_cast<std::uint8_t>(i * 37 + 11);
+     }
+     const std::uint32_t random_addr = push_bytes(random_bytes, sizeof random_bytes);
+diff --git a/core/src/jni/proxy_runtime.cpp b/core/src/jni/proxy_runtime.cpp
+index dc65b36..27767d9 100644
+--- a/core/src/jni/proxy_runtime.cpp
++++ b/core/src/jni/proxy_runtime.cpp
+@@ -425,7 +425,7 @@ GuestJniEngine::GuestJniEngine(JniBackend& backend, GlBackend* gl_backend, HostG
+             return HostLooper::InputReady{ready->ident, ready->data};
+         });
+     }
+-    host_compat_ = new HostPlatformCompat();
++    host_compat_ = new HostPlatformCompat(runtime_, host_jni_);
+     if (gl_backend != nullptr) {
+         host_gl_ = new HostGl(*runtime_, *gl_backend, HostGl::GuestAllocator{}, std::move(egl_context_probe));
+     }
+diff --git a/core/src/proc_files.cpp b/core/src/proc_files.cpp
+index 8f8974e..a9e3830 100644
+--- a/core/src/proc_files.cpp
++++ b/core/src/proc_files.cpp
+@@ -5,6 +5,8 @@
+ #include <sched.h>
+ #include <sys/mman.h>
+ #include <sys/syscall.h>
++#include <sys/stat.h>
++#include <linux/ashmem.h>
+ #include <unistd.h>
+ 
+ #include <cerrno>
+@@ -74,6 +76,62 @@ int memfd_with(const std::string& text, int flags) {
+ 
+ }  // namespace
+ 
++std::int32_t Process::open_legacy_ashmem(int flags) {
++    const int fd = static_cast<int>(::syscall(SYS_memfd_create, "nza-legacy-ashmem",
++                                            (flags & O_CLOEXEC) ? kMfdCloexec : 0u));
++    if (fd < 0) return -errno;
++    struct stat st;
++    if (::fstat(fd, &st) != 0) { const int error = errno; ::close(fd); return -error; }
++    std::lock_guard<std::mutex> lock(ashmem_mutex_);
++    legacy_ashmem_[{st.st_dev, st.st_ino}] = {};
++    return fd;
++}
++
++bool Process::legacy_ashmem_allows(int fd, int prot) {
++    struct stat st;
++    if (::fstat(fd, &st) != 0) return true; // Normal mmap returns EBADF.
++    std::lock_guard<std::mutex> lock(ashmem_mutex_);
++    const auto it = legacy_ashmem_.find({st.st_dev, st.st_ino});
++    return it == legacy_ashmem_.end() || (static_cast<unsigned>(prot) & ~it->second.prot) == 0;
++}
++
++bool Process::legacy_ashmem_ioctl(int fd, std::uint32_t request, std::uint32_t arg, std::int32_t& result) {
++    struct stat st;
++    if (::fstat(fd, &st) != 0) return false;
++    std::lock_guard<std::mutex> lock(ashmem_mutex_);
++    const auto it = legacy_ashmem_.find({st.st_dev, st.st_ino});
++    if (it == legacy_ashmem_.end()) return false;
++    auto& region = it->second;
++    result = 0;
++    switch (request) {
++    case ASHMEM_SET_NAME: {
++        const auto* p = mem_.host_ptr(arg, ASHMEM_NAME_LEN, kPageRead);
++        if (!p) { result = -EFAULT; break; }
++        region.name.assign(reinterpret_cast<const char*>(p),
++                           strnlen(reinterpret_cast<const char*>(p), ASHMEM_NAME_LEN-1));
++        break;
++    }
++    case ASHMEM_GET_NAME: {
++        auto* p = mem_.host_ptr(arg, ASHMEM_NAME_LEN, kPageWrite);
++        if (!p) { result = -EFAULT; break; }
++        std::memset(p, 0, ASHMEM_NAME_LEN);
++        std::memcpy(p, region.name.data(), region.name.size());
++        break;
++    }
++    case 0x40047703: // ARM32 ASHMEM_SET_SIZE: scalar, not a guest pointer.
++        if (::ftruncate(fd, static_cast<off_t>(arg)) != 0) result = -errno;
++        break;
++    case ASHMEM_GET_SIZE: result = static_cast<std::int32_t>(st.st_size); break;
++    case 0x40047705: // Restrictions affect subsequent guest mappings.
++        if ((arg & ~region.prot) != 0) result = -EINVAL;
++        else region.prot = arg;
++        break;
++    case ASHMEM_GET_PROT_MASK: result = static_cast<std::int32_t>(region.prot); break;
++    default: result = -EOPNOTSUPP; break; // Pin/purge behavior has not been implemented.
++    }
++    return true;
++}
++
+ bool Process::open_synthetic_file(const char* guest_path, int flags, std::int32_t& result) {
+     const std::string_view path(guest_path);
+     std::string text;
+diff --git a/core/src/process.cpp b/core/src/process.cpp
+index 1ee6046..aa46584 100644
+--- a/core/src/process.cpp
++++ b/core/src/process.cpp
+@@ -578,6 +578,29 @@ bool Process::dispatch_stop(GuestThread& thread, const Stop& stop) {
+ }
+ 
+ bool Process::fault_or_crash(GuestThread& thread, const Stop& stop) {
++    // Private EXP-010: preserve the original fault before Breakpad changes the stack.
++    // Handlers retain their original behavior; this only records bounded diagnostics.
++    if (precise_faults_ && first_time(0xf000000000000001ULL)) {
++        const auto& r = thread.regs();
++        char line[384];
++        std::snprintf(line, sizeof line, "kind=%u address=%08x write=%u pc=%08x lr=%08x sp=%08x cpsr=%08x",
++                      static_cast<unsigned>(stop.kind), stop.fault_addr, stop.fault_write,
++                      stop.pc, r[14], r[13], thread.cpsr());
++        runtime_report().note_crash_detail("first-fault", line);
++        runtime_report().note_crash_detail("first-fault-pc", describe_address(stop.pc));
++        runtime_report().note_crash_detail("first-fault-lr", describe_address(r[14]));
++        std::snprintf(line, sizeof line,
++                      "r0=%08x r1=%08x r2=%08x r3=%08x r4=%08x r5=%08x r6=%08x r7=%08x "
++                      "r8=%08x r9=%08x r10=%08x r11=%08x r12=%08x",
++                      r[0],r[1],r[2],r[3],r[4],r[5],r[6],r[7],r[8],r[9],r[10],r[11],r[12]);
++        runtime_report().note_crash_detail("first-fault-registers", line);
++        if (const auto* bytes = mem_.host_ptr(stop.pc, 32, kPageRead)) {
++            char hex[65];
++            for (int i=0;i<32;++i) std::snprintf(hex+i*2,3,"%02x",bytes[i]);
++            runtime_report().note_crash_detail("first-fault-code",hex);
++        }
++        log("NZA original fault pc=%08x address=%08x",stop.pc,stop.fault_addr);
++    }
+     if (deliver_fault(thread, stop)) return true;
+     crash_report(stop, thread);
+     request_exit(128 + (stop.kind == StopKind::MemoryFault ? SIGSEGV : SIGILL));
+@@ -753,6 +776,16 @@ void Process::crash_report(const Stop& stop, GuestThread& thread) const {
+     runtime_report().note_crash_detail("recent-egl-calls", egl_recent_calls());
+     log("  pc in %s", describe_address(stop.pc).c_str());
+     log("  lr in %s", describe_address(r[14]).c_str());
++    log("NZA fault precise=%u address=%08x", precise_faults_ ? 1U : 0U, stop.fault_addr);
++    for (unsigned i = 0; i < 16; ++i) {
++        const auto address = r[13] + i*16;
++        const auto* bytes = mem_.host_ptr(address, 16, kPageRead);
++        if (bytes == nullptr) break;
++        std::uint32_t words[4];
++        std::memcpy(words, bytes, sizeof words);
++        log("NZA stack %08x: %08x %08x %08x %08x", address,
++            words[0], words[1], words[2], words[3]);
++    }
+ 
+     // Bounded, allocation-light crash detail for RuntimeReport: this must never crash inside
+     // the crash path, since it runs while the process is already dying.
+@@ -777,6 +810,30 @@ void Process::crash_report(const Stop& stop, GuestThread& thread) const {
+     runtime_report().note_crash_detail("pc", describe_address(stop.pc));
+     runtime_report().note_crash_detail("lr", describe_address(r[14]));
+ 
++    // Private EXP-010 diagnostic: copy bounded guest memory only after permission checks.
++    // No emulation behavior, pending Java exception, or guest register is changed.
++    char fault_line[96];
++    std::snprintf(fault_line, sizeof fault_line, "address=%08x access=%s thumb=%u",
++                  stop.fault_addr, stop.fault_write ? "write" : "read",
++                  (thread.cpsr() & 0x20) != 0);
++    runtime_report().note_crash_detail("access", fault_line);
++    if (const auto* code = mem_.host_ptr(stop.pc, 32, kPageRead)) {
++        char hex[65];
++        for (int i = 0; i < 32; ++i) std::snprintf(hex + i*2, 3, "%02x", code[i]);
++        runtime_report().note_crash_detail("instruction-bytes", hex);
++    }
++    for (unsigned index = 0; index < 16; ++index) {
++        const auto address = r[13] + index*16;
++        const auto* bytes = mem_.host_ptr(address, 16, kPageRead);
++        if (bytes == nullptr) break;
++        std::uint32_t values[4];
++        std::memcpy(values, bytes, sizeof values);
++        char line[128];
++        std::snprintf(line, sizeof line, "%08x: %08x %08x %08x %08x", address,
++                      values[0], values[1], values[2], values[3]);
++        runtime_report().note_crash_detail("stack-block-" + std::to_string(index), line);
++    }
++
+     const std::uint32_t sp = r[13];
+     if (mem_.accessible(sp, 32, kPageRead)) {
+         const std::uint8_t* stack_bytes = mem_.host_ptr(sp, 32, kPageRead);
+diff --git a/core/src/syscalls.cpp b/core/src/syscalls.cpp
+index b638903..96a70b3 100644
+--- a/core/src/syscalls.cpp
++++ b/core/src/syscalls.cpp
+@@ -2,8 +2,10 @@
+ 
+ #include <fcntl.h>
+ #include <linux/futex.h>
++#include <linux/random.h>
+ #include <sched.h>
+ #include <sys/ioctl.h>
++#include <sys/inotify.h>
+ #include <sys/mman.h>
+ #include <sys/prctl.h>
+ #include <sys/resource.h>
+@@ -37,6 +39,7 @@
+ #include <string>
+ #include <string_view>
+ #include <vector>
++#include <linux/ashmem.h>
+ 
+ #include "gen/syscall_nrs_arm.h"
+ #include "zb/elf_fixups.h"
+@@ -146,6 +149,7 @@ const char* guest_cstr(GuestMemory& m, std::uint32_t addr) {
+ bool open_worth_watching(const char* path) {
+     if (path == nullptr) return false;
+     const std::string_view name(path);
++    if (name == "/dev/ashmem") return true;
+     if (name.find("flutter_assets") != std::string_view::npos) return true;
+     // Fonts decide whether a guest can draw text at all, so their opens and failures deserve the
+     // same attention as libraries.
+@@ -212,12 +216,29 @@ bool write_timespec(GuestMemory& m, std::uint32_t addr, bool time64, const times
+     return write_guest(m, addr, g::timespec32{static_cast<std::int32_t>(ts.tv_sec), static_cast<std::int32_t>(ts.tv_nsec)});
+ }
+ 
++void note_save_fd(const char* operation, int fd, std::uint32_t requested, std::int32_t result) {
++    const int saved_errno=errno;
++    char descriptor[64],path[1024];
++    std::snprintf(descriptor,sizeof descriptor,"/proc/self/fd/%d",fd);
++    const auto size=::readlink(descriptor,path,sizeof(path)-1);
++    if(size>0){
++        path[size]=0;
++        if(std::strstr(path,"LocalFiles")||std::strstr(path,"Defaults.plist")) {
++            log("NZA save %s fd=%d requested=%u result=%d path=%s",operation,fd,requested,result,path);
++            runtime_report().note_jni_detail("save-file-io",std::string(operation)+" requested="+
++                std::to_string(requested)+" result="+std::to_string(result)+" path="+path,true);
++        }
++    }
++    errno=saved_errno;
++}
++
+ std::int32_t sys_read_write(Ctx& c, bool is_write) {
+     const std::uint32_t len = c.a[2];
+     std::uint8_t* buf = c.mem.host_ptr(c.a[1], len, is_write ? kPageRead : kPageWrite);
+-    if (len != 0 && buf == nullptr) return -EFAULT;
+     const int fd = static_cast<int>(c.a[0]);
+-    return result_of(is_write ? ::write(fd, buf, len) : ::read(fd, buf, len));
++    const auto result=(len!=0 && !buf)?-EFAULT:result_of(is_write ? ::write(fd, buf, len) : ::read(fd, buf, len));
++    if(is_write)note_save_fd("write",fd,len,result);
++    return result;
+ }
+ 
+ std::int32_t sys_pread_pwrite(Ctx& c, bool is_write) {
+@@ -294,6 +315,7 @@ std::int32_t sys_mmap2(Ctx& c) {
+     // Code of libraries marked DT_ZB_TEXTREL stays writable so the linker can relocate it.
+     const bool textrel = !(flags & MAP_ANONYMOUS) && (prot & PROT_EXEC) && elf_has_textrel_marker(fd);
+     const int effective_prot = textrel ? (prot | PROT_WRITE) : prot;
++    if (!(flags & MAP_ANONYMOUS) && !c.proc.legacy_ashmem_allows(fd, prot)) return -EACCES;
+ 
+     errno = 0;
+     const bool ok = (flags & MAP_ANONYMOUS) ? c.mem.map_anon(at, size, effective_prot)
+@@ -606,7 +628,13 @@ std::int32_t sys_fstatat64(Ctx& c) {
+     if (!path) return -EFAULT;
+     struct stat st;
+     const int rc = ::fstatat(static_cast<int>(c.a[0]), c.proc.translate_path(path).c_str(), &st, static_cast<int>(c.a[3]));
+-    return sys_stat_common(c, rc, st, c.a[2]);
++    const auto result=sys_stat_common(c, rc, st, c.a[2]);
++    if(std::strstr(path,"LocalFiles")||std::strstr(path,"Defaults.plist")) {
++        log("NZA save stat result=%d mode=%o size=%lld path=%s",result,
++            rc==0?st.st_mode:0,rc==0?static_cast<long long>(st.st_size):0,path);
++        runtime_report().note_jni_detail("save-stat",std::string(path)+" result="+std::to_string(result),true);
++    }
++    return result;
+ }
+ 
+ std::int32_t sys_statx(Ctx& c) {
+@@ -619,13 +647,36 @@ std::int32_t sys_statx(Ctx& c) {
+ 
+ std::int32_t sys_ioctl(Ctx& c) {
+     const unsigned long request = c.a[1];
++    std::int32_t legacy_result;
++    if (c.proc.legacy_ashmem_ioctl(static_cast<int>(c.a[0]), c.a[1], c.a[2], legacy_result))
++        return legacy_result;
+     std::uint32_t arg_size = 0;
+     std::uint8_t need = kPageRead | kPageWrite;
+     switch (request) {
++    // Android ashmem: pointers are guest addresses, while SET_SIZE/SET_PROT_MASK
++    // take scalar unsigned longs despite their _IOW request encoding. ARM32
++    // encodes four bytes; the actual AArch64 kernel ioctl encodes eight.
++    case ASHMEM_SET_NAME: arg_size = ASHMEM_NAME_LEN; need = kPageRead; break;
++    case ASHMEM_GET_NAME: arg_size = ASHMEM_NAME_LEN; need = kPageWrite; break;
++    case 0x40047703UL:
++        return result_of(::ioctl(static_cast<int>(c.a[0]), ASHMEM_SET_SIZE,
++                                 static_cast<unsigned long>(c.a[2])));
++    case 0x40047705UL:
++        return result_of(::ioctl(static_cast<int>(c.a[0]), ASHMEM_SET_PROT_MASK,
++                                 static_cast<unsigned long>(c.a[2])));
++    case ASHMEM_GET_SIZE:
++    case ASHMEM_GET_PROT_MASK:
++    case ASHMEM_GET_PIN_STATUS:
++        return result_of(::ioctl(static_cast<int>(c.a[0]), request, 0UL));
++    case ASHMEM_PIN:
++    case ASHMEM_UNPIN: arg_size = sizeof(ashmem_pin); need = kPageRead; break;
+     case TCGETS: arg_size = 36; break;
+     case TIOCGWINSZ: arg_size = 8; break;
+     case FIONREAD: arg_size = 4; break;
+     case FIONBIO: arg_size = 4; need = kPageRead; break;
++    // ARM32 and AArch64 RNDGETENTCNT both return one 32-bit int. Forward
++    // the real entropy count; older Bionic requires this before using urandom.
++    case RNDGETENTCNT: arg_size = 4; need = kPageWrite; break;
+     default:
+         if (c.proc.first_time(kSeenIoctl | request)) log("unsupported ioctl 0x%lx on fd %u", request, c.a[0]);
+         return -ENOTTY;
+@@ -1233,7 +1284,27 @@ bool handle_syscall(Process& proc, GuestThread& thread) {
+     case NR_lseek: res = sys_lseek(c); break;
+     case NR__llseek: res = sys_llseek(c); break;
+     case NR_fcntl64: res = sys_fcntl64(c); break;
+-    case NR_ioctl: res = sys_ioctl(c); break;
++    case NR_inotify_init: res = result_of(::inotify_init1(0)); break;
++    case NR_inotify_init1: res = result_of(::inotify_init1(static_cast<int>(c.a[0]))); break;
++    case NR_inotify_add_watch: {
++        const char* path = guest_cstr(c.mem, c.a[1]);
++        res = !path ? -EFAULT : result_of(::inotify_add_watch(static_cast<int>(c.a[0]),
++            proc.translate_path(path).c_str(), c.a[2]));
++        break;
++    }
++    case NR_inotify_rm_watch:
++        res = result_of(::inotify_rm_watch(static_cast<int>(c.a[0]), static_cast<int>(c.a[1])));
++        break;
++    case NR_ioctl:
++        res = sys_ioctl(c);
++        // Private EXP-010: bounded evidence from this guest's ashmem requests.
++        if (((c.a[1] >> 8) & 0xff) == 0x77) {
++            char key[64], value[128];
++            std::snprintf(key, sizeof key, "ashmem-ioctl-%08x", c.a[1]);
++            std::snprintf(value, sizeof value, "fd=%u arg=%08x result=%d", c.a[0], c.a[2], res);
++            runtime_report().note_jni_detail(key, value, true);
++        }
++        break;
+ 
+     case NR_openat: {
+         const char* guest_path = guest_cstr(c.mem, c.a[1]);
+@@ -1245,13 +1316,30 @@ bool handle_syscall(Process& proc, GuestThread& thread) {
+         res = sys_path_call(c, 1, [](Ctx& x, const char* p) -> long {
+             return ::syscall(SYS_openat, static_cast<int>(x.a[0]), p, static_cast<int>(x.a[2]), static_cast<mode_t>(x.a[3]));
+         });
++        if (guest_path && std::strcmp(guest_path, "/dev/ashmem") == 0 &&
++            (res == -EACCES || res == -ENOENT || res == -ENODEV)) {
++            const auto original_error = res;
++            res = proc.open_legacy_ashmem(static_cast<int>(c.a[2]));
++            char value[96];
++            std::snprintf(value, sizeof value, "device-result=%d memfd-result=%d", original_error, res);
++            runtime_report().note_jni_detail("ashmem-memfd-fallback", value, true);
++        }
+         if (watched) note_watched_open(guest_path, res);
++        if (guest_path && (std::strstr(guest_path,"LocalFiles") ||
++                           std::strstr(guest_path,"SaveGame") || std::strstr(guest_path,"Defaults.plist"))) {
++            runtime_report().note_jni_detail("save-file-open",std::string(guest_path)+
++                " flags="+std::to_string(c.a[2])+" result="+std::to_string(res),true);
++            log("NZA file open %s flags=%x result=%d",guest_path,c.a[2],res);
++        }
+         break;
+     }
+     case NR_faccessat:
+         res = sys_path_call(c, 1, [](Ctx& x, const char* p) -> long {
+             return ::syscall(SYS_faccessat, static_cast<int>(x.a[0]), p, static_cast<int>(x.a[2]));
+         });
++        if(const char* path=guest_cstr(c.mem,c.a[1]);path &&
++           (std::strstr(path,"LocalFiles")||std::strstr(path,"Defaults.plist")))
++            log("NZA save access result=%d mode=%u path=%s",res,c.a[2],path);
+         break;
+     case NR_faccessat2:
+         res = sys_path_call(c, 1, [](Ctx& x, const char* p) -> long {
+@@ -1262,11 +1350,16 @@ bool handle_syscall(Process& proc, GuestThread& thread) {
+         res = sys_path_call(c, 1, [](Ctx& x, const char* p) -> long {
+             return ::unlinkat(static_cast<int>(x.a[0]), p, static_cast<int>(x.a[2]));
+         });
++        if(const char* path=guest_cstr(c.mem,c.a[1]);path &&
++           (std::strstr(path,"LocalFiles")||std::strstr(path,"Defaults.plist")))
++            log("NZA save unlink result=%d path=%s",res,path);
+         break;
+     case NR_mkdirat:
+         res = sys_path_call(c, 1, [](Ctx& x, const char* p) -> long {
+             return ::mkdirat(static_cast<int>(x.a[0]), p, static_cast<mode_t>(x.a[2]));
+         });
++        if (const char* path=guest_cstr(c.mem,c.a[1]);path && std::strstr(path,"LocalFiles"))
++            runtime_report().note_jni_detail("save-mkdir",std::string(path)+" result="+std::to_string(res),true);
+         break;
+     case NR_readlinkat: {
+         const char* path = guest_cstr(c.mem, c.a[1]);
+@@ -1465,16 +1558,25 @@ bool handle_syscall(Process& proc, GuestThread& thread) {
+         res = sys_two_paths(c, 1, 3, [](Ctx& x, const char* a, const char* b) -> long {
+             return ::renameat(static_cast<int>(x.a[0]), a, static_cast<int>(x.a[2]), b);
+         });
++        if(const char* path=guest_cstr(c.mem,c.a[1]);path &&
++           (std::strstr(path,"LocalFiles")||std::strstr(path,"Defaults.plist")))
++            log("NZA save rename result=%d from=%s to=%s",res,path,guest_cstr(c.mem,c.a[3]));
+         break;
+     case NR_renameat2:
+         res = sys_two_paths(c, 1, 3, [](Ctx& x, const char* a, const char* b) -> long {
+             return ::syscall(SYS_renameat2, static_cast<int>(x.a[0]), a, static_cast<int>(x.a[2]), b, x.a[4]);
+         });
++        if(const char* path=guest_cstr(c.mem,c.a[1]);path &&
++           (std::strstr(path,"LocalFiles")||std::strstr(path,"Defaults.plist")))
++            log("NZA save renameat2 result=%d flags=%u from=%s to=%s",res,c.a[4],path,guest_cstr(c.mem,c.a[3]));
+         break;
+     case NR_linkat:
+         res = sys_two_paths(c, 1, 3, [](Ctx& x, const char* a, const char* b) -> long {
+             return ::linkat(static_cast<int>(x.a[0]), a, static_cast<int>(x.a[2]), b, static_cast<int>(x.a[4]));
+         });
++        if(const char* path=guest_cstr(c.mem,c.a[1]);path &&
++           (std::strstr(path,"LocalFiles")||std::strstr(path,"Defaults.plist")))
++            log("NZA save linkat result=%d flags=%u from=%s to=%s",res,c.a[4],path,guest_cstr(c.mem,c.a[3]));
+         break;
+     case NR_symlinkat: {
+         const char* target = guest_cstr(c.mem, c.a[0]);
+@@ -1511,7 +1613,10 @@ bool handle_syscall(Process& proc, GuestThread& thread) {
+     case NR_utimensat_time64: res = sys_utimensat(c, true); break;
+     case NR_fchmod: res = result_of(::fchmod(static_cast<int>(c.a[0]), static_cast<mode_t>(c.a[1]))); break;
+     case NR_fchown32: res = result_of(::fchown(static_cast<int>(c.a[0]), c.a[1], c.a[2])); break;
+-    case NR_fsync: res = result_of(::fsync(static_cast<int>(c.a[0]))); break;
++    case NR_fsync:
++        res = result_of(::fsync(static_cast<int>(c.a[0])));
++        note_save_fd("fsync",static_cast<int>(c.a[0]),0,res);
++        break;
+     case NR_fdatasync: res = result_of(::fdatasync(static_cast<int>(c.a[0]))); break;
+     case NR_flock: res = result_of(::flock(static_cast<int>(c.a[0]), static_cast<int>(c.a[1]))); break;
+     case NR_umask: res = static_cast<std::int32_t>(::umask(static_cast<mode_t>(c.a[0]))); break;

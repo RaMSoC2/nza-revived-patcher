@@ -1,0 +1,137 @@
+{
+  "review_date": "2026-10-17",
+  "public_release_allowed": false,
+  "runtime_notice_files": [
+    {
+      "path": "src/android/runtime/ZettaBridge-LICENSE.txt",
+      "sha256": "03cbe3589dec4023c8fe0453d78f547bc351700cf4b259d9ddb24b4dc26f228f"
+    },
+    {
+      "path": "src/android/runtime/Dynarmic-LICENSE.txt",
+      "sha256": "14ef8e5ce8e564bbbe28bc7a306de80c786124de34955b2b4e868cb64bbe9faa"
+    },
+    {
+      "path": "src/android/runtime/Boost-LICENSE.txt",
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+    },
+    {
+      "path": "licenses/Apache-2.0.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "licenses/Dynarmic-dependencies.txt",
+      "sha256": "ecc83041730fb239c4fff62fb7ab77a3cf8be51f5bf78ba82d1806bc046c1535"
+    }
+  ],
+  "components": [
+    {
+      "name": "Own code",
+      "scope": "Own patcher, independent adapters and tests",
+      "license": "MIT",
+      "status": "notice_complete"
+    },
+    {
+      "name": "ZettaBridge",
+      "scope": "Derived runtime/launcher patches; compiled locally",
+      "license": "PolyForm-Noncommercial-1.0.0 AND PolyForm-Perimeter-1.0.1 plus introductory wording",
+      "status": "interpretation_unresolved",
+      "pin": "d6066b9b9e61de27041ba6e1f3c499c080c9e2b7"
+    },
+    {
+      "name": "Dynarmic",
+      "scope": "Downloaded and compiled locally",
+      "license": "0BSD",
+      "status": "notice_complete",
+      "pin": "86458a0bd369d63ba4c2ef812cacbb6c9080c065"
+    },
+    {
+      "name": "fmt/mcl/oaknut/robin-map",
+      "scope": "ARM64 runtime transitive dependencies",
+      "license": "MIT",
+      "status": "notice_complete"
+    },
+    {
+      "name": "Boost",
+      "scope": "Downloaded and compiled locally",
+      "license": "BSL-1.0",
+      "status": "notice_complete"
+    },
+    {
+      "name": "Khronos registries / HiddenApiBypass",
+      "scope": "Locally generated graphics bridge / Android compatibility",
+      "license": "Apache-2.0",
+      "status": "license_text_and_attribution_retained"
+    },
+    {
+      "name": "AOSP sysroot",
+      "scope": "Libraries extracted locally from the pinned official GSI",
+      "license": "Mixed; actual GSI NOTICE retained during preparation",
+      "status": "source_pipeline_collects_actual_notices"
+    },
+    {
+      "name": "CPython",
+      "scope": "Bundled 3.12.14 Windows runtime, repackaged standard library",
+      "license": "PSF-2.0 and incorporated-component/Windows terms",
+      "status": "main_license_retained_extension_notice_coverage_pending"
+    },
+    {
+      "name": "Pillow",
+      "scope": "Bundled 12.3.0 wheel",
+      "license": "MIT-CMU and bundled dependency licenses",
+      "status": "wheel_full_notices_retained"
+    },
+    {
+      "name": "Temurin",
+      "scope": "Downloaded from pinned official distribution; reduced runtime generated locally; NOT bundled",
+      "license": "GPL-2.0 WITH Classpath-exception-2.0 and incorporated-component terms",
+      "status": "not_redistributed_in_source_zip"
+    },
+    {
+      "name": "Android build tools",
+      "scope": "Downloaded from pinned official archive for local execution; NOT bundled",
+      "license": "Mixed; original Android NOTICE retained; SDK 3.4/3.5 distinction",
+      "status": "not_redistributed_in_source_zip"
+    },
+    {
+      "name": "Experimental textures",
+      "scope": "217 generated/processed atlases",
+      "license": "MIT for own contributions only; underlying rights not granted",
+      "status": "provenance_traced_historical_design_rights_not_cleared"
+    },
+    {
+      "name": "OpenStreetMap",
+      "scope": "Optional in-app live queries and local result cache",
+      "license": "ODbL-1.0 for data",
+      "status": "in_app_attribution_present"
+    },
+    {
+      "name": "No Zombies Allowed / Booyah",
+      "scope": "User-supplied APK, original art/branding; not distributed",
+      "license": "Proprietary; no license granted by this project",
+      "status": "excluded_from_distribution"
+    }
+  ],
+  "release_conditions": [
+    {
+      "id": "zettabridge-terms",
+      "status": "open",
+      "detail": "README frames product integration as commercial use; LICENSE introduction has broader wording. Source assembly and patch distribution are not declared automatically exempt. No author contact was made."
+    },
+    {
+      "id": "portable-binary-compliance",
+      "status": "open",
+      "detail": "Java and Android tool binaries are no longer redistributed in the source ZIP; these redistribution issues are removed for this artifact. Exact notice coverage of bundled CPython extensions and Windows dependencies remains pending."
+    },
+    {
+      "id": "art-reference-rights",
+      "status": "limited",
+      "detail": "217 hashes link to private generation records; authenticity is not claimed. This is provenance evidence, not proof of clearance for historical building designs, references or marks."
+    }
+  ],
+  "resolved_conditions": [
+    {
+      "id": "java-android-redistribution",
+      "resolution": "Source-mode ZIP includes Python/Pillow only. Java and Android tools are automatically downloaded from pinned official URLs, checked by SHA-256 and prepared locally."
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+--- a/com/zettabridge/launcher/GuestInstrumentation.java
++++ b/com/zettabridge/launcher/GuestInstrumentation.java
+@@ -46,6 +46,8 @@
+         runtime.prepareActivity(activity, icicle);
+         base.callActivityOnCreate(activity, icicle);
+         GuestWindowStyle.afterCreate(activity);
++        NzaFrameCapture.start(activity);
++        NzaNearbyCache.start(activity);
+     }
+ 
+     @Override
+@@ -53,6 +55,8 @@
+         runtime.prepareActivity(activity, icicle);
+         base.callActivityOnCreate(activity, icicle, persistentState);
+         GuestWindowStyle.afterCreate(activity);
++        NzaFrameCapture.start(activity);
++        NzaNearbyCache.start(activity);
+     }
+ 
+     @Override
+--- a/com/zettabridge/launcher/LibraryActivity.java
++++ b/com/zettabridge/launcher/LibraryActivity.java
+@@ -56,6 +56,20 @@
+         root.addView(importButton, new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
+                 ViewGroup.LayoutParams.WRAP_CONTENT));
+ 
++        Button cpuProbe = new Button(this);
++        cpuProbe.setText("Run ARM32 CPU test (isolated)");
++        cpuProbe.setOnClickListener(v -> startActivity(new android.content.Intent(this, NzaNativeProbeActivity.class)));
++        root.addView(cpuProbe);
++        Button dynProbe = new Button(this);
++        dynProbe.setText("Run ARM32 dynamic linker test (isolated)");
++        dynProbe.setOnClickListener(v -> startActivity(new android.content.Intent(this, NzaNativeProbeActivity.class).putExtra("dynamic",true)));
++        root.addView(dynProbe);
++        Button nzaProbe = new Button(this);
++        nzaProbe.setText("Import No Zombies Allowed trial-67 (private test)");
++        nzaProbe.setOnClickListener(v -> NzaProbeImport.start(this, uri -> importApk(uri)));
++        root.addView(nzaProbe);
++        if (getIntent().getBooleanExtra("nza_probe_import", false)) nzaProbe.post(nzaProbe::performClick);
++
+         emptyView = new TextView(this);
+         emptyView.setText("No apps yet. Import an APK to add one. Tap to launch, long-press for more.");
+         emptyView.setPadding(0, pad, 0, pad);
+--- a/com/zettabridge/launcher/LoadedPlugin.java
++++ b/com/zettabridge/launcher/LoadedPlugin.java
+@@ -85,6 +85,9 @@
+         if (record.isTranslated()) {
+             // Must precede activatePlugin: the guest runtime is process-lifetime and reads
+             // ZB_PRECISE_FAULTS only once, at the first Process construction it triggers.
++            if ("com.booyah.zombie".equals(record.packageName)) {
++                NzaPlacesCompat.apply(host,new java.io.File(record.dir,"lib/libverde.so"));
++            }
+             ZBridge.setPreciseFaults(record.preciseFaults);
+             // Same rule: the GL instrumentation is read once, when the guest JNI runtime is built.
+             ZBridge.setGlDiagnostics(record.diagnostics);
+--- a/com/zettabridge/launcher/PackageManagerHook.java
++++ b/com/zettabridge/launcher/PackageManagerHook.java
+@@ -189,6 +189,12 @@
+         if (p == null) return hostInfo;
+         ApplicationInfo copy = new ApplicationInfo(hostInfo);
+         copy.metaData = p.appInfo.metaData;
++        // Apportable opens this path as its resource ZIP; the host APK has no game assets.
++        if ("com.booyah.zombie".equals(p.packageName)) {
++            copy.sourceDir = p.appInfo.sourceDir;
++            copy.publicSourceDir = p.appInfo.publicSourceDir;
++            Log.i(TAG, "NZA APK resource path: " + copy.sourceDir);
++        }
+         return copy;
+     }
+ 
+--- a/com/zettabridge/launcher/PluginClassLoader.java
++++ b/com/zettabridge/launcher/PluginClassLoader.java
+@@ -23,7 +23,7 @@
+     }
+ 
+     static boolean delegateToBridge(String name) {
+-        return name != null && name.startsWith(BRIDGE_PREFIX);
++        return name != null && ((name.startsWith(BRIDGE_PREFIX) || name.equals("com.apportable.app.SplashScreen")) || name.equals("com.apportable.utils.RunLoop"));
+     }
+ 
+     private static boolean platformClass(String name) {
+@@ -34,6 +34,8 @@
+     @Override
+     protected Class<?> loadClass(String name, boolean resolve) throws ClassNotFoundException {
+         synchronized (this) {
++            if ("com.booyah.zombie".equals(record.packageName) && "android.location.Geocoder".equals(name))
++                return NzaOfflineGeocoder.class;
+             Class<?> loaded = findLoadedClass(name);
+             if (loaded == null) {
+                 if (delegateToBridge(name)) {
+--- a/com/zettabridge/launcher/PluginContext.java
++++ b/com/zettabridge/launcher/PluginContext.java
+@@ -31,6 +31,16 @@
+  * createPackageContext(getPackageName()), cannot load any asset.
+  */
+ final class PluginContext extends ContextWrapper {
++    @Override
++    public boolean bindService(android.content.Intent service,
++                               android.content.ServiceConnection connection, int flags) {
++        if ("com.booyah.zombie".equals(plugin.packageName) && service != null &&
++            "com.android.vending.billing.MarketBillingService.BIND".equals(service.getAction())) {
++            android.util.Log.i("zb-launcher", "NZA legacy billing unavailable in offline prototype");
++            return false;
++        }
++        return super.bindService(service, connection, flags);
++    }
+     private final LoadedPlugin plugin;
+     private final Resources resources;
+     private Resources.Theme theme;
+@@ -184,7 +194,8 @@
+ 
+     @Override
+     public File getFilesDir() {
+-        return dir("files");
++        File files=dir("files");
++        return "com.booyah.zombie".equals(plugin.packageName) ? NzaFilesCompat.alias(files) : files;
+     }
+ 
+     @Override
+--- a/com/zettabridge/launcher/PluginStore.java
++++ b/com/zettabridge/launcher/PluginStore.java
+@@ -104,6 +104,10 @@
+                     if (result == null || result.startsWith("skipped:")) {
+                         throw new IOException("cannot prepare " + library.getName() + ": " + result);
+                     }
++                    // Run before extractLibraries protects each completed library as read-only.
++                    if ("com.booyah.zombie".equals(r.packageName) && "libverde.so".equals(library.getName())) {
++                        NzaApportableCompat.apply(library);
++                    }
+                 });
+             } else if (!r.libDir().mkdirs()) {
+                 throw new IOException("cannot create " + r.libDir());
+--- a/com/zettabridge/launcher/PluginSwitchActivity.java
++++ b/com/zettabridge/launcher/PluginSwitchActivity.java
+@@ -41,6 +41,21 @@
+             finish();
+             return;
+         }
++        if (NzaLocationPermission.request(this, packageName)) return;
++        continueLaunch(packageName);
++    }
++
++    @Override
++    public void onRequestPermissionsResult(int request, String[] permissions, int[] results) {
++        super.onRequestPermissionsResult(request, permissions, results);
++        if (request == NzaLocationPermission.REQUEST) {
++            NzaLocationPermission.report(this);
++            String name=getIntent().getStringExtra(EXTRA_PACKAGE);
++            if (name != null) continueLaunch(name); else finish();
++        }
++    }
++
++    private void continueLaunch(String packageName) {
+         String active = ActivePlugin.of(this);
+         if (packageName.equals(active)) {
+             // The guest process already holds this plugin: launching brings its task to the front.
+--- a/com/zettabridge/launcher/ZbApplication.java
++++ b/com/zettabridge/launcher/ZbApplication.java
+@@ -16,6 +16,7 @@
+         super.onCreate();
+         if (processName().endsWith(GUEST_SUFFIX)) {
+             Diagnostics.installCrashRecorder(this);
++            NzaHostFaultCapture.install(this);
+             MainLooperGuard.install(this);
+             // Before any plugin code runs: a :guest process that dies silently must still leave
+             // its runtime report on disk.

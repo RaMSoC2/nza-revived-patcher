@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.ramsoc2.nzarevived">
+
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application android:name=".ZbApplication" android:allowBackup="false" android:label="No Zombies Allowed" android:theme="@android:style/Theme.Material.Light.DarkActionBar" android:debuggable="true" android:extractNativeLibs="true" android:icon="@drawable/nza_original_icon">
+
+        <activity android:name=".LibraryActivity" android:exported="false">
+            </activity>
+
+
+
+        <activity android:name=".PluginSwitchActivity" android:exported="true" android:excludeFromRecents="true" android:taskAffinity="com.ramsoc2.nzarevived.switch" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <activity android:name=".GuestLaunchActivity" android:exported="true" android:process=":guest" android:taskAffinity="com.ramsoc2.nzarevived.guest" android:theme="@android:style/Theme.NoDisplay" />
+
+
+        <activity android:name=".Stubs$Standard" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|density|screenSize|smallestScreenSize|layoutDirection|colorMode" android:exported="false" android:hardwareAccelerated="true" android:launchMode="standard" android:process=":guest" android:taskAffinity="com.ramsoc2.nzarevived.guest" android:theme="@android:style/Theme.Material.NoActionBar" />
+        <activity android:name=".Stubs$Landscape" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|density|screenSize|smallestScreenSize|layoutDirection|colorMode" android:exported="false" android:hardwareAccelerated="true" android:launchMode="standard" android:process=":guest" android:screenOrientation="sensorLandscape" android:taskAffinity="com.ramsoc2.nzarevived.guest" android:theme="@android:style/Theme.Material.NoActionBar" />
+        <activity android:name=".Stubs$Portrait" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|density|screenSize|smallestScreenSize|layoutDirection|colorMode" android:exported="false" android:hardwareAccelerated="true" android:launchMode="standard" android:process=":guest" android:screenOrientation="sensorPortrait" android:taskAffinity="com.ramsoc2.nzarevived.guest" android:theme="@android:style/Theme.Material.NoActionBar" />
+        <activity android:name=".Stubs$SingleTop" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|density|screenSize|smallestScreenSize|layoutDirection|colorMode" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleTop" android:process=":guest" android:taskAffinity="com.ramsoc2.nzarevived.guest" android:theme="@android:style/Theme.Material.NoActionBar" />
+        <activity android:name=".Stubs$SingleTask" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|density|screenSize|smallestScreenSize|layoutDirection|colorMode" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleTask" android:process=":guest" android:taskAffinity="com.ramsoc2.nzarevived.guest" android:theme="@android:style/Theme.Material.NoActionBar" />
+        <activity android:name=".Stubs$SingleInstance" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|density|screenSize|smallestScreenSize|layoutDirection|colorMode" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleInstance" android:process=":guest" android:taskAffinity="com.ramsoc2.nzarevived.guest" android:theme="@android:style/Theme.Material.NoActionBar" />
+
+        <activity android:name=".NzaGameActivity" android:exported="true" android:noHistory="true" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"><intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter></activity><activity android:name="com.ramsoc2.nzarevived.NzaNativeProbeActivity" android:exported="true" android:process=":nativeprobe" /></application>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /><uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /><uses-permission android:name="com.ramsoc2.nzarevived.places.READ_NEARBY" /><queries><package android:name="com.ramsoc2.nzarevived.places" /><provider android:authorities="com.ramsoc2.nzarevived.places" /></queries></manifest>

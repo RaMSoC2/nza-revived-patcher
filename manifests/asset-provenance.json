@@ -1,0 +1,2818 @@
+{
+  "review_date": "2026-10-17",
+  "count": 217,
+  "reference_policy": "Historical screenshots and original catalogs informed appearance/geometry. These records do not assert independent rights clearance for every depicted design. Private evidence and source screenshots are not distributed.",
+  "resources": [
+    {
+      "file": "assets/experimental/bldg_rv_a.pvr.ccz",
+      "sha256": "86379609e6008c1c5af05d1b16173fac658fd0032dd6388e8711572dad190c9f",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "7fa99a872b7a6c043d82ed0f7fb8c9b4458adec99418b7444d29ba292df509ef"
+      ],
+      "generated_master_sha256": [
+        "c0730538f00ffb95e0b57ac8e193470628120972240ba32e28b0e170c418dd82"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_shoestore.pvr.ccz",
+      "sha256": "9eda3d305607438bc9685d0dffa225d1175faa69c5c7cdce739a6979ce1d0e98",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "7fa99a872b7a6c043d82ed0f7fb8c9b4458adec99418b7444d29ba292df509ef"
+      ],
+      "generated_master_sha256": [
+        "38b00820ac3170402aba84e2d10e2f237d40298e1e6f3e368b51c829a4cd7ba4"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_condemned_a.pvr.ccz",
+      "sha256": "3226e8e17ef551e4985bd8bd7be0581d33c527a0a0018a42479d3f2d5bab9754",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "7fa99a872b7a6c043d82ed0f7fb8c9b4458adec99418b7444d29ba292df509ef"
+      ],
+      "generated_master_sha256": [
+        "fafa460ee55814b07f55337c52f0e092453603a2e262dc137cf5dc284e4c95ef"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_condemned2_a.pvr.ccz",
+      "sha256": "982bc783e37d2ccafe5e7d67c9aaff3ef81c078e3680e849b838feaae77b05be",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "7fa99a872b7a6c043d82ed0f7fb8c9b4458adec99418b7444d29ba292df509ef"
+      ],
+      "generated_master_sha256": [
+        "4db53944302d13201833ac2852bf50bd862e1115f89230d166e48837e8165244"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_condo_c.pvr.ccz",
+      "sha256": "c67a7b74e39db1e822b545ffd9e5d1c2a9749fbbff657227161fd120d8848e8c",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "7fa99a872b7a6c043d82ed0f7fb8c9b4458adec99418b7444d29ba292df509ef"
+      ],
+      "generated_master_sha256": [
+        "284e6cb3ee21099bc34663ae68f14784803ef640df4072f166a4051c31c268b1"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_airfreshener_a.pvr.ccz",
+      "sha256": "f62477ab322b4e8f19fec7aff21612e99f4e04c29baebcc2300d978734348846",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "7fa99a872b7a6c043d82ed0f7fb8c9b4458adec99418b7444d29ba292df509ef"
+      ],
+      "generated_master_sha256": [
+        "20b592c9672b73ae7d1921b12031c7599ed813d3ccc7df899ae15b21eb534dd6"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_outpost_ruin_a.pvr.ccz",
+      "sha256": "0498acccecaee7bbe7559f2bec28a050449228826d1c042cbdb5c4aa416b57e1",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "7fa99a872b7a6c043d82ed0f7fb8c9b4458adec99418b7444d29ba292df509ef"
+      ],
+      "generated_master_sha256": [
+        "7d37ccf9e196b6e3931066764fb9ec9a6b3221b781efe94bf77e899fa9a8c968"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_rubble1_a.pvr.ccz",
+      "sha256": "bf9eadda606eec25490fb7de5967a737d83e916385a60de115b5c645ee22ead1",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "7fa99a872b7a6c043d82ed0f7fb8c9b4458adec99418b7444d29ba292df509ef"
+      ],
+      "generated_master_sha256": [
+        "1132af88ddefc05b63f7336fc54a1fcfefbd2a9f81aea710a12b77170f34dfdc"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_rubble2_a.pvr.ccz",
+      "sha256": "3fdde9dd50c40c65af7e211d0d8a6cbb5fde8d9b8772665962e2299d448e2616",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "7fa99a872b7a6c043d82ed0f7fb8c9b4458adec99418b7444d29ba292df509ef"
+      ],
+      "generated_master_sha256": [
+        "3d4d47025ca98962360a70e58e4fb55a0e220e3065cb88f3709fcb41e948ac88"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_outpost_1_a.pvr.ccz",
+      "sha256": "5f0630f1682fecc92ecc21a7403ea8393ae7d04c0494c918c1a5e783520d5d85",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0a45d9106c495c90859f14f876b50dfc6e880e07093e0877801cf79c22008b35"
+      ],
+      "generated_master_sha256": [
+        "c482714d359428e9d6d784a8d958fb84b3a76a1a0608271a5a3bfc58f7522a9e"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_ecogrill.pvr.ccz",
+      "sha256": "4e7ab7a7131696f2491889b2482ec0dccfa2bdf0414b0a071383ac46353054e3",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "551386bfcf331bdcd60f7cc2ca06c1afeb1008fd65d5d04baa45420978c77f7c",
+        "6e7f4b892b17d023fd36fb6c9c0244a38e8d340c2b4c40c13f23d752a555430b"
+      ],
+      "generated_master_sha256": [
+        "cbf4b585b76a08f3a0eed5477b81f1cef5bf11eb479f60fb7c2c0399dc8c23d7"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_titanic.pvr.ccz",
+      "sha256": "b4768fffd7a934e2f1504433b38b882ab9bfbe49d9ce9da32c3ba58df9279e9c",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "551386bfcf331bdcd60f7cc2ca06c1afeb1008fd65d5d04baa45420978c77f7c",
+        "6e7f4b892b17d023fd36fb6c9c0244a38e8d340c2b4c40c13f23d752a555430b"
+      ],
+      "generated_master_sha256": [
+        "40e042a13fea636a2bee9922095d38142a6c95872cc5b3201e56d6934e506af8"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_abduction.pvr.ccz",
+      "sha256": "b705f463c55016ab685f25132b7750c42e9d329bc17a8adc75cdecd2505478cb",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "6e7f4b892b17d023fd36fb6c9c0244a38e8d340c2b4c40c13f23d752a555430b"
+      ],
+      "generated_master_sha256": [
+        "e0574c3671f20f503c658e59596cc6dddea754ac07d99ecc6073a79e1022a0cb"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_stpatty.pvr.ccz",
+      "sha256": "a61e82dceb118aef0033a01c5f88980c37b309af198d7825ade6c21f803a89e2",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "6e7f4b892b17d023fd36fb6c9c0244a38e8d340c2b4c40c13f23d752a555430b"
+      ],
+      "generated_master_sha256": [
+        "bac78ca24cb82b9b97d38b6da2177af1531818d4b8680f857ba6bfeae2c432a7"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_leprachaun.pvr.ccz",
+      "sha256": "e676de5c27909fa52ad4080e2f15ca67627ec2ec18c756ecad0d3fbb4f7d07e6",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "6e7f4b892b17d023fd36fb6c9c0244a38e8d340c2b4c40c13f23d752a555430b"
+      ],
+      "generated_master_sha256": [
+        "997d6004cee0d29ef78718e42cd1a42cd54ea6537654d2dc1752eebf74ec56ca"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_inn.pvr.ccz",
+      "sha256": "5a6d25c0e211e74263529ae7c3bf3923ec09e3a3076d2a4da017b35e83dac870",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "de005f2081bbcb80ce3ecd22271eaf324b387ee04c22f2a00a1bfdb71afeb53d"
+      ],
+      "generated_master_sha256": [
+        "9ec0128d06eb40e677f7c93b835d8cb6b10538204584328ff4d2687596047aa0"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_hobbit.pvr.ccz",
+      "sha256": "d8a12cdcccd5968f721d7edf6c80c613ccc843bac6302e0933cb213678a42e25",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "de005f2081bbcb80ce3ecd22271eaf324b387ee04c22f2a00a1bfdb71afeb53d"
+      ],
+      "generated_master_sha256": [
+        "a224ce487be51c60587af5477bd3f0c0a732fddc46ed24b4fd40b90c2b7abfcf"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_suburbhome.pvr.ccz",
+      "sha256": "2f73023777073b3232e82dfc74b778d7d1b1bd9cb6f58da66419cd4987ef3e30",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "de005f2081bbcb80ce3ecd22271eaf324b387ee04c22f2a00a1bfdb71afeb53d"
+      ],
+      "generated_master_sha256": [
+        "6d3b30f611ee157fdf5569aacd858fb4e3571e0cc68a07aed3c0f1d234187d6f"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_cafe.pvr.ccz",
+      "sha256": "54509f7d5c1df91364d49b6994c960cfe77bc274a17dd108d4b9e199c5d5712f",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "d4ad96e8204cd7d49db53fd08d3d49d5ed604c71926817c9f83cbd8decfb4566"
+      ],
+      "generated_master_sha256": [
+        "3f02d712e49f9bb480aec3206a69c57470cdebe3dd040ad9da61109ebc92f6ec"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_juicebar_b.pvr.ccz",
+      "sha256": "0492c308b7f3c8dd97cf754ecc52aaee490a18a8884beb40bd469e9eb3bbb2e4",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "d4ad96e8204cd7d49db53fd08d3d49d5ed604c71926817c9f83cbd8decfb4566"
+      ],
+      "generated_master_sha256": [
+        "4e58ae8d9b4166263b205543e9f0be1a1c88a77bd2077fed88dc1ea0ec6cbd8e"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_pizzeria_b.pvr.ccz",
+      "sha256": "f49352ce2b851202cbbd5947340a374cd6583c2c369b3230d3d1fbc0fdb2bfb1",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "d4ad96e8204cd7d49db53fd08d3d49d5ed604c71926817c9f83cbd8decfb4566"
+      ],
+      "generated_master_sha256": [
+        "4c133442c6fce85a4f4fdbb08dbf50363bfbce81086580d9dddb668e28ffbc38"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_junglehouse.pvr.ccz",
+      "sha256": "0d3a86905ec1f003ec6d98239a0ee17503d517e798abab9f2552595361ba5640",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0c14051546464397bef097c885f4f7d807ffd6083087dfca2ab2dc0d3d0a29b1"
+      ],
+      "generated_master_sha256": [],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_builderhouse.pvr.ccz",
+      "sha256": "bd874bff7ee61062142b662f51f4fa2341b6a5035f0a8adb63a765e054cb7595",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "b5e7367d6fba7790b74646c18681c51d8edfc707885af1f9365b9bdc7c8443e6"
+      ],
+      "generated_master_sha256": [],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_recyclehouse.pvr.ccz",
+      "sha256": "14897eadf00676bba81cae2db728e36863fb0841e9080d7699f01408f9016348",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "b5d682e73b35cfb4ef1ea51141559f1fdec4f96e6e2443348adf405024d8aaf4"
+      ],
+      "generated_master_sha256": [],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_agenthouse.pvr.ccz",
+      "sha256": "7bdef8c99273b36e5a1f602ff75001df861081ca7b35cd0a8c6e611037b06de3",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "456bb92159fdeec0fb04181eb77bb71978edfdc8030a605b1a9d465be6d65727"
+      ],
+      "generated_master_sha256": [],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_masterdojo.pvr.ccz",
+      "sha256": "38a77be736fcc018d2277e4eb691ad8f00d01255234bdcbf96be538e39066c9c",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "e067e87f31dc77ee9fcde5edeecb5cf66bdd3a3fe60e04ff83af2bfb6595aebf"
+      ],
+      "generated_master_sha256": [],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_rubble3_a.pvr.ccz",
+      "sha256": "63a7def1a87cddf2c321e10742803e9101c818670295f097f510499269e227dc",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "704c7133b79f81370f0a73ce660e9916bee1a462a03bd1edff3a401b8c9e17f6"
+      ],
+      "generated_master_sha256": [
+        "3d4d47025ca98962360a70e58e4fb55a0e220e3065cb88f3709fcb41e948ac88"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_boxcar_b.pvr.ccz",
+      "sha256": "b80fa170e9a8b3233ba48946266f9a1fe9716eb67bdbc834c352a629ccbe8974",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "d361b0cce4a98da04d0da776994ae31a87be37a3c567fac20c24c5482e6eb983"
+      ],
+      "generated_master_sha256": [
+        "ea771099624f95e380fd793f09dc0c58aed4ea9d01e8b85e88e824359afe3419"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_rv2_c.pvr.ccz",
+      "sha256": "77cb11a37cf5e298d7c0acae77e9ed0448d96c80c7a294cf29687b7463f75455",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "d361b0cce4a98da04d0da776994ae31a87be37a3c567fac20c24c5482e6eb983"
+      ],
+      "generated_master_sha256": [
+        "d2886fb1300daae48f65087d4ce7ebf1917c1d619012b62746a82c37bc61919c"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_watertower_c.pvr.ccz",
+      "sha256": "b6ccdf9af964694ea922a539f543670e19659aa1b7598332d5232b81c4cab3c0",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "d361b0cce4a98da04d0da776994ae31a87be37a3c567fac20c24c5482e6eb983"
+      ],
+      "generated_master_sha256": [
+        "f469a1ee361282c70fb43bab07f3d09630fd9475558c92396f589e6ec0c95c56"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_containers_c.pvr.ccz",
+      "sha256": "d2f2768b599414d72b9437fc6c6cc8ea831f18fbc401091121b3b4b432919a0d",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "d361b0cce4a98da04d0da776994ae31a87be37a3c567fac20c24c5482e6eb983"
+      ],
+      "generated_master_sha256": [
+        "36df237a2191c065fe72ec94f5fbd1ee7a332879355ef26e659708af4e9e2b27"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_modern.pvr.ccz",
+      "sha256": "6b11952f78e2da078a50bb6c001af06c5dce15817be75bc677ee671578bf0f33",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "c6a4ad75178c1eb77c39c48da9c00a8c08ac502ca00e4b62f74d5084051a3e7c"
+      ],
+      "generated_master_sha256": [
+        "307d641a3f932c556f359440c9fd056c2bfd401745b491bf39013eaf23f21539"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_barn_a.pvr.ccz",
+      "sha256": "5f444247986fe3b3a2422c0506fd899aa5a57c1e29b2b6dd85154095524c7739",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "c6a4ad75178c1eb77c39c48da9c00a8c08ac502ca00e4b62f74d5084051a3e7c"
+      ],
+      "generated_master_sha256": [
+        "e4a207aabd59f20c2aa389752511257b0c31d1b4fc2bb44257a72c7b60063de2"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_frathouse_b.pvr.ccz",
+      "sha256": "602bf78134d4a2429785b225b62a7684359b9017629b488083282009fc2b6da6",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "c6a4ad75178c1eb77c39c48da9c00a8c08ac502ca00e4b62f74d5084051a3e7c"
+      ],
+      "generated_master_sha256": [
+        "301965dc3edcabf945b213e7563dba75adc73a8fc95a06b8d2d4683e432751fa"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_motel.pvr.ccz",
+      "sha256": "f751baf2aee8da05ad283b2f08a9192f040c3adf91614d1edcde8588a3a4b2bf",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "c6a4ad75178c1eb77c39c48da9c00a8c08ac502ca00e4b62f74d5084051a3e7c"
+      ],
+      "generated_master_sha256": [
+        "00f3f9ca306a937baa008623774ca022062da12af91f394e93bd99f1d89e952c"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_sfhouse_a.pvr.ccz",
+      "sha256": "20012bd8ea7b3c03736dfc4e64f6307b09e50165601eaaaf7cefb09548f295d4",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "c6a4ad75178c1eb77c39c48da9c00a8c08ac502ca00e4b62f74d5084051a3e7c"
+      ],
+      "generated_master_sha256": [
+        "c02d3795add638aa5e2446038325d004730de2cc5551a79616d850620606438b"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_apartments_a.pvr.ccz",
+      "sha256": "d956a3119bfcfc2dc8caff8861d8ae0cdfe325e89007b1a9d2d43926270119cd",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "beda37e0e066221e1b852e2b774fa4bded2bb4d09a0ba9240121b885a9f64579"
+      ],
+      "generated_master_sha256": [
+        "6f53ad9ac5add65d547865dd5341618dd8f67b8b0ed6e23f4b56161f32a31472"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_bunker_a.pvr.ccz",
+      "sha256": "56c0e5100b6c0685c51c297492ae4a92742ae966d7dca51d97a93de43c61309b",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "beda37e0e066221e1b852e2b774fa4bded2bb4d09a0ba9240121b885a9f64579"
+      ],
+      "generated_master_sha256": [
+        "349a5f466101fb424ddfd659584410d1e44c764e6d21eb9d68e7c02851960baf"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_cabin_a.pvr.ccz",
+      "sha256": "30ebc90212125dc618452121e60c6b5b8d6685a2c826bebb6f4920d964436b45",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "beda37e0e066221e1b852e2b774fa4bded2bb4d09a0ba9240121b885a9f64579"
+      ],
+      "generated_master_sha256": [
+        "4a581d4b98c0d63bc5e8f05bb49c7d3447509de45f397c6fc17a0496ba1582a7"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_treehouse_a.pvr.ccz",
+      "sha256": "fac1c2e8fe95481a7b5b33c2a5ef5f9b647dd6224569dfe7af458402294b6dc7",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "75133fdd5d76918f48cdcd302120991bc02ddbd408c9703f79829a2a156fdc74"
+      ],
+      "generated_master_sha256": [
+        "29b9588b021c735b88287b997e6a04f6eda2a7b9eb7002a3acd2856c6065810e"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_skullhouse.pvr.ccz",
+      "sha256": "8795ebce254226bb2b11a79e5e2decb6dfaae27655c979b2223050e05be9c015",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "75133fdd5d76918f48cdcd302120991bc02ddbd408c9703f79829a2a156fdc74"
+      ],
+      "generated_master_sha256": [
+        "2a07f8d3e8b6105b4389927aeae1bad787be32612e14be5254ebaf75b1090340"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_sillyhats.pvr.ccz",
+      "sha256": "322ae1502f39c3600a937c0810d796cfbf1ac7467899a90ad44aa775e025e6a0",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "85c690305b9fe826bc7534e011dac7b96267615bdbbf6fc45c02d14ce9b3e5a8"
+      ],
+      "generated_master_sha256": [
+        "8edf6645fae0b69b07304b18ef64a84b4f063ad78c38c31090145b3487bbc6fb"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_donuts_b.pvr.ccz",
+      "sha256": "a7a8394a07ccbc9936fe8233a75b1a472ea533d9bd7197367e970eca6fccb081",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "85c690305b9fe826bc7534e011dac7b96267615bdbbf6fc45c02d14ce9b3e5a8"
+      ],
+      "generated_master_sha256": [
+        "7fddd37bad5fbe83530f571639854c2a4bf23b4cafc2b7f9f11b8e55bbf4bce6"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_icecream_b.pvr.ccz",
+      "sha256": "4f0a543470b4a8facd94439c616399931391fd161dc16b0c0c8e4352119432d3",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "85c690305b9fe826bc7534e011dac7b96267615bdbbf6fc45c02d14ce9b3e5a8"
+      ],
+      "generated_master_sha256": [
+        "08498b910a03f214acb4d348eb0d6f2ab41792c91006530b11c74c950ca142e1"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_foodtruck_b.pvr.ccz",
+      "sha256": "b01a76c1570ac325bdd365af02978ec733a82da7e04bc5ac34987c9addb90142",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "85c690305b9fe826bc7534e011dac7b96267615bdbbf6fc45c02d14ce9b3e5a8"
+      ],
+      "generated_master_sha256": [
+        "e292c43fbb485c7848b15b078f07d09f445018f22fd161bbbf5aaa8d67be5444"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_circus.pvr.ccz",
+      "sha256": "d582b2b9dfb897210067352d630ff6c5133de3e22430439e7185903ffc517d84",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "85c690305b9fe826bc7534e011dac7b96267615bdbbf6fc45c02d14ce9b3e5a8"
+      ],
+      "generated_master_sha256": [
+        "2bfcfe49048a99934575fecb4391d676c9df15ebb254109131cad18ae3ec1cc1"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_cupcakes_a.pvr.ccz",
+      "sha256": "7bf7c9dd210a9482227b2c0c1ba80b76fdfa92db8174d220182ba9628e479a9a",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "85c690305b9fe826bc7534e011dac7b96267615bdbbf6fc45c02d14ce9b3e5a8"
+      ],
+      "generated_master_sha256": [
+        "356b1bfa640d8e389e831493a578309f97b60f423771f7f5d3661bb060f4feba"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_pumpkin.pvr.ccz",
+      "sha256": "3bbf8df835f35975f123ea677c29639b6718068ba4ea74d7a74e572f015918cc",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0466f41afbe2400b1f8be20a0bfe79d2225248a5546f2f42527d3c01461c8f0f"
+      ],
+      "generated_master_sha256": [
+        "de44df67c59fde5ae6685310009728f08b429187ff7a8e5eddfc952efeb2162d"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_roundhouse_b.pvr.ccz",
+      "sha256": "26fc57b83736bee4dc98b48373075407dee048e21cc8707205a5813eb8ecf666",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0466f41afbe2400b1f8be20a0bfe79d2225248a5546f2f42527d3c01461c8f0f"
+      ],
+      "generated_master_sha256": [
+        "67172327537de28098787936698ab0b249b76466462534d1916e474a7c314cd0"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_tentcamp_a.pvr.ccz",
+      "sha256": "cf144e3dcd9e3afe1730c800ad1a53e3576547614be6bd07b185c5084e3f52d2",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0466f41afbe2400b1f8be20a0bfe79d2225248a5546f2f42527d3c01461c8f0f"
+      ],
+      "generated_master_sha256": [
+        "bbf6c5396f6f7112914989122026c984e0cdab0cf713de22f9a68bcfe29a9f13"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_houseboat_c.pvr.ccz",
+      "sha256": "3a32dcf4c28a429f8e3ba3d945b536f88f692ddcef700ee7ff1b06ecf1583abb",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0466f41afbe2400b1f8be20a0bfe79d2225248a5546f2f42527d3c01461c8f0f"
+      ],
+      "generated_master_sha256": [
+        "7f01c55a374b769ccf1db6b133d97d72aabe24505c42763747dfe56b6b904141"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_wagon.pvr.ccz",
+      "sha256": "d278bade4d4ca7a77e718200e0a1d2a42f4904794722363e50ec77d48c8db0af",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0466f41afbe2400b1f8be20a0bfe79d2225248a5546f2f42527d3c01461c8f0f"
+      ],
+      "generated_master_sha256": [
+        "e427c78ecce1aa1943c3dcd2a2633089e5bfcca6650153cde959ff3dd65bc10e"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_lighthouse.pvr.ccz",
+      "sha256": "22189aa8d059950db610a0f1e5a645d1b3efb9b3acfc713b3f4068dbafa8b2bb",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0466f41afbe2400b1f8be20a0bfe79d2225248a5546f2f42527d3c01461c8f0f"
+      ],
+      "generated_master_sha256": [
+        "fc40e4e629adf5c3bf91cc00e47c725cf14c69641976acca7d67fd088016ba99"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_artgallery_b.pvr.ccz",
+      "sha256": "8cc7a44ce61b320604addbb58e061cab12f5f984f01bb6651dc08dea0856c211",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "33e5f9f14db2b034820a2b4ddd6aa99216eb4bfe51d76ce76004f3ebac611eac"
+      ],
+      "generated_master_sha256": [
+        "5b4acc7938fd02a633552bfe0f4f1d828147d7bc0518e6fee3cc62b81c1e74a8"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_bowling_b.pvr.ccz",
+      "sha256": "b93dfff6631bdab791c4bf7b5859f2d45d6cf77a87f14229059db7728081949c",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "33e5f9f14db2b034820a2b4ddd6aa99216eb4bfe51d76ce76004f3ebac611eac"
+      ],
+      "generated_master_sha256": [
+        "487a4a55b3369705985d209f12448183610c2fa9f03d3d5d46de9a8048c37b7b"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_burgers_a.pvr.ccz",
+      "sha256": "d05fff639d4086b2f50a09ce46aca7eead998540db6c20827ec487533338839a",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "33e5f9f14db2b034820a2b4ddd6aa99216eb4bfe51d76ce76004f3ebac611eac"
+      ],
+      "generated_master_sha256": [
+        "2171bb39f608fed230439fa09e0d3f72937c8d926a46470cc88a606c6167481f"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_chainsaws_a.pvr.ccz",
+      "sha256": "5b376423c90f86db6370f447c2770ac9f1481f7acf78e408672ecf7eb594b490",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "33e5f9f14db2b034820a2b4ddd6aa99216eb4bfe51d76ce76004f3ebac611eac"
+      ],
+      "generated_master_sha256": [
+        "f3fe0f24494359d3d72226623bad2abd0076977632beb8eeba46bfe448b10cbe"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_sushi_a.pvr.ccz",
+      "sha256": "9ebb8813cad1ac55ca207da0306e931d01635d7ddd99c98e3a8ff3120d58423b",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "33e5f9f14db2b034820a2b4ddd6aa99216eb4bfe51d76ce76004f3ebac611eac"
+      ],
+      "generated_master_sha256": [
+        "6f04feab0cd39b068d7b23ad5a8afbfa9e1fe6e6778fb9e17da4f20c6575fcba"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_petstore_b.pvr.ccz",
+      "sha256": "c918079495479fe8cddb39bdaa69caed5864091e2c64254573b8ca0bb31f6b2b",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "33e5f9f14db2b034820a2b4ddd6aa99216eb4bfe51d76ce76004f3ebac611eac"
+      ],
+      "generated_master_sha256": [
+        "e11c56e18c3d500eebd4b0a1913e102300835a505d9853eb59762fc497335ce9"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_arcade_a.pvr.ccz",
+      "sha256": "ab5ecce925ef4b64d2e868312ac45c2856be2a7ec1c6059769b1e72457d5089b",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "6ca7510bb519d26281893a3a35f4bad691715aacbf0e569793f0386d017d8f1e"
+      ],
+      "generated_master_sha256": [
+        "d419ae959e8148e0af245ef4e89a6aa9fdb8446528db30885a28360e9bbdf5f2"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_armory.pvr.ccz",
+      "sha256": "768b0aca0fee5501ed19faa5a0213873f3ac2fb74c6f016d292335a788f5dbfa",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "6ca7510bb519d26281893a3a35f4bad691715aacbf0e569793f0386d017d8f1e"
+      ],
+      "generated_master_sha256": [
+        "a00f0ca8230767118c4662e24ce34ccedc3443d45da76d24d0a51f8a1d780915"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_artsupplies.pvr.ccz",
+      "sha256": "0ba90486e0ae5b2add77d3415edc17cec863af207a5a8bb6af667e3e72a8050e",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "6ca7510bb519d26281893a3a35f4bad691715aacbf0e569793f0386d017d8f1e"
+      ],
+      "generated_master_sha256": [
+        "fca0648778ad36eb9c7a36d4e2ca8190cc5ddd7897a7563a677356d633740529"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_barbwirestore_a.pvr.ccz",
+      "sha256": "f30409cbbacf9aa61a9f90c4b34bc0b3287bcdb270284d823410ed809f1c296f",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "6ca7510bb519d26281893a3a35f4bad691715aacbf0e569793f0386d017d8f1e"
+      ],
+      "generated_master_sha256": [
+        "2012519a65a78dcc608cd0511291ad0c305344271b4cdfd796e1c4bf53765805"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_barber.pvr.ccz",
+      "sha256": "a70537d21473a56d805b555a5bdf8b6a664b78c2953c99dd6bd4306ef756d29c",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "6ca7510bb519d26281893a3a35f4bad691715aacbf0e569793f0386d017d8f1e"
+      ],
+      "generated_master_sha256": [
+        "c1464bf07e5ecb4cb241483400a75d1f0ca483477490503a4a13c86639e357fb"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_barrelncrate_a.pvr.ccz",
+      "sha256": "b1b7141a747ce9ecad54655dea7ed7dc4f21f14889c7158f94841496d8667f47",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "3a4c779ec2db3aeb32d0e0703a792bd5cf93618b14d219a05d1d069fe3319257"
+      ],
+      "generated_master_sha256": [
+        "81210a7867533b84c3ff0715e846423eebcac02a9545c49aa977b81e2352431d"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_baseball_b.pvr.ccz",
+      "sha256": "6b49b6cf90609208ee906505375fafdbb5ea34faa8f5ac23edcb11d369b6ed21",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "3a4c779ec2db3aeb32d0e0703a792bd5cf93618b14d219a05d1d069fe3319257"
+      ],
+      "generated_master_sha256": [
+        "1416db09e117d71f5b28ce9df4b286a8c569148fb1f22ee82a74851d34355db0"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_bikestore_a.pvr.ccz",
+      "sha256": "12764a078fccee88a542a4b30f22823bcdcbca3c08b7d1536c4587f49d06681d",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "3a4c779ec2db3aeb32d0e0703a792bd5cf93618b14d219a05d1d069fe3319257"
+      ],
+      "generated_master_sha256": [
+        "0bd2200ff12cf1f3f8e18dc145cd0d7a88fa4cb80837e19a6258042729a85370"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_boats.pvr.ccz",
+      "sha256": "011a839ec671d78d3523740abc2e5f3ef4314512b59db795ced29ef3e6f21a85",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "3a4c779ec2db3aeb32d0e0703a792bd5cf93618b14d219a05d1d069fe3319257"
+      ],
+      "generated_master_sha256": [
+        "70d9b0aa812903ed000ca276f2ad01199e582c9f2f434f585817b4739d11525b"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_bombs.pvr.ccz",
+      "sha256": "095ee2c272b43c74c28e2255e1a1ab792725d4205c03330a84b2f0cabce49aa2",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "3a4c779ec2db3aeb32d0e0703a792bd5cf93618b14d219a05d1d069fe3319257"
+      ],
+      "generated_master_sha256": [
+        "22f72195dd76dcbdab587089b1d4e46f89d86f1658b2a373fd60b7c2e017ff51"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_bookstore_a.pvr.ccz",
+      "sha256": "308a3ca2b68888a7e6d42f7ef3b8a607d69d3d7e5b502192c1baa6bff7909b82",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0e74cabad8c6b0d560463d6aaacc725e944b48c083d6ccb8c88d09b3726b78c2"
+      ],
+      "generated_master_sha256": [
+        "e54b7f144a0c1cf31d1247b8b6f09aa9d4fd5da1fbc52b5cf16b4beb637398ed"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_booyahgames_b.pvr.ccz",
+      "sha256": "839d15073047aa1bf8883f623798b097f9bfe4528559f9c6b0de730150b28b2c",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0e74cabad8c6b0d560463d6aaacc725e944b48c083d6ccb8c88d09b3726b78c2"
+      ],
+      "generated_master_sha256": [
+        "186602f7929c5395d6e3f43a1f4289b293d5d64c48ce0380eb84368fb8c50d83"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_butcher_b.pvr.ccz",
+      "sha256": "37c27919532796d2c1f4410c6425da4e2dce9ce87b005935d26a102fbc373ff1",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0e74cabad8c6b0d560463d6aaacc725e944b48c083d6ccb8c88d09b3726b78c2"
+      ],
+      "generated_master_sha256": [
+        "58983d42935a4b66c834c193546e2a8222d5d658acb59cd4d81b9d814fd4197e"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_candystore.pvr.ccz",
+      "sha256": "10f8f31fb7061502c78fe05ef93667457dc252f7c377524e6ed0c13208fe7cd5",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0e74cabad8c6b0d560463d6aaacc725e944b48c083d6ccb8c88d09b3726b78c2"
+      ],
+      "generated_master_sha256": [
+        "9792ac8509839f96d30a47ec3db261d69de8798dd79166307289f60a03c3bc93"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_cardboard.pvr.ccz",
+      "sha256": "35d45f13270bc28f2a8db744b3f79b2bb5b78507405fa5446e0765d092ec69cf",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0e74cabad8c6b0d560463d6aaacc725e944b48c083d6ccb8c88d09b3726b78c2"
+      ],
+      "generated_master_sha256": [
+        "daf08ed1ae9f852026554b20ed8c90d68fdda0cad44d28f88ce3613406db8c54"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_cardealership.pvr.ccz",
+      "sha256": "73be1a644e17498291f7ccffc1b3c7e59fd904ee8ef90a809a686ea694538215",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4292b88f0f8397cadb376c893d1cf83e90201d4bc38e43294a0c24307e92d4cb"
+      ],
+      "generated_master_sha256": [
+        "8846a4674556df3489f4d2fa42a028789cb9228c6f8cdaca9942e05e023ead34"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_casino.pvr.ccz",
+      "sha256": "865e4650ae8e40de8e79fe6374ceb4c14cce38f13524480da32736e3e09471b7",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4292b88f0f8397cadb376c893d1cf83e90201d4bc38e43294a0c24307e92d4cb"
+      ],
+      "generated_master_sha256": [
+        "096ec000ca6a20d82d4451aea787b7db2420368bb2068bf633f131b204cc9591"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_casts_a.pvr.ccz",
+      "sha256": "204d27e2768bbcd00a675f74bdead7d593d1c9414b69656da7a101c8eb22a1e9",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4292b88f0f8397cadb376c893d1cf83e90201d4bc38e43294a0c24307e92d4cb"
+      ],
+      "generated_master_sha256": [
+        "7fc076d2e0971d74940963a4d9e7a1f0e919823d1c02b2d1c6fedfbcec9701ba"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_chinesefood.pvr.ccz",
+      "sha256": "e2cd674747be39b020f07ad53a33a4910931aec437808ffd6e25fa82e57f4996",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4292b88f0f8397cadb376c893d1cf83e90201d4bc38e43294a0c24307e92d4cb"
+      ],
+      "generated_master_sha256": [
+        "7b91792b13c9c037452c5739d012c067b6ed8e36451c8c3f6d9672831b0890dd"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_circlemart.pvr.ccz",
+      "sha256": "e48c0ff10358f8196c033baa764928c443acab9d536f80b4b818d2da824dba4d",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4292b88f0f8397cadb376c893d1cf83e90201d4bc38e43294a0c24307e92d4cb"
+      ],
+      "generated_master_sha256": [
+        "b08d236186124d20f84ce35521feb91802e16f6146545c3abdc84591342f4988"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_thriftstore_a.pvr.ccz",
+      "sha256": "b380476f992a00992930aba8db01b1dc8b098403199a6eece14d57226f1923b4",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "b4fa4fdce9988fb1c01467c85d41f690a0cf1b3baca7a8c2a34ed3f6a98d5f54"
+      ],
+      "generated_master_sha256": [
+        "4f9d67b8b23ebada622ede7ae5f660d77715892d7faec1787e4b3dff15fc86ff"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_comics_b.pvr.ccz",
+      "sha256": "320ad30ca135816111fdf408059bb67f7b5998da10c6a23842c8678864971fc2",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "b4fa4fdce9988fb1c01467c85d41f690a0cf1b3baca7a8c2a34ed3f6a98d5f54"
+      ],
+      "generated_master_sha256": [
+        "c9d44f7186b81c6e6ae12cf6a1d520bea3dde6ae4913e4ac2496d2b232ca92ed"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_computers.pvr.ccz",
+      "sha256": "7644d12d4c9a75cf9105ffacd53a9d40cc7acf40f183d6624f8ace3bbed0d74c",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "b4fa4fdce9988fb1c01467c85d41f690a0cf1b3baca7a8c2a34ed3f6a98d5f54"
+      ],
+      "generated_master_sha256": [
+        "fd2801036f24e8272e3e18e689b757c5e9b7190d3721963bc57ba8e343d0e3da"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_costumes.pvr.ccz",
+      "sha256": "14bd96a49cdd5d2b106e2e640dfcf6feacff2d318c7bd06cd90db7f228a26700",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "b4fa4fdce9988fb1c01467c85d41f690a0cf1b3baca7a8c2a34ed3f6a98d5f54"
+      ],
+      "generated_master_sha256": [
+        "e9e59d129403a1ee2f0c18228a5f1f54339b3fc462b1f8c2ac1d2cefcc3d4141"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_superstore.pvr.ccz",
+      "sha256": "6f6e842990eb23618ec860d52944550a1e1605a389d626ea45134b1f8190c210",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "b4fa4fdce9988fb1c01467c85d41f690a0cf1b3baca7a8c2a34ed3f6a98d5f54"
+      ],
+      "generated_master_sha256": [
+        "09efa8d8c90d4e88e46d0906fe1f92a38c829a8166d756a2f4525475d8179b2e"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_diner_a.pvr.ccz",
+      "sha256": "ad35c118f90579515fe25e11131d84e3747c63ddde8caec95409b46a5be70095",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "9f6c530c21dbea9afa6c8bf324023e245ee60d550ab459c579bc18fbe7023993"
+      ],
+      "generated_master_sha256": [
+        "ee36267d437007331072498b940b53f90f735a9b5d53a8ca04c3443792d4ad9d"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_eyewear.pvr.ccz",
+      "sha256": "544c2887fccabf2d36f302710ee48c657e18e3c9db9ae6022a796c34d2f6e387",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "9f6c530c21dbea9afa6c8bf324023e245ee60d550ab459c579bc18fbe7023993"
+      ],
+      "generated_master_sha256": [
+        "14c97b6075be90c7d782cdd761d2972c974ebbb9ba8ad48e5593b81ab641e47b"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_fancyfood_a.pvr.ccz",
+      "sha256": "ddb71514bfd9be8e8b720fbaed6501f11c88e4ce8ae3fce0ec566b3674e9a1ec",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "9f6c530c21dbea9afa6c8bf324023e245ee60d550ab459c579bc18fbe7023993"
+      ],
+      "generated_master_sha256": [
+        "d1322e47117efb4b42d96c4ecd1b41238e0693aa3ed940db7a11d168f082dcde"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_fancymen.pvr.ccz",
+      "sha256": "75e6685a947e314d01b1d4b49b6c57fc32b33a12a1634fa9119c5fb03106f338",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "9f6c530c21dbea9afa6c8bf324023e245ee60d550ab459c579bc18fbe7023993"
+      ],
+      "generated_master_sha256": [
+        "040b4141f26359e8a03369e963f855317d375e9137243b85a00c2e156f52d5f2"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_giftstore.pvr.ccz",
+      "sha256": "5340ec05bdcd216843d876d1e402a9c59f6ee3f566c34ffc14b12c6305a0176e",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "9f6c530c21dbea9afa6c8bf324023e245ee60d550ab459c579bc18fbe7023993"
+      ],
+      "generated_master_sha256": [
+        "20c0fee56f485656d1ee1ff5450dbd38a4b6e69e2de6deb136e2a00a34b9a1db"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_gloves.pvr.ccz",
+      "sha256": "46418f1c22cbfa5ae446d8a2f5fa9a2a04ee53d36c5052819c2960c3ecb3d5e6",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4924e4535c1a62b79ea8770d69c23d9ed4ed419d8c9085a6225d49bcceedd3ae"
+      ],
+      "generated_master_sha256": [
+        "850d2b5e9c8a9e65eb1859cc2c086e41b56ec4bc8040e9ba8283836688e46714"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_gokart_b.pvr.ccz",
+      "sha256": "994415cb7b3fe5984af18483574b9439ed7eb7b306a1c56a72524f75ab667a0f",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4924e4535c1a62b79ea8770d69c23d9ed4ed419d8c9085a6225d49bcceedd3ae"
+      ],
+      "generated_master_sha256": [
+        "1e397154515ab6f916421c872f2671201c1b927af889367e04775e34597ce6f0"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_goldgrills.pvr.ccz",
+      "sha256": "b539bd7fb30e30be48429722631b6603555e03a01f59bd39991021661bcf8031",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4924e4535c1a62b79ea8770d69c23d9ed4ed419d8c9085a6225d49bcceedd3ae"
+      ],
+      "generated_master_sha256": [
+        "94124fed574e47f75273c7ae0d97ca85142e5b85c80927f86c7ec74250e0b15d"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_gym_b.pvr.ccz",
+      "sha256": "a2eb9a5d8e12f1ae8862a5179bbfedb09d9664540bfc1242ef9055ab13a6c9a7",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4924e4535c1a62b79ea8770d69c23d9ed4ed419d8c9085a6225d49bcceedd3ae"
+      ],
+      "generated_master_sha256": [
+        "c653738d54ead80a64bd2c74c7d7edbbf868a181490e1067360869d9d6febcf9"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_hardwarestore_a.pvr.ccz",
+      "sha256": "c5708e951f6db3b2ec32c219e4a0099c1eecd2292b670a45b4914c4f95dedf92",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4924e4535c1a62b79ea8770d69c23d9ed4ed419d8c9085a6225d49bcceedd3ae"
+      ],
+      "generated_master_sha256": [
+        "be079b4ae148ceb5d838cf1a0b6b44716340801736877071f6a1eec07dd4dddb"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_healthfood.pvr.ccz",
+      "sha256": "d0365cea8553089b0df5b8dd0e835c9cf9fe572b34534f7d55b5c08edd3e643d",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "87941a6589a178dde63ecbfc7a0467a40a2d68761644aa8bf795a4b6968f05dd"
+      ],
+      "generated_master_sha256": [
+        "8b3345e065132d4b26154587f91a1185dd07f7e5f62fe3473328e87ed7996068"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_horsedealer.pvr.ccz",
+      "sha256": "78e3acc99c8519d340b9e6282ac97682b09143c7fa1ce871238a515eb727775f",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "87941a6589a178dde63ecbfc7a0467a40a2d68761644aa8bf795a4b6968f05dd"
+      ],
+      "generated_master_sha256": [
+        "32ae3a6cd561345efa3c3cc2e1b415a5328a019160b0673796e40918b41e7929"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_lasergrid.pvr.ccz",
+      "sha256": "30d22a3767e3a4e44685fb75b377a4438d10bcc3b09cbb29dcf542a2476859c5",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "87941a6589a178dde63ecbfc7a0467a40a2d68761644aa8bf795a4b6968f05dd"
+      ],
+      "generated_master_sha256": [
+        "60aae4df9f30a22b66d253ce775d63107f688725c9db127857d6e9beafd31337"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_rifles.pvr.ccz",
+      "sha256": "2b58eb83487a495a53ca5ef1bbc444b004b378c2b6f983ca8f71e3f5a8d98179",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "87941a6589a178dde63ecbfc7a0467a40a2d68761644aa8bf795a4b6968f05dd"
+      ],
+      "generated_master_sha256": [
+        "4dd7e14a45af48c503d7047850b11c97e353b118812be947ec83cb39c140aafd"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_machetehut_a.pvr.ccz",
+      "sha256": "9045a7492207af7594684106c8e8be179c05bbb85cd386046ea13983ce583731",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "87941a6589a178dde63ecbfc7a0467a40a2d68761644aa8bf795a4b6968f05dd"
+      ],
+      "generated_master_sha256": [
+        "cd9bfd81eac824506687b31c031281b770201c7c63397e55b5e147ed191dde57"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_magicshop.pvr.ccz",
+      "sha256": "c8be991df3126bb71bcc0bb8862e4d07280a2b631545cdcb40c080231b28dcda",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0af0c3b26c6449f5ffe7facac3dcea0ec3ce2112708e34a04b66921b440725c3"
+      ],
+      "generated_master_sha256": [
+        "063683842bacba96855901b936f1c8a206a85b74f988fbcdc4ab0c89f400d1b2"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_golf_b.pvr.ccz",
+      "sha256": "c50da69f186c218bf1d08bec1741d9605d5d055bd31c92e863c2e3df61549d34",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0af0c3b26c6449f5ffe7facac3dcea0ec3ce2112708e34a04b66921b440725c3"
+      ],
+      "generated_master_sha256": [
+        "09d509acfc7ae8dd3927e47fe4958328e69d8ebd575eb6f81c272def8fac5fdb"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_gattlinggun.pvr.ccz",
+      "sha256": "3af725b96bce51e3a4c4f4228417ae9aa751137d767e5638f7a240997c38a298",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0af0c3b26c6449f5ffe7facac3dcea0ec3ce2112708e34a04b66921b440725c3"
+      ],
+      "generated_master_sha256": [
+        "c5fbe8acef933275cbac256eee5412aed2f31d482c022add91b67f36c91ba2bc"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_motorcycles.pvr.ccz",
+      "sha256": "c61c0fdc04880f159e06bbc055b8df930812f56f3f7866876b7dd689f68cc92c",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0af0c3b26c6449f5ffe7facac3dcea0ec3ce2112708e34a04b66921b440725c3"
+      ],
+      "generated_master_sha256": [
+        "bab229a0ae441226533bd3a6b86b51bde8bc226555a61232143a24b1632d656b"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_movietheater_b.pvr.ccz",
+      "sha256": "ae1dbf97ac862d6b163a08d554738772b719d03d8b3c498e673ad65ceba1f282",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0af0c3b26c6449f5ffe7facac3dcea0ec3ce2112708e34a04b66921b440725c3"
+      ],
+      "generated_master_sha256": [
+        "4ec2706c22b197b91732831304a7727c4aeaa7b881ef179ffb5bd44c13ce8ece"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_rollerblades.pvr.ccz",
+      "sha256": "54003f9f4474f3c829a92a05a6cab86d57deab60bf63376e2dd51c6356806827",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4f71b832a39729acaf948e6001d71b616c412127f29fb537859c2bfb3caa0907"
+      ],
+      "generated_master_sha256": [
+        "25a3c2fb87daeebfc429ea04da4f8e40aaf3e9385d9d6b81c85639ebbc90dff3"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_museum_a.pvr.ccz",
+      "sha256": "23f69706a2282b27b8baad4821c1d2fcd68741b86400a3c34ac3f6c7f66d06c7",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "001652125a0c5a0f281a96ac0a896722888b9aeb1df42bdcead50ef6881638f0"
+      ],
+      "generated_master_sha256": [
+        "8efcd15e85ced8f755f9b5b44712915cdff8b2404de53d11c4e7eca718ccac0e"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_music.pvr.ccz",
+      "sha256": "e2d20c4b889213f5ece308aeb864780f8eb3d0b20b9b546b3c805e66d2d895e6",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "001652125a0c5a0f281a96ac0a896722888b9aeb1df42bdcead50ef6881638f0"
+      ],
+      "generated_master_sha256": [
+        "59e9863e21d254bddba7086b781061b0a6382439382a20dfd913e6a4580ec9d5"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_mustache.pvr.ccz",
+      "sha256": "77aaef61e121b59f2602ba6feb170ce21911f58f7aa4d1c7d5d2504fc7aeead8",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "001652125a0c5a0f281a96ac0a896722888b9aeb1df42bdcead50ef6881638f0"
+      ],
+      "generated_master_sha256": [
+        "a36e5511bc5c273a3a3be968d0ff900a398c6f0246f4294b3389e293cf9f3bad"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_nightclub.pvr.ccz",
+      "sha256": "8b7a34721834caf215c6894e51a44a64b3fe65235d3e2959953f8ca8afefc690",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "001652125a0c5a0f281a96ac0a896722888b9aeb1df42bdcead50ef6881638f0"
+      ],
+      "generated_master_sha256": [
+        "9536c17ee434f7f3d990249004e40f6ed51329a778b0a5ee7d7131f88ff5f9cd"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_dojo_a.pvr.ccz",
+      "sha256": "29818c04b14633bc039839f5fe7deb314f5337c4244e4aa0bee12b74e0bee88c",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "001652125a0c5a0f281a96ac0a896722888b9aeb1df42bdcead50ef6881638f0"
+      ],
+      "generated_master_sha256": [
+        "b754495f8e1dac4640099c710ad02e1f7a78ca9622f301becd8257a705c6403d"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_observatory.pvr.ccz",
+      "sha256": "61594a2091753a8d6e10c7d8504cb3b8f42c338be0b9131b72dd13ab65e12f57",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "d1eed61f61249e84b5f9d814d4cbed93baa9bf82ba6b244718c6b4087ebb0bb5"
+      ],
+      "generated_master_sha256": [
+        "eef9983b5ddfe5eac9849c7626f8319cc30a21a885042424e528a26f7e745842"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_oven.pvr.ccz",
+      "sha256": "acf09c04d90d3a9f4941a1fbdd8973e2ab1c5468efcbb8814a13fed00cac4de0",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "d1eed61f61249e84b5f9d814d4cbed93baa9bf82ba6b244718c6b4087ebb0bb5"
+      ],
+      "generated_master_sha256": [
+        "9ff3d07d5e7d27a2709d7f9f3c6f4fa5d36868949dd6a869ef7330466fd9adcd"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_plants_b.pvr.ccz",
+      "sha256": "86b03daefb6210ca79a28b1bf53c1b1d31f822bfb122a545e0b29ba84a830e56",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "d1eed61f61249e84b5f9d814d4cbed93baa9bf82ba6b244718c6b4087ebb0bb5"
+      ],
+      "generated_master_sha256": [
+        "3176b2716dc2581956d4754990fac85a8f732c79bcf81c18f00fec5050f3acac"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_plasticsurgery.pvr.ccz",
+      "sha256": "50a4d787af838e34d1f38eac27ee72e952f0e956c9d7dfca2d38d1e01084d296",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "d1eed61f61249e84b5f9d814d4cbed93baa9bf82ba6b244718c6b4087ebb0bb5"
+      ],
+      "generated_master_sha256": [
+        "01941f8ef220b55ae962592fe6a63c4e1824086a5bc7140a83149b1303c87f55"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_portraits.pvr.ccz",
+      "sha256": "23dda3698dcae6397ebcc4590eef26ae0d3ec6a750be933f280d8c04fd058bae",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "d1eed61f61249e84b5f9d814d4cbed93baa9bf82ba6b244718c6b4087ebb0bb5"
+      ],
+      "generated_master_sha256": [
+        "d5a0a0735e2361f704db6fd33bba45c1373a6175de7a3510a571761e2db6135a"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_powerplant.pvr.ccz",
+      "sha256": "dde1cb0e23ca21e71e373cbdd7e44616bc5f85f1866cc8e10ee6cc4cab7d90ba",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "92b2a12f3ef4cc14810ecfa865b5c5ea4c3a9714d8e7f09029e8be4f09ef32ec"
+      ],
+      "generated_master_sha256": [
+        "ee9dd9a05e289f162547be3639fa517dcdbc76ab187d7ca86e9674fdbee3c5e8"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_prosthetics.pvr.ccz",
+      "sha256": "a70272a33cbd93812235ebf4be56893df09376fb09bec24e179b1d53549c5bdc",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "92b2a12f3ef4cc14810ecfa865b5c5ea4c3a9714d8e7f09029e8be4f09ef32ec"
+      ],
+      "generated_master_sha256": [
+        "4bdba52f49c9205a68e4fa78d72fa9bf503c79698de1b9a542f4d30af7952a75"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_pub_a.pvr.ccz",
+      "sha256": "a5a54b0935762c38c3a74eafc296d40d2798ed15e4581dfd774bae31df27a875",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "92b2a12f3ef4cc14810ecfa865b5c5ea4c3a9714d8e7f09029e8be4f09ef32ec"
+      ],
+      "generated_master_sha256": [
+        "003a6cd9e499c89379a9a0df8682fb9a4c4663459ef5d10a7887a8108f2bc8a7"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_records.pvr.ccz",
+      "sha256": "d233e0cb0578927e0388dfbea1a950a1b225df370301c3485a98d2e01231c168",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "92b2a12f3ef4cc14810ecfa865b5c5ea4c3a9714d8e7f09029e8be4f09ef32ec"
+      ],
+      "generated_master_sha256": [
+        "cc71f5397d2d841da4143b00bf9a919502dd5c99c80eff7f49bf632f733786c3"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_revolvers.pvr.ccz",
+      "sha256": "7e3f239688927eb72a336ddb80a4fc7d56e7cbd3127237839861d39d4d50c656",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "92b2a12f3ef4cc14810ecfa865b5c5ea4c3a9714d8e7f09029e8be4f09ef32ec"
+      ],
+      "generated_master_sha256": [
+        "2558082b6e14af90821d4fe432587d81156505b858e71da163307c14b3b4314f"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_robots.pvr.ccz",
+      "sha256": "b0fc86e3fe86e9a42bb57aaab8f686e75118f57c788df18044b53bf1d21f157a",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "88f515ee1923fd991d562a3756e1188c0717e3a83008b527a92517279f5b2f1b"
+      ],
+      "generated_master_sha256": [
+        "a7d51be212de4bf87343071c56ecfe5d59ab4ede683c5add265b5e40819a22ea"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_sciencelab.pvr.ccz",
+      "sha256": "71cc30f0357303f44de72ce4e6e7cdaa04edc8aa7ab67934cf7ad40d967ee252",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "88f515ee1923fd991d562a3756e1188c0717e3a83008b527a92517279f5b2f1b"
+      ],
+      "generated_master_sha256": [
+        "c3d91b1600bd9b9a99bb91f4b1999bda63e82ce22e7b568f95b07bf51e17fe1c"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_scooter.pvr.ccz",
+      "sha256": "ef60a880507f9f88058f39f76fc0ec1de0dd7c65bc576174dce06998eb10ad57",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "88f515ee1923fd991d562a3756e1188c0717e3a83008b527a92517279f5b2f1b"
+      ],
+      "generated_master_sha256": [
+        "328a7d50e6a3b061199c1e6e30bfa99237241ed6030a3b0ae40b735946dfb807"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_shootingrange_a.pvr.ccz",
+      "sha256": "35109b777d0b54ea121fadc96fb3113a9398250d16b042a0879e228d86feffa1",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "88f515ee1923fd991d562a3756e1188c0717e3a83008b527a92517279f5b2f1b"
+      ],
+      "generated_master_sha256": [
+        "ddba07b7a087609ad71087d682e8bf249c789d12767704a12cd06cbf33356459"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_shotgunhut_a.pvr.ccz",
+      "sha256": "0950f2d7d013d0f94b35ac72e23a2b2bf6b00aa2ff6fd2857bcdb650659c3a1a",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "88f515ee1923fd991d562a3756e1188c0717e3a83008b527a92517279f5b2f1b"
+      ],
+      "generated_master_sha256": [
+        "d36f36947828c607b75b6d41ad951cdc179f688cff75a8d245328a0eaa6db599"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_skatepark.pvr.ccz",
+      "sha256": "a18fc2a581ffb7e7b145633ee5993321daa5ca0a4caafb3725ab38e6e1dfe9ac",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4af050acd7da74ea8b48af82e21728588cad63a5fa1e66d60aef97410cc24ca0"
+      ],
+      "generated_master_sha256": [
+        "e2946f2d68896386dbe250d9ee2a5ef9f61ca3ca9d481ce2cdda94745e5229d2"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_sodafactory.pvr.ccz",
+      "sha256": "01285583a3d5ad3119f59daf2f82e412fc491b4a8c0ba2146c35c3f21017abca",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4af050acd7da74ea8b48af82e21728588cad63a5fa1e66d60aef97410cc24ca0"
+      ],
+      "generated_master_sha256": [
+        "94dbc0184fdcae22f75b148012b48a5142df7fdced6adfad1331ed11357d0165"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_supermarket.pvr.ccz",
+      "sha256": "518a78e97b3c81e64456d6266118ed49d15979a112ea8c98f5f3e463b85178e4",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4af050acd7da74ea8b48af82e21728588cad63a5fa1e66d60aef97410cc24ca0"
+      ],
+      "generated_master_sha256": [
+        "14f85205293057bf9b1d8dcf013eb39ea344b2fe7f1ccb75573a0e1ca4da99a8"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_taqueria_b.pvr.ccz",
+      "sha256": "9448e00f6623934f5ac3638461a21f4fe40ff17c9df0868688b2b7297e33a8ec",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4af050acd7da74ea8b48af82e21728588cad63a5fa1e66d60aef97410cc24ca0"
+      ],
+      "generated_master_sha256": [
+        "a55fffe63564adc4571052a8ce77b4a745f68ff016ac413e4493bb5d456ce081"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_taser.pvr.ccz",
+      "sha256": "a40617ff2538e8f360f338f02c272f7617176be6003a7e506a8e0ce2ba069f65",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4af050acd7da74ea8b48af82e21728588cad63a5fa1e66d60aef97410cc24ca0"
+      ],
+      "generated_master_sha256": [
+        "3f18dea14f74744878ab06282881feadcd31b8694606964a7814ef52294b1757"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_tattoo.pvr.ccz",
+      "sha256": "8a23fc5ab789dc30da176e0c089317906eddb3b3dbcb7218fb9641b81686dc1e",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "d9bf0cea92d267672fa1fa7b278cd6678b88f7503f2d8d4354bab3ba77864c28"
+      ],
+      "generated_master_sha256": [
+        "49cafc9a79c10bae64f75a4db0c88bc53e6c082c5146ca86c3e421073606808d"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_telescope.pvr.ccz",
+      "sha256": "1bca5714608366dacb96eb752fc918be270464953a0d95ca621a92a75463e56b",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "d9bf0cea92d267672fa1fa7b278cd6678b88f7503f2d8d4354bab3ba77864c28"
+      ],
+      "generated_master_sha256": [
+        "7e06ca738e2818164e0eddbb64b24f7305047e97af38b80f924df5c62667f2f4"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_tentforbites_a.pvr.ccz",
+      "sha256": "0b5d963c2c38c76491e48547d3b8266bb577d702da45565759cf924c74e92775",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "d9bf0cea92d267672fa1fa7b278cd6678b88f7503f2d8d4354bab3ba77864c28"
+      ],
+      "generated_master_sha256": [
+        "091fff2bfac4b9d71f6e134ce9bd2c8d5d321b3d61adcd67ebf9b8de9f1fdf09"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_thrillerdance_a.pvr.ccz",
+      "sha256": "ee8ad147d042985e2dc6bce3d03ad34046129e65728eb1c608a94cdf13be3ba4",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "d9bf0cea92d267672fa1fa7b278cd6678b88f7503f2d8d4354bab3ba77864c28"
+      ],
+      "generated_master_sha256": [
+        "2e165b42040dfe9d2ab88c3ed3e885d037bfa67f2ad255bd7e1e8bf1266a2949"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_towntours.pvr.ccz",
+      "sha256": "b9f6282eeedb2a99c8335153dad4eb5c72e22186cb34d6c2204f9cd51fb4bdd2",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "d9bf0cea92d267672fa1fa7b278cd6678b88f7503f2d8d4354bab3ba77864c28"
+      ],
+      "generated_master_sha256": [
+        "fb7c7ae66b6484ce4481c9cd3c2d07c7918c5f3b9d290dff862e117f5ffdff94"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_radio.pvr.ccz",
+      "sha256": "c13f1bdca5e6232d8850ef036582b264ae978fb7c8f3174c33ee4df3f8f2544f",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "6c9e04a155f8dc268559b47f3c6fa8cd8cbb9e95da1867b85feaab0a43bd8d3a"
+      ],
+      "generated_master_sha256": [],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_toystore_b.pvr.ccz",
+      "sha256": "e5dd9151cedd90278e35c7373e35976fd08927bdcfc0e5f43eec40529bd671e2",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4f84925b9bbb55cc8c6392cb2a5fa622285cf4cd5d210a07173cf7eaa372077a"
+      ],
+      "generated_master_sha256": [
+        "ceaa3b306682ba1bec7f84c6f755312346e2f24837f7ebde8f9c10992b8d59ab"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_truckstore.pvr.ccz",
+      "sha256": "3cc47c0a521dbbe66319606d488d6f349e52b0400ac8fe6aa48275861acb6e92",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4f84925b9bbb55cc8c6392cb2a5fa622285cf4cd5d210a07173cf7eaa372077a"
+      ],
+      "generated_master_sha256": [
+        "004e917f20e6a3c1d41c2494e74e26585bfa1435971e9a471cd72edc1c1f79f4"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_tvstation.pvr.ccz",
+      "sha256": "83625614ec10a08c66891fa7215f04d4d83ac39f3eace1e5e94f10b1b82e99f8",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4f84925b9bbb55cc8c6392cb2a5fa622285cf4cd5d210a07173cf7eaa372077a"
+      ],
+      "generated_master_sha256": [
+        "8fa5f26e1d13fd2e83c339ad4eaa8cd9902e5ff5a85a4a96fcb947d441b89800"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_underwear.pvr.ccz",
+      "sha256": "57993f5e51a3fda6ec1f374491d1fdd0d99cd66744142df51572ad1a29d1db46",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4f84925b9bbb55cc8c6392cb2a5fa622285cf4cd5d210a07173cf7eaa372077a"
+      ],
+      "generated_master_sha256": [
+        "17f3038babe552695ac2940aa075fb48417d05209f032a134b5af0c3d3aedf21"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_videorental.pvr.ccz",
+      "sha256": "0ffe8acb63f180c5659cdf2c882c55d89b47d4375db9f2cc8aabbfd0ab1a8609",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4f84925b9bbb55cc8c6392cb2a5fa622285cf4cd5d210a07173cf7eaa372077a"
+      ],
+      "generated_master_sha256": [
+        "efbc46e5aa390f7d1d0b587103f982e56cda4d94b4ccff404accb574250d6f54"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_emeraldcity.pvr.ccz",
+      "sha256": "bff3cca4194469bec22f3c112960a1f34235ca44389a82c0d5c243314d86bd1d",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "7a9353c84c61bcb8f6432772a979e1152210fd34df0961d2d7659491a8b92479"
+      ],
+      "generated_master_sha256": [
+        "8459ee7232ccf3d7f2c59b462ad69f5693f1af5a082b62d97c2076f1a0b92167"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_snaketemple.pvr.ccz",
+      "sha256": "8aa2b2c6df695ef22927c235506927f93194349148a865c2911c1d750718d52e",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "7a9353c84c61bcb8f6432772a979e1152210fd34df0961d2d7659491a8b92479"
+      ],
+      "generated_master_sha256": [
+        "3a8b5027a2432e54f36cc5eb6ccaed41e095d79edf745bec2467ebb8525c1e82"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_zeppelin.pvr.ccz",
+      "sha256": "fda800b603b2dcbcb41df67199d4aaf80f03664e6ac2813594ef51eddb2b68db",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "7a9353c84c61bcb8f6432772a979e1152210fd34df0961d2d7659491a8b92479"
+      ],
+      "generated_master_sha256": [
+        "381eb2f28318ab58b2bad6d624866a3735b32a53d37658be4642720cab79e0aa"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_UFO.pvr.ccz",
+      "sha256": "bcfaa724b78d9282b4655e28ab689597a47e6105fd25a3ea6d08a9aa8eff56f9",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "7a9353c84c61bcb8f6432772a979e1152210fd34df0961d2d7659491a8b92479"
+      ],
+      "generated_master_sha256": [
+        "fbb68cbbb85bdf8c60fe07ecb0c63d1588bd0513738de4aae0d71950454f8010"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_sandcastle.pvr.ccz",
+      "sha256": "8c5a6acad95728a5c57e508d4a87c4b9878a61a250994656cc4edb9d66fd813a",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "7a9353c84c61bcb8f6432772a979e1152210fd34df0961d2d7659491a8b92479"
+      ],
+      "generated_master_sha256": [
+        "c7e011b556f8127da36042a82d151f455241f3ee5c458e6b1354f1a85fcc501a"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_clown.pvr.ccz",
+      "sha256": "278f3d29099fdd13e7494fe002ec5ae866a5d47a041e795982a4b206e4d7a412",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "552fd9a87ae3953259c5d7078647028ae783e3fd78e891e0e791878297c6d785"
+      ],
+      "generated_master_sha256": [
+        "0537bf17c2ca0c71052466659b6f9e5edfc008aaadbac08c3522d2a687beb7e7"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_mummycrypt.pvr.ccz",
+      "sha256": "9644802f97bb1cbff5ea23c6ff2d691f7b26b4c8d5f831248eafca05861de2ce",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "552fd9a87ae3953259c5d7078647028ae783e3fd78e891e0e791878297c6d785"
+      ],
+      "generated_master_sha256": [
+        "a0d7e660a3f97c7b2cb58a05e0faaad365e725270885f1c06bfcfadbb70b7f90"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_couchfort.pvr.ccz",
+      "sha256": "26543fd4ef3c45648b600d9e7881d84e8fd919e38e2938aefe3cbda161eb734b",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "552fd9a87ae3953259c5d7078647028ae783e3fd78e891e0e791878297c6d785"
+      ],
+      "generated_master_sha256": [
+        "951db008946691d4f9ecee9e08f21f821a574cedbeddc19cccbd247490b6e3c9"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_invisiblehouse.pvr.ccz",
+      "sha256": "70fd5f2f4a5ba92e8ac0b40e382eec3951383b3ec39c97899d3303b65e209261",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "552fd9a87ae3953259c5d7078647028ae783e3fd78e891e0e791878297c6d785"
+      ],
+      "generated_master_sha256": [
+        "69251e025c775845b4fe3613eeddb5d8575f838f42d37e7716c7d27c4eda04eb"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_cubehouse.pvr.ccz",
+      "sha256": "129d63bccd185a0d838e0b8362e98ba82d42d589de97691592ddb04da82122c1",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "552fd9a87ae3953259c5d7078647028ae783e3fd78e891e0e791878297c6d785"
+      ],
+      "generated_master_sha256": [
+        "6d1d329109dcf1525b2aee092a4cc16086982f7f8952b37e6ac2354704849cab"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_outpost_2_a.pvr.ccz",
+      "sha256": "ef49455841b34982e4e3a4b1efd670552d9f86867ccc12a72c24bfcb57e7463b",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "cfe873d50a503e42d412ce643ef5c7647165571a01bd4af40dfb290ef9cc83d7"
+      ],
+      "generated_master_sha256": [
+        "c482714d359428e9d6d784a8d958fb84b3a76a1a0608271a5a3bfc58f7522a9e"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_outpost_3_a.pvr.ccz",
+      "sha256": "8fb7c9407a3d99f7318346f411bf9f7548129a5c5724e46f52399742e3a61ab0",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "cfe873d50a503e42d412ce643ef5c7647165571a01bd4af40dfb290ef9cc83d7"
+      ],
+      "generated_master_sha256": [
+        "c482714d359428e9d6d784a8d958fb84b3a76a1a0608271a5a3bfc58f7522a9e"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_lego.pvr.ccz",
+      "sha256": "5bb7f93c73809159ca3e54e469f3e2999c8e29e6f72dc5e6d554c702f33d90e9",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "afae32ed63d9b8d99a666968bad540a0264e3df5815d7be8050665153cfc607b"
+      ],
+      "generated_master_sha256": [
+        "b4775b069df92d93339097b03793047c08af8dde3bb464b90aa3797a75ee9205"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_pawn.pvr.ccz",
+      "sha256": "1364e9fc0fc61e1ee1f0c40c751fe75233d0b7ab06b4d18e670ab6f762a961da",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "afae32ed63d9b8d99a666968bad540a0264e3df5815d7be8050665153cfc607b"
+      ],
+      "generated_master_sha256": [
+        "7e96d5cbb6326226802b12c6701a16bca09ee93d7281711cb2eb80ba4946c317"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_therapy_a.pvr.ccz",
+      "sha256": "ffb70ad78e219e216ec02d78ff5ee5512ffe5067b84b411b83ee67b2ef887348",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "afae32ed63d9b8d99a666968bad540a0264e3df5815d7be8050665153cfc607b"
+      ],
+      "generated_master_sha256": [
+        "f126f4b00f202985bde759a9f6891a3bcb5391d64b222f7d854b01d3a019d9b0"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_goldrush.pvr.ccz",
+      "sha256": "e7dcc06a95308a9799283eb80635c461cb9ea9ca4232b7da8dcbc0b91cbac749",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "92f725c9aa125d9468579e028a24273dd8ad0305d56b9d43c124dd87fa76e260"
+      ],
+      "generated_master_sha256": [
+        "21897541ac374688ab2958807585d2ac706ab5ec27828c207cea0954c39d5e45"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_steampunk.pvr.ccz",
+      "sha256": "12a20402fed996f5f33db5fc3f1f2a2cda0b867cdf8ca4f0afbb0c4e87e618c4",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "92f725c9aa125d9468579e028a24273dd8ad0305d56b9d43c124dd87fa76e260"
+      ],
+      "generated_master_sha256": [
+        "c611721e7b858d12f3f0635108103e5a54efebc4a50061baf721519f68fe828f"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_prison.pvr.ccz",
+      "sha256": "df8c8392da8835bebbe244049e3d481542655cca65b02853bee16a38c7af1e2d",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "92f725c9aa125d9468579e028a24273dd8ad0305d56b9d43c124dd87fa76e260"
+      ],
+      "generated_master_sha256": [
+        "980cfa24f96bc12d98aa7b2f1f9d6904496496c04a4095399b6f5cf1e0d8958d"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_hamster.pvr.ccz",
+      "sha256": "4f4b634e3ec09a30df1dcce7685665b11e2e120a699070b11ef056734721cdad",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "7b4694ab671037667af05f17bb7242911e4583fc8ea8d8afd21aabdb6d879f40"
+      ],
+      "generated_master_sha256": [
+        "8628dc1347a7930ab60e0cf114ab0096e48ab396fac7ae203ef5e97c29c9132b"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_vampire.pvr.ccz",
+      "sha256": "74cfdf99cc54a7e29c4416f3553e10311e009057eba104dabb829bd7f7fcd61a",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "7b4694ab671037667af05f17bb7242911e4583fc8ea8d8afd21aabdb6d879f40"
+      ],
+      "generated_master_sha256": [
+        "e3b8fb3b87f5db9102db8277060ce478767e2247cb41cc04d25016ed91559cd5"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_piratehouse.pvr.ccz",
+      "sha256": "173e96b2449328b0a262c58056f2b71afd8a03ef3a12e27f505e9bdd354bd8fc",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "7b4694ab671037667af05f17bb7242911e4583fc8ea8d8afd21aabdb6d879f40"
+      ],
+      "generated_master_sha256": [
+        "4b66c3589f7e470b5bb0db3a79b7ca250073fcb323e3ef156488ba05526ff725"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_shoehouse.pvr.ccz",
+      "sha256": "5d6e3ce61cb0da89d6982581498df04fc387370d86aaf318b92e2511bdc3c7f6",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "7b4694ab671037667af05f17bb7242911e4583fc8ea8d8afd21aabdb6d879f40"
+      ],
+      "generated_master_sha256": [
+        "8d6957f963e2ac7bf248a141754c5ccc770ee9cd77b37b609a1adbe3ff182ceb"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_bigtree.pvr.ccz",
+      "sha256": "a32735127d49113184dc4cbbc9971f02d43c9c56cfd4a669ddbaf1ba401ab17a",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "7b4694ab671037667af05f17bb7242911e4583fc8ea8d8afd21aabdb6d879f40"
+      ],
+      "generated_master_sha256": [
+        "701c0c3d54559181e14beb0557c7587387da60ce45185ef2e67617ad42024603"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_winchester.pvr.ccz",
+      "sha256": "35438ca5475ef902c3c232c91de7d3b38b9eb3eaec9aac03b4d672c84b9bf360",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "b7009807f22505ad7418e8a77691fb492dd51675d8503a934591c32ff8ff300e"
+      ],
+      "generated_master_sha256": [
+        "cd5d34e8ffb9a1a9b54cb9135f0aeacb26417129407c4ce3e3544290f76c63e3"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_footballstadium.pvr.ccz",
+      "sha256": "c4b5ab5f7114425b77103120000c67436995461a9c420231b26b6af6b6f8ad81",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "b7009807f22505ad7418e8a77691fb492dd51675d8503a934591c32ff8ff300e"
+      ],
+      "generated_master_sha256": [
+        "8f16d4e3a829c3ace1fd8f3082e0f7a7a461d3ce8399a76cab1ebd11114be05a"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_carnival.pvr.ccz",
+      "sha256": "89bb58633f1f93703acac1088a6f265528150399dcae646711179400e40d5361",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "b7009807f22505ad7418e8a77691fb492dd51675d8503a934591c32ff8ff300e"
+      ],
+      "generated_master_sha256": [
+        "76fef489cdc979d36081cb9ad0e18f1fcadb62223442ae8d7757ac70168f64f0"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_german.pvr.ccz",
+      "sha256": "496f09e83a8af06f3e6fda6de67801955400522fa00425ecbb257214199cb5a8",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "b7009807f22505ad7418e8a77691fb492dd51675d8503a934591c32ff8ff300e"
+      ],
+      "generated_master_sha256": [
+        "1abdd70824532d6f240ac6edaa862e0aefa20dd54b30efeaec776dc6112a96e4"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_northpole.pvr.ccz",
+      "sha256": "ff8b76d160899bb178b38995a7eef6245a8db2e841c383c42099cb55fdde4384",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "b7009807f22505ad7418e8a77691fb492dd51675d8503a934591c32ff8ff300e"
+      ],
+      "generated_master_sha256": [
+        "f34e45b4fa7fc6ef697916cfc0e2aafe317a3f180abd23925900d19b055241ab"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_redcarpet.pvr.ccz",
+      "sha256": "2f6d8489825553dd44917fc7dfcaf1f5013d3d5ef71ae09e9fca5b58ba2db03b",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "3533294a1aa435ff698832574c25f78d491a6e814bef16966f32b580bab01d3b"
+      ],
+      "generated_master_sha256": [
+        "56eb3731353805d12b7b06e2083bb13bdc4faa26158a64f81fdb6d767f54b844"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_divebar.pvr.ccz",
+      "sha256": "ebb4d58adc1b41d7cb0d25a76642853ccee6228509f3734e9c79c1a609998a46",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "3533294a1aa435ff698832574c25f78d491a6e814bef16966f32b580bab01d3b"
+      ],
+      "generated_master_sha256": [
+        "0c3a02caf944b136dcf7c93bb13d5ce4f5d1229bc2f51b1eb23c7e0a52cf8946"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_petcemetary.pvr.ccz",
+      "sha256": "a664a3313c2ae76b0d01f0a209221b5710d23b04981bf2a66d309f083f9f2af4",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "3533294a1aa435ff698832574c25f78d491a6e814bef16966f32b580bab01d3b"
+      ],
+      "generated_master_sha256": [
+        "87300501cf1106369310516a59fe01315a2449b033095e07e66930259b385b58"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_zombielab.pvr.ccz",
+      "sha256": "2af255205c0a00021cbe3d8fdbef26d6c7ee4b034d5a817f3fbd626d6568bc42",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "3533294a1aa435ff698832574c25f78d491a6e814bef16966f32b580bab01d3b"
+      ],
+      "generated_master_sha256": [
+        "d63ff04453be26c96a30a2565a1b27c036cd40131064f63e4edfdd671f02fb7d"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_mine.pvr.ccz",
+      "sha256": "4e37c66beb79a606553bd505e26c62f8b5008e1dee7c477b2e8bad2c77eaf0ac",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "3533294a1aa435ff698832574c25f78d491a6e814bef16966f32b580bab01d3b"
+      ],
+      "generated_master_sha256": [
+        "10ca42dc89bfb5a7b895bcfe6cf3bb24c61747f77ad59f8b28169d8a06538c4b"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_aquarium.pvr.ccz",
+      "sha256": "f42b39b86eddab50ea23125f124a070d03e6241427976373000d2f6f0eefdb87",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "f661c76e5a7d62d93c4b5884439b5024a300ca6fd38069b705a937fe8520bd7c"
+      ],
+      "generated_master_sha256": [
+        "ae3ad72307557e07c111eb9a7ffee00aa28419023f94a78dbcc8d14f422ec68a"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_drivein.pvr.ccz",
+      "sha256": "9e970ca2e15ea4d4016e5cfda6e8ac5175c907124cff30230c660b0dd4093fa5",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "f661c76e5a7d62d93c4b5884439b5024a300ca6fd38069b705a937fe8520bd7c"
+      ],
+      "generated_master_sha256": [
+        "e0428bc87d99f5130a806c6d19a2275069484946d6447e8a9748e2a2bfacb09d"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_scrimshaw.pvr.ccz",
+      "sha256": "35607de11727b67c604373047c6f23285b4685f112fd6346499fbeb9d62634c1",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "f661c76e5a7d62d93c4b5884439b5024a300ca6fd38069b705a937fe8520bd7c"
+      ],
+      "generated_master_sha256": [
+        "8bb373d752aa7548c71ac37ce007c62a87e0be89122f50c43270cfafa1eea9d0"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_ghosthunter.pvr.ccz",
+      "sha256": "180efcd65732c1ec44103f37ad80447c04626c7d767515aabf939b2722262360",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "f661c76e5a7d62d93c4b5884439b5024a300ca6fd38069b705a937fe8520bd7c"
+      ],
+      "generated_master_sha256": [
+        "8628d4c7bd04c410aaaf21b15d4b861ab5fda58a01f4d77d7081df58153f0da1"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_megapet.pvr.ccz",
+      "sha256": "714069f4c2c1fb5ec05e035130dbed5e8d4f37c222d9f47ab52ecf1a7ea0b57a",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "f661c76e5a7d62d93c4b5884439b5024a300ca6fd38069b705a937fe8520bd7c"
+      ],
+      "generated_master_sha256": [
+        "c0f06be3664174e93dea655b6011ee9b6922c8e5a0769b82ba53925ca5fb71f4"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_blacksmith.pvr.ccz",
+      "sha256": "bf0389651c0f114387f361654b50f719957f56b3bf6a8010a368594a7f9b0bc7",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0465cadffffbb795e1a10b885bbbd4e37beb72520b8b45cc6f3d790433115295"
+      ],
+      "generated_master_sha256": [
+        "7df2e5e0678c19917f16581185b43834b15e085addffce4575f90be9fcda33bb"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_pork.pvr.ccz",
+      "sha256": "88e02a9cc9971e7b0581ae49a2cb5cc9c67494c1d67b854f07482ac2479490eb",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0465cadffffbb795e1a10b885bbbd4e37beb72520b8b45cc6f3d790433115295"
+      ],
+      "generated_master_sha256": [
+        "3ea1be6718faf9298aaf4b2bc8ae72337b2e4c01616974f2b35f9321359aef01"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_abandonedmall.pvr.ccz",
+      "sha256": "7d9b5bb879a955fa1c20de6c2d8e0179763f25bd26c7580950d01fc6d7bbf774",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0465cadffffbb795e1a10b885bbbd4e37beb72520b8b45cc6f3d790433115295"
+      ],
+      "generated_master_sha256": [
+        "a66d72308a45ae7f0ae5f3fc9747fcb45bc5b5d2b57784eddf2bee41c821c3da"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_wrestling.pvr.ccz",
+      "sha256": "ac96acd76eb9c4451b7dc0985e855d6830e3f2504ccab18124d9e51021059b90",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0465cadffffbb795e1a10b885bbbd4e37beb72520b8b45cc6f3d790433115295"
+      ],
+      "generated_master_sha256": [
+        "2ea670d80f0eadfe075095bdbfb660d0656bce8584bf21a4eea514eaaa656928"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_cavehouse.pvr.ccz",
+      "sha256": "6f72ad1e808d15ef6b4deeb0e9aa1d1a12aefad06667ce6043206b9c78b72edc",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "0465cadffffbb795e1a10b885bbbd4e37beb72520b8b45cc6f3d790433115295"
+      ],
+      "generated_master_sha256": [
+        "a0ed39881d1a752896ed2364cbc2d65ebd8e995dd3afc2f2da391703027438c0"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_crime.pvr.ccz",
+      "sha256": "cf5907efbb477b9b5eaa8af0555acdd3af919eb1dd06a947cfc2af4d02687c4b",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "ad8e2ed74732a03e938ee62eab6007783b1a08eeb72a5d27386474037dd531e9"
+      ],
+      "generated_master_sha256": [
+        "c751ad4809ba0e61436151f0ab5e616f2a0eae58451da43899acf431f13b740b"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_turkeyhouse.pvr.ccz",
+      "sha256": "61eb546f80a8fdd920251304fcb1d709e905a1bdeb18f4f0420fc0f729bfbd01",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "ad8e2ed74732a03e938ee62eab6007783b1a08eeb72a5d27386474037dd531e9"
+      ],
+      "generated_master_sha256": [
+        "c84ffec4157bff6c230892fe8a1fb36270bb862d44cb1dadade859d2b28f924f"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_planehouse.pvr.ccz",
+      "sha256": "9974218cbdb5dff790b5a6a6106b0d45e2283a4ee3a7700d45b2bec52cb86722",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "ad8e2ed74732a03e938ee62eab6007783b1a08eeb72a5d27386474037dd531e9"
+      ],
+      "generated_master_sha256": [
+        "6314efa92d9010733578a87317fe3a83476e33679062327c0c1d0f61d70a4691"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_oasis.pvr.ccz",
+      "sha256": "df81bb6d633b3588b897c5710c96c702a465411fa8658bba76cbbfdfcf0e2fbd",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "ad8e2ed74732a03e938ee62eab6007783b1a08eeb72a5d27386474037dd531e9"
+      ],
+      "generated_master_sha256": [
+        "18d9f9435e9759afe39ee484992b023afeaceb823976ae8d6649647ec375f4ea"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_underpass.pvr.ccz",
+      "sha256": "1a186655d12a133ac7d7b473a1d34caca9e17dee33bc56d2406389e9a6c88844",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "ad8e2ed74732a03e938ee62eab6007783b1a08eeb72a5d27386474037dd531e9"
+      ],
+      "generated_master_sha256": [
+        "fef3bc6c12f79079d60b2147fc8e73f5fea5ce65d920bb84d065b9fda995bc2d"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_boneyhouse.pvr.ccz",
+      "sha256": "d36e7df59fc38981b01b74b2d74cc56559eaae5b51523f44d49d7f1f00b3a064",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4f6bcb4b68bd09c47e6695e13abf647da916b156ab7f99361ec0fb4975356675"
+      ],
+      "generated_master_sha256": [
+        "6cf342d6a5656208fba7bbbd42ba5374545d1c9a22695bafada74813d3f6cdab"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_scrooge.pvr.ccz",
+      "sha256": "a1114fb70bf007cab6fbf2b1357dabec37e2b4bd9b28212c01c078e4aca3b63c",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4f6bcb4b68bd09c47e6695e13abf647da916b156ab7f99361ec0fb4975356675"
+      ],
+      "generated_master_sha256": [
+        "be40d67178bf1883fa14c9b0a5b3a8d1b8dea423d52c5eb4afdcfaf845c41ad8"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_xmasstreehouse.pvr.ccz",
+      "sha256": "a6fe3993342fad53c42f16082d0a40585df9fa8ba477779b79b9fd6c48e3520c",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4f6bcb4b68bd09c47e6695e13abf647da916b156ab7f99361ec0fb4975356675"
+      ],
+      "generated_master_sha256": [
+        "c3fd06c76454df0dcb541a801fece53f822e0cde2920e5be7779f291e4a34772"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_snowman.pvr.ccz",
+      "sha256": "62ddb9b2388aa2b890b0e3cab47093516952ade3ead3c26449107a90ee2a4c2c",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4f6bcb4b68bd09c47e6695e13abf647da916b156ab7f99361ec0fb4975356675"
+      ],
+      "generated_master_sha256": [
+        "6acca42f4c5d3395d069526c92ffa5ba8db73c3ddb47b1d2f8e91f80218b26cd"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_santashop.pvr.ccz",
+      "sha256": "5fd981a3155a2d732d57f4439f2047c975a6bbf747945d42dcfeade21c9f46c8",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "4f6bcb4b68bd09c47e6695e13abf647da916b156ab7f99361ec0fb4975356675"
+      ],
+      "generated_master_sha256": [
+        "a7e2777c3ad29ec40d24c79e103f66775c8e4274010d361ae7994c65fb0eaf84"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_deerstable.pvr.ccz",
+      "sha256": "c787bab15eac558d90437cf7674355eb069daa48a78847408715660dd9c70a06",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "a4f1ccd2184e91eb28c8aba9791af34f9796d8e2099336d249c071a358cfd3e5"
+      ],
+      "generated_master_sha256": [
+        "2648d02966eb618a7b0d50b122b5e5740e3f710d9c8acd5a8a018e4802516ac8"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_treelot.pvr.ccz",
+      "sha256": "9120d34d6c47b0d9e0d85cea5d878e27bdcebbc290f994396bebdaf47de1be29",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "a4f1ccd2184e91eb28c8aba9791af34f9796d8e2099336d249c071a358cfd3e5"
+      ],
+      "generated_master_sha256": [
+        "d89efa525657001a7d1df559eb75c9b13bdab91f2a316381f5dc68cdcb6f91bc"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_lovehate.pvr.ccz",
+      "sha256": "8c9c455857435784c64ff1943a20aa86b14d9fcc2b710e164b8fc2a502809cb8",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "a4f1ccd2184e91eb28c8aba9791af34f9796d8e2099336d249c071a358cfd3e5"
+      ],
+      "generated_master_sha256": [
+        "0c5c410aaa2092e86f6968ef6bfcca0ee5b461c6399c29176e73c24f8eb0131f"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_frankenstein.pvr.ccz",
+      "sha256": "bdc66c70b19b87f7475ef0de939d97c966a217eaad2f67e60ab039d2d0072167",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "a4f1ccd2184e91eb28c8aba9791af34f9796d8e2099336d249c071a358cfd3e5"
+      ],
+      "generated_master_sha256": [
+        "f42af75d5030a9703aaa29477ad3f805b7a155938ac9f06b2a6af7fb702bdb28"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_playland.pvr.ccz",
+      "sha256": "e8caa5eb3170db90c90912ff65643e4463df8cac76d66e3e396073cd4d8524da",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "a4f1ccd2184e91eb28c8aba9791af34f9796d8e2099336d249c071a358cfd3e5"
+      ],
+      "generated_master_sha256": [
+        "144336b1071623c170d64095a7ccc1b0c7be924b5edcd7f1e361e4e0a6dcdb2a"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_parasite.pvr.ccz",
+      "sha256": "ff89fdf55e82a1340afda89e8273fe8fd56522b6c33dce91a56e2936cdd13ad0",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "3708e56f7db3a333947e3f4051d200fcf7399be7a178a7a7c5e472440c7e3e86"
+      ],
+      "generated_master_sha256": [
+        "80532cb1528c8fdb619cffb9a36b2a6c1b7dd0b83c543ddfed61d0b1a0430bd2"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_scaryride.pvr.ccz",
+      "sha256": "36f8e77592e97bfc226d298629a873723517abc39fa132640e7d499a4032d562",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "3708e56f7db3a333947e3f4051d200fcf7399be7a178a7a7c5e472440c7e3e86"
+      ],
+      "generated_master_sha256": [
+        "f4875dc719249107fa42974a58342d5b21a139f5edd2a7c91c522be5a47f10fa"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_sideshow.pvr.ccz",
+      "sha256": "56dc5625906c8d570aa5710127b8156e930b987d6fb1642fa63953a64325aa7f",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "3708e56f7db3a333947e3f4051d200fcf7399be7a178a7a7c5e472440c7e3e86"
+      ],
+      "generated_master_sha256": [
+        "4db4b458a4a3a7d805dc1cc23114a918aa6271e118166a8aedc12e3107ef3156"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_taxidermy.pvr.ccz",
+      "sha256": "fb5fbe0804386796b7be51922522f89b167296b58ee5d1a207c637758ac49534",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "3708e56f7db3a333947e3f4051d200fcf7399be7a178a7a7c5e472440c7e3e86"
+      ],
+      "generated_master_sha256": [
+        "39cf9fc7cf3273082b1e733b67f1b87ab329db44fa52ce0809d137b3c5ab3f81"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_hedgemaze.pvr.ccz",
+      "sha256": "1daee1b15f953db4d6799f661fafb23b021d5a44067e9d3e5e525d33b78ee780",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "3708e56f7db3a333947e3f4051d200fcf7399be7a178a7a7c5e472440c7e3e86"
+      ],
+      "generated_master_sha256": [
+        "be97a7099c7f8ef176ddd39e5ba869de1249edf87a0d2dfac90c2cac3c79577a"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_brainfactory.pvr.ccz",
+      "sha256": "d16d141976d7f528abbc0d1563aef95de3f19ab64ece0ad434144ec2dcc82ece",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "74a3295f07b2d20b965045f7e476098e7a94e5734ee6e476bbb66cde53639112"
+      ],
+      "generated_master_sha256": [
+        "55f1052e2259777bb6e206681e14e28d2089e8e215f6019efb77be38c2f6b367"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_superbuffet.pvr.ccz",
+      "sha256": "a247b654970429e5010d63e57552ef7f0d37f32af7be0f5634bea2fd832454ea",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "74a3295f07b2d20b965045f7e476098e7a94e5734ee6e476bbb66cde53639112"
+      ],
+      "generated_master_sha256": [
+        "1e00717cba5e4f6a17254419a075213c66b2a9db29fac308279ec70e8c984af5"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_turkeyfarm.pvr.ccz",
+      "sha256": "cb6ca2c6ede624a2a354a0ea7a2bcf55ae5959761aa8a043df3f877f29a504eb",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "74a3295f07b2d20b965045f7e476098e7a94e5734ee6e476bbb66cde53639112"
+      ],
+      "generated_master_sha256": [
+        "77609c79751298fdb1effbc10e7aa53be1d28db3845cbc72b07a33bc9a390f90"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_biggame.pvr.ccz",
+      "sha256": "936104d60c67e030cb3ee06e2c455fa1979d897a186273690a69c13cb03f36c2",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "74a3295f07b2d20b965045f7e476098e7a94e5734ee6e476bbb66cde53639112"
+      ],
+      "generated_master_sha256": [
+        "7ff1f3aefecf97f1618f7cb0a2e7af901227c19f3d244f2c04c830c7674cd32b"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_vintagegame.pvr.ccz",
+      "sha256": "02b965900351765a18328b740316bba01e746a59ab1725fd4d104560c86ba3e9",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "74a3295f07b2d20b965045f7e476098e7a94e5734ee6e476bbb66cde53639112"
+      ],
+      "generated_master_sha256": [
+        "39916b6867c33ca1848bbaba2cb6160e6d70c49d930f03f5c26021d8531ab7ee"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_movieset.pvr.ccz",
+      "sha256": "3129bda97eaec1a4c0f267e575cf635acc930acdc156cf0568214983490ed1b6",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "8c681cece0b7e636d3c4fb897255a424ae567fa555eaa8ed375d42283f908cdd"
+      ],
+      "generated_master_sha256": [
+        "b13223d4ff2e7a2196b658e1589ed73793b3d1eb7175bedfc6f8d46f2b2eea69"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_pumpkinpatch.pvr.ccz",
+      "sha256": "149e87317f2a06a9cb88cb68870d290656b3e2d745877c21c109a8bc46f22e96",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "8c681cece0b7e636d3c4fb897255a424ae567fa555eaa8ed375d42283f908cdd"
+      ],
+      "generated_master_sha256": [
+        "626a4f97c7c1b8ca3264c8aa281613b1467cd909d42948d9e1be274b574ac81d"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_buildzombie.pvr.ccz",
+      "sha256": "62cc3d810615e7e1a352cc47447caf58b328181df2fbd51f795300cade97c2d4",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "8c681cece0b7e636d3c4fb897255a424ae567fa555eaa8ed375d42283f908cdd"
+      ],
+      "generated_master_sha256": [
+        "f22db5c0712be673a1edad9794cf30368a98824c63960f20d7261aed6d023275"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_baseballstadium.pvr.ccz",
+      "sha256": "ce65bedcb3a6610591c48ef294106d8d12ef01736de67b1b18b71ccd41fb70db",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "8c681cece0b7e636d3c4fb897255a424ae567fa555eaa8ed375d42283f908cdd"
+      ],
+      "generated_master_sha256": [
+        "9b8c0cfff892e17e5e3130af2945343aab1099a644470480aaa67eecc574263f"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_lamp.pvr.ccz",
+      "sha256": "faae23cb6ce0d38ad6514ffc8a69d65b30309d242597175764adcf8861c9a151",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "8c681cece0b7e636d3c4fb897255a424ae567fa555eaa8ed375d42283f908cdd"
+      ],
+      "generated_master_sha256": [
+        "ca1a17939f1014ae197b92e4a87a68814b05ab62fd85d23821b0f916adcab54e"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_crematorium.pvr.ccz",
+      "sha256": "c7f5608d34827300bc3f1e460c183337429df69c41127db2aba48803f74880b2",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "833ab42e39731158183eceff8e45f7fa0c1eba1fb1842e602afaa1387a2fd60e"
+      ],
+      "generated_master_sha256": [
+        "8461d1b532c5ef21efb8fb1c2a8d167597efa46d5f7d00ede0c62caeeb395932"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_houseofair.pvr.ccz",
+      "sha256": "95fe393ec3e5b0f8f9640744d570a42ece77c65978368af428605be30df53b2f",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "833ab42e39731158183eceff8e45f7fa0c1eba1fb1842e602afaa1387a2fd60e"
+      ],
+      "generated_master_sha256": [
+        "a0f43c47109f73edd358adde52ee41851948b3e6209deda2a5f36d16771e42d3"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    },
+    {
+      "file": "assets/experimental/bldg_university.pvr.ccz",
+      "sha256": "e805b9574b2ad581a324b27e5db6a5a53b51d5ed67c4ed9c1c4762cced5a0088",
+      "origin": "experimental AI-generated artwork, processed into atlas geometry",
+      "evidence_record_sha256": [
+        "833ab42e39731158183eceff8e45f7fa0c1eba1fb1842e602afaa1387a2fd60e"
+      ],
+      "generated_master_sha256": [
+        "b30d9f7f338191ce54ae47bb6ceaf93acc838818ac7727193450bb85bf588867"
+      ],
+      "authentic_recovered_art": false,
+      "license_scope": "MIT only to the extent of the project contributor rights; no grant of underlying game, reference-image or trademark rights"
+    }
+  ]
+}

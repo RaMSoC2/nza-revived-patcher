@@ -1,0 +1,137 @@
+No Zombies Allowed Revival â€” licenses, attribution and modifications
+Review date: 2026-10-17. Local test package; not a public-release clearance.
+Machine-readable scope, notice hashes and open conditions: manifests/legal-review.json.
+
+1. PROJECT CONTRIBUTIONS
+Copyright (c) 2026 RaMsOc2. Own code is available under MIT (LICENSE).
+This applies to the patcher, independent compatibility adapters and own changes
+only to the extent RaMsOc2 can license them. It does not replace upstream terms,
+license the original game, or make the complete generated APK MIT.
+
+Credits: original No Zombies Allowed game by Booyah; preservation, integration,
+patching and playtesting by RaMsOc2 with Codex assistance. Experimental raster
+art was generated with AI and processed into compatible atlases. No endorsement
+by Booyah, upstream authors, OpenStreetMap or tool vendors is implied.
+
+2. ZETTABRIDGE / DERIVED PATCHES
+Author: ZailoxTT. https://github.com/ZailoxTT/ZettaBridge
+Exact revision: d6066b9b9e61de27041ba6e1f3c499c080c9e2b7.
+Full unchanged terms: src/android/runtime/ZettaBridge-LICENSE.txt.
+PolyForm Noncommercial 1.0.0 AND PolyForm Perimeter 1.0.1 apply cumulatively;
+introductory distribution wording also appears in LICENSE. Source-available,
+not OSI open source. Do not label these contributions or derived files MIT.
+Derived files: src/android/runtime/zettabridge-native.patch and
+src/android/runtime/zettabridge-launcher.patch. Local assembly modifies memory,
+JNI, graphics, threading/file compatibility, launcher initialization, save and
+screen integration. Exact modifications are in those reproducible diffs;
+upstream code and attribution remain upstream-licensed.
+The source-mode ZIP contains no compiled runtime or launcher template. Users
+obtain the pinned upstream archives separately. This does not itself exempt
+patches, derivative works or an integrated product from applicable terms.
+README describes product integration under commercial use; LICENSE introduction
+uses broader wording. This interpretation remains unresolved. No separate
+permission, author approval, or public distribution clearance is represented.
+
+3. LOCALLY BUILT RUNTIME DEPENDENCIES
+Dynarmic, revision 86458a0bd369d63ba4c2ef812cacbb6c9080c065:
+Copyright (C) 2017 merryhime; 0BSD (not ISC).
+Text: src/android/runtime/Dynarmic-LICENSE.txt.
+Source: https://github.com/Vita3K/dynarmic
+Two upstream ARMv8/ASIMD patch recipes are applied during the build; this does
+not relicense Dynarmic under the ZettaBridge license or under project MIT.
+
+fmt: Victor Zverovich and contributors; MIT.
+mcl and oaknut: merryhime; MIT.
+robin-map: Thibaut Goetghebuer-Planchon; MIT.
+Full corresponding notices: licenses/Dynarmic-dependencies.txt.
+These are ARM64 build dependencies. Do not infer that unused upstream x86,
+RISC-V or test dependencies are included in the ARM64 binary.
+Boost: Boost Software License 1.0; src/android/runtime/Boost-LICENSE.txt.
+
+Khronos OpenGL/EGL registries: The Khronos Group Inc., Apache-2.0;
+https://github.com/KhronosGroup/OpenGL-Registry and EGL-Registry.
+These are inputs to upstream bridge generators, not original game artwork.
+HiddenApiBypass 6.1: LSPosed contributors, Apache-2.0;
+https://github.com/LSPosed/AndroidHiddenApiBypass/tree/v6.1
+Full Apache terms: licenses/Apache-2.0.txt. These texts are not a grant of marks.
+
+AOSP/Bionic sysroot: the pinned official GSI is downloaded/extracted locally.
+Individual libraries carry Apache/BSD/MIT/zlib and other notices; do not label
+all system libraries Apache-2.0. The preparation script retains the actual
+system/etc/NOTICE.xml.gz from that image in assets/nza-licenses/ in the generated
+local template. Exact source archive and library hashes remain in build reports.
+
+4. WINDOWS EXECUTION TOOLS — BUNDLED VERSUS LOCALLY DOWNLOADED
+CPython 3.12.14: PSF-2.0 plus historical/incorporated component terms and Windows
+binary conditions. Exact supplied license: .dependencies/python/LICENSE.txt.
+Packaging changes: standard library compressed into python312.zip; development,
+test, installer and selected UI modules excluded; isolated module search path;
+Pillow added. Interpreter executables are not claimed as project-authored.
+The copied DLL set still includes optional extensions; coverage of notices for
+OpenSSL, libffi, Tcl/Tk and other incorporated libraries must be finalized for
+the exact files before public redistribution. Microsoft runtime components are
+not MIT and remain subject to their Windows redistribution conditions.
+
+Pillow 12.3.0: MIT-CMU, not merely the project's MIT license.
+Copyright Secret Labs AB, Fredrik Lundh, Jeffrey A. Clark and contributors.
+The wheel's complete aggregate license is retained at
+.dependencies/python/Lib/site-packages/pillow-12.3.0.dist-info/licenses/LICENSE.
+It also credits Brotli, FreeType, HarfBuzz, Little CMS, libavif, libjpeg-turbo,
+libpng, libwebp, OpenJPEG, TIFF, XZ and zlib-ng under their respective terms.
+Do not assume every tool/example mentioned in an aggregate license was linked.
+
+Eclipse Temurin 21.0.12.1+1: GPLv2 with Classpath Exception, plus component terms.
+NOT bundled in the current source-mode ZIP. The script obtains the pinned JDK
+from its official distribution and verifies SHA-256. A reduced runtime is created
+locally and retains NOTICE and legal/. No Java binary is redistributed in our
+ZIP. Republishing a locally generated runtime would require its own GPL/source
+compliance; upstream links are not presented as a corresponding-source offer.
+https://github.com/adoptium/temurin21-binaries
+
+Android build-tools 35.0.0: NOT bundled in the current source-mode ZIP.
+The script downloads and verifies the official archive locally, then selects
+apksigner.jar, zipalign.exe and libwinpthread-1.dll for local execution. The full
+original NOTICE.txt is retained as tools/Android-NOTICE.txt in that local cache.
+Includes Apache and other component notices, including mingw-w64/winpthreads.
+No SDK/NDK/CMake or selected Android tool binary is redistributed in our ZIP.
+SDK terms distinguish restricted SDK redistribution (3.4) from open-source
+components governed by their own licenses (3.5); neither a blanket prohibition
+nor a blanket Apache permission is assumed for every SDK archive.
+Other SDK/NDK/CMake tools are obtained locally, not bundled in this source ZIP.
+https://developer.android.com/studio/terms
+
+5. EXPERIMENTAL ART / ORIGINAL GAME
+217 resources in assets/experimental/ are experimental replacements, not
+historically recovered art. Hashes, generation-record hashes and available
+master hashes: manifests/resources.json and manifests/asset-provenance.json.
+Private generation/packing records match all 217 payloads. Geometry/appearance
+was informed by original catalogs, historical references and descriptions.
+No original APK payload was identical in the four-APK content comparison;
+this does not establish absence of partial reuse or rights in depicted designs.
+Own contributions are offered under MIT only to the extent the contributor
+holds licensable rights. No exclusive copyright over unprotectable AI output,
+clearance of third-party references, or license to game characters/marks is
+represented. Experimental generation is not itself proof of legal independence.
+Original APK, icons, code, UI pixels, catalogs, sounds and save data are not
+licensed or distributed by this project. Three UI aliases and the icon are
+reconstructed from the APK supplied by the user during local processing.
+No public release of a resulting game APK is authorized by these notices.
+
+6. OPENSTREETMAP
+Map data: copyright OpenStreetMap contributors, Open Database License (ODbL) 1.0.
+https://www.openstreetmap.org/copyright
+https://opendatacommons.org/licenses/odbl/1-0/
+Attribution is displayed in the integrated places settings. Public Overpass
+instances are external services with their own availability/use policies;
+OpenStreetMap attribution does not imply endorsement by an instance operator.
+Queries use an approximate region after Android foreground location permission;
+fixed destinations, local cache and legacy network blocking are documented in
+README.md. The patcher does not upload APKs, saves or location.
+
+7. STATUS
+The license/provenance review is recorded; public_release_allowed remains false.
+Open conditions are explicit in manifests/legal-review.json: ZettaBridge scope,
+remaining Python/Windows binary notice compliance, and limits of historical-design rights clearance.
+Java/Android binary redistribution has been removed from this ZIP; this does not
+resolve the separate ZettaBridge, Python/Windows or artwork conditions.
+This file records evidence and obligations, not an authorization from any owner.

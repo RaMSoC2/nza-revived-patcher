@@ -1,0 +1,222 @@
+{
+  "version": "0.3.0-rc.1",
+  "runtime_commit": "d6066b9b9e61de27041ba6e1f3c499c080c9e2b7",
+  "runtime_engine_after_places": "38a32a5e6c18d622d854452fda08d3b617ce6b28e993155fa2c63c5e960c4ce1",
+  "files": [
+    {
+      "path": "src/android/compatibility/src/main/java/com/apportable/app/SplashScreen.java",
+      "sha256": "e0c1addee46805369912995e3bb88b954ae693c887be5e7f335ad6e6c47d6068",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/compatibility/src/main/java/com/apportable/utils/RunLoop.java",
+      "sha256": "ae4f4f81279552c46e105cfbee026c4e9e5c77e7e67cd78d40e4a9b1614e609d",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/compatibility/src/main/java/com/ramsoc2/nzarevived/NzaAdaptiveScreen.java",
+      "sha256": "330dc94544483d1d66b07c82bec960c71a5a478515a830b7cc0074448674dfaf",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/compatibility/src/main/java/com/ramsoc2/nzarevived/NzaApportableCompat.java",
+      "sha256": "89a7741a4bba04edd82a5592b852ef3eea72b99878a4d18934c05eb87934d581",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/compatibility/src/main/java/com/ramsoc2/nzarevived/NzaFilesCompat.java",
+      "sha256": "4347ebdbc1b3242cd9065e5f09832a8cb33f3703605a90403d2f8c9848c38d95",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/compatibility/src/main/java/com/ramsoc2/nzarevived/NzaFrameCapture.java",
+      "sha256": "f4313333a661a21f5bef5144913baa87112a7933b5db2129570bfd6815e9a8c0",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/compatibility/src/main/java/com/ramsoc2/nzarevived/NzaHostFaultCapture.java",
+      "sha256": "8522a2a15e16be769f590e95a0ee8eebd0f1b963bb2092d65872d78864c081c6",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/compatibility/src/main/java/com/ramsoc2/nzarevived/NzaLocationPermission.java",
+      "sha256": "e97945a54278992013ff661e21d35982b54de9c39e88b50e8e1e61cb21990fac",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/compatibility/src/main/java/com/ramsoc2/nzarevived/NzaNativeProbeActivity.java",
+      "sha256": "ec5ee02d3adbd4a5b10d3b104bd3e0d3d39a41a1968815b85de29959e37eb92a",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/compatibility/src/main/java/com/ramsoc2/nzarevived/NzaNearbyCache.java",
+      "sha256": "82d3bd2b7d84a1ab0c7d58b71771a70dc777e8499d75a5dadac8951d0154a701",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/compatibility/src/main/java/com/ramsoc2/nzarevived/NzaNetworkGuard.java",
+      "sha256": "03e291f54b05265a0957b9f023ee49de7a0b071e1ca9ce509de037e7eecd18c1",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/compatibility/src/main/java/com/ramsoc2/nzarevived/NzaNetworkPolicy.java",
+      "sha256": "8140594b12d401d7636fa16da3cd95b130ebf32199b156261ab0b62bfde42716",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/compatibility/src/main/java/com/ramsoc2/nzarevived/NzaOfflineGeocoder.java",
+      "sha256": "9fceab87d5abe3828bdf823f249194963d0c2b7de6eac25957b0cfbb83853c15",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/compatibility/src/main/java/com/ramsoc2/nzarevived/NzaPlacesCompat.java",
+      "sha256": "01f58a8b72208283616ad5c5c4b816e5a53b8e57dfcafe1dcb43eb90c17cb8b0",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/compatibility/src/main/java/com/ramsoc2/nzarevived/NzaProbeImport.java",
+      "sha256": "7955c90f3cc493d708a52cb45d8597af2d69d53bc060635ce94265ad22b8d4b6",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/compatibility/src/main/java/com/ramsoc2/nzarevived/NzaSaveCompat.java",
+      "sha256": "288961a6640d5dcaff238e6eec3f5e1e55c9bca31ca29014aba91050964f6974",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/launcher/AndroidManifest.xml",
+      "sha256": "b7d411bb119536a293424f0d98eb91a2045e1cbeda9ac650ca10ebf7db52f276",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/launcher/src/main/java/com/ramsoc2/nzarevived/NzaGameActivity.java",
+      "sha256": "f45f2870061c0bbd1810ef69c0d1069484d22c27c708876ef6266718e21fc151",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/launcher/src/main/java/com/ramsoc2/nzarevived/NzaPlacesShortcut.java",
+      "sha256": "7b48f089418e7f9a3b5121a11bf2fb36a378e0b5b9e815adf641133d8799b732",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/patches/arm.py",
+      "sha256": "33408c840b69b3a62b3195321e08a9c7985e813ed47c9c05f02cc36c4e1d1633",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/patches/client.py",
+      "sha256": "bb2f2e4da5bff33b46e4609f3c67f4eab63468e0d5589d713a4d0eeb76e5f689",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/patches/elf.py",
+      "sha256": "f7acc9174c85a90ea0b930660f5f2077d76c9f92ae51c34b7eb15f09b8ff423b",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/patches/nearby.py",
+      "sha256": "2fac7b2ae99b4599a5c8ce8c3006f8f62a96893149fca11ee14930f13d0c47b0",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/patches/nza_offline_analytics_patch.py",
+      "sha256": "00ac92a8f842a8408af92e1a77d9d0b0705d676727f01e93a2312672d656f395",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/patches/offline_store_patch.py",
+      "sha256": "ee7609d2906ba7d3e13c25e9bf4a5ca93f6c061f3014c8d211b01d8a8016a22c",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/patches/supported-apks/android-1.6.5-apk001.json",
+      "sha256": "18ac7c3331a2c6d8b5e61d81a2c40d633b3c5017efd0549f32e1a8ec71127aac",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/patches/town_name_credit_patch.py",
+      "sha256": "db9c5d0b854caa2decec01a8acd66fdffc0fbf845792c7fc0bc562b8fae413ac",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/places-helper/src/main/java/com/ramsoc2/nzarevived/places/NzaOverpassTransport.java",
+      "sha256": "71596835aee8b359ce9c26a173256d5e8b7c1164244bbe214c8ea2a863690c24",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/places-helper/src/main/java/com/ramsoc2/nzarevived/places/NzaPlacesInfoActivity.java",
+      "sha256": "23f2dbf2288f1807eb572a6ed8cb865d183526e48a0d1b51f2d013441f43c3cb",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/places-helper/src/main/java/com/ramsoc2/nzarevived/places/NzaPlacesProvider.java",
+      "sha256": "69acfe4866215e9a30be8f46a05e87d6e8e3a65baec53b85a0597cf242a89d0c",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/runtime/Boost-LICENSE.txt",
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/runtime/Dynarmic-LICENSE.txt",
+      "sha256": "14ef8e5ce8e564bbbe28bc7a306de80c786124de34955b2b4e868cb64bbe9faa",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/runtime/nza_host_fault.c",
+      "sha256": "9a7ef1992ed9e2aeff65a4145c02faa7b558480336af24ec2f08fb970421a521",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/runtime/nza_network_guard.c",
+      "sha256": "78ca3aae29b4881712e218e11869b82fea20565f8b391caa4b37dacdd7652d1b",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/runtime/zettabridge-launcher.patch",
+      "sha256": "1908df7705fa21dc5ac5fe8e1d80452faa704b52b16c216d5d63826c52a0d51f",
+      "license": "upstream ZettaBridge terms; see THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/runtime/ZettaBridge-LICENSE.txt",
+      "sha256": "03cbe3589dec4023c8fe0453d78f547bc351700cf4b259d9ddb24b4dc26f228f",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/android/runtime/zettabridge-native.patch",
+      "sha256": "48b8e0ebb6e6e7c2751ba34ab20366de8b4fb5ee075ab6589bf8a87f910bd071",
+      "license": "upstream ZettaBridge terms; see THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/patcher/__init__.py",
+      "sha256": "74e8a69ee8d59d3bb0849d91b06287ef90f9982ae59cf2522b422b128a7eeb5b",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/patcher/__main__.py",
+      "sha256": "36b5a27d5d539a7c38f378c1e12a10d3f14f453cb2d1fbc31668bc85d5319d9c",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/patcher/app.py",
+      "sha256": "1a5c6cd1b8733dac9e1b059e85acc3bcf7ba3587f8965930a510a466298da2a3",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/patcher/ext4.py",
+      "sha256": "2056fea95ec463c09143520fff09cf5bf0807e9b6affd2a83f48aad2621c05e9",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/patcher/licensing.py",
+      "sha256": "d286c5a7f32cd21ddc793a154aa8f8649010adbce1aa0c6a8a70f8f5a9a87da6",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "path": "src/patcher/source_runtime.py",
+      "sha256": "a784148afa7fa56c61ba199bc7dbd459b3d87b3ae24e1cfcc926c049e91d9bd0",
+      "license": "see LICENSE and THIRD_PARTY_NOTICES.txt"
+    }
+  ]
+}

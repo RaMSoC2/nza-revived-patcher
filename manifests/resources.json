@@ -1,0 +1,1955 @@
+[
+  {
+    "resource_name": "business_textures-hd/bldg_rv_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "86379609e6008c1c5af05d1b16173fac658fd0032dd6388e8711572dad190c9f",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_rv_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_shoestore.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "9eda3d305607438bc9685d0dffa225d1175faa69c5c7cdce739a6979ce1d0e98",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_shoestore.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_condemned_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "3226e8e17ef551e4985bd8bd7be0581d33c527a0a0018a42479d3f2d5bab9754",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_condemned_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_condemned2_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "982bc783e37d2ccafe5e7d67c9aaff3ef81c078e3680e849b838feaae77b05be",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_condemned2_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_condo_c.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "c67a7b74e39db1e822b545ffd9e5d1c2a9749fbbff657227161fd120d8848e8c",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_condo_c.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_airfreshener_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "f62477ab322b4e8f19fec7aff21612e99f4e04c29baebcc2300d978734348846",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_airfreshener_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_outpost_ruin_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "0498acccecaee7bbe7559f2bec28a050449228826d1c042cbdb5c4aa416b57e1",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_outpost_ruin_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_rubble1_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "bf9eadda606eec25490fb7de5967a737d83e916385a60de115b5c645ee22ead1",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_rubble1_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_rubble2_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "3fdde9dd50c40c65af7e211d0d8a6cbb5fde8d9b8772665962e2299d448e2616",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_rubble2_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_outpost_1_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "5f0630f1682fecc92ecc21a7403ea8393ae7d04c0494c918c1a5e783520d5d85",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_outpost_1_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_ecogrill.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "4e7ab7a7131696f2491889b2482ec0dccfa2bdf0414b0a071383ac46353054e3",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_ecogrill.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_titanic.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "b4768fffd7a934e2f1504433b38b882ab9bfbe49d9ce9da32c3ba58df9279e9c",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_titanic.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_abduction.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "b705f463c55016ab685f25132b7750c42e9d329bc17a8adc75cdecd2505478cb",
+    "width": 1024,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_abduction.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_stpatty.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "a61e82dceb118aef0033a01c5f88980c37b309af198d7825ade6c21f803a89e2",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_stpatty.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_leprachaun.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "e676de5c27909fa52ad4080e2f15ca67627ec2ec18c756ecad0d3fbb4f7d07e6",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_leprachaun.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_inn.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "5a6d25c0e211e74263529ae7c3bf3923ec09e3a3076d2a4da017b35e83dac870",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_inn.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_hobbit.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "d8a12cdcccd5968f721d7edf6c80c613ccc843bac6302e0933cb213678a42e25",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_hobbit.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_suburbhome.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "2f73023777073b3232e82dfc74b778d7d1b1bd9cb6f58da66419cd4987ef3e30",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_suburbhome.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_cafe.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "54509f7d5c1df91364d49b6994c960cfe77bc274a17dd108d4b9e199c5d5712f",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_cafe.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_juicebar_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "0492c308b7f3c8dd97cf754ecc52aaee490a18a8884beb40bd469e9eb3bbb2e4",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_juicebar_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_pizzeria_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "f49352ce2b851202cbbd5947340a374cd6583c2c369b3230d3d1fbc0fdb2bfb1",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_pizzeria_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_junglehouse.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "0d3a86905ec1f003ec6d98239a0ee17503d517e798abab9f2552595361ba5640",
+    "width": 1024,
+    "height": 1024,
+    "reason": "Experimental reconstructed modular artwork after original absence audit; original rig, zero-area anchor, frame geometry and animations preserved. Not authentic recovered pixels.",
+    "source_file": "assets/experimental/bldg_junglehouse.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_builderhouse.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "bd874bff7ee61062142b662f51f4fa2341b6a5035f0a8adb63a765e054cb7595",
+    "width": 512,
+    "height": 1024,
+    "reason": "Experimental reconstructed modular artwork after original absence audit; original rig, zero-area anchor, frame geometry and animations preserved. Not authentic recovered pixels.",
+    "source_file": "assets/experimental/bldg_builderhouse.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_recyclehouse.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "14897eadf00676bba81cae2db728e36863fb0841e9080d7699f01408f9016348",
+    "width": 1024,
+    "height": 1024,
+    "reason": "Experimental reconstructed modular artwork after original absence audit; original rig, zero-area anchor, frame geometry and animations preserved. Not authentic recovered pixels.",
+    "source_file": "assets/experimental/bldg_recyclehouse.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_agenthouse.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "7bdef8c99273b36e5a1f602ff75001df861081ca7b35cd0a8c6e611037b06de3",
+    "width": 1024,
+    "height": 1024,
+    "reason": "Experimental reconstructed modular artwork after original absence audit; original rig, zero-area anchor, frame geometry and animations preserved. Not authentic recovered pixels.",
+    "source_file": "assets/experimental/bldg_agenthouse.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_masterdojo.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "38a77be736fcc018d2277e4eb691ad8f00d01255234bdcbf96be538e39066c9c",
+    "width": 1024,
+    "height": 1024,
+    "reason": "Experimental reconstructed modular artwork after original absence audit; original rig, zero-area anchor, frame geometry and animations preserved. Not authentic recovered pixels.",
+    "source_file": "assets/experimental/bldg_masterdojo.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_rubble3_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "63a7def1a87cddf2c321e10742803e9101c818670295f097f510499269e227dc",
+    "width": 256,
+    "height": 256,
+    "reason": "Experimental reuse of existing generated rubble2 artwork, fitted to original rubble3 frame. Original variation unavailable, not recovered artwork.",
+    "source_file": "assets/experimental/bldg_rubble3_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_boxcar_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "b80fa170e9a8b3233ba48946266f9a1fe9716eb67bdbc834c352a629ccbe8974",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_boxcar_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_rv2_c.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "77cb11a37cf5e298d7c0acae77e9ed0448d96c80c7a294cf29687b7463f75455",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_rv2_c.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_watertower_c.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "b6ccdf9af964694ea922a539f543670e19659aa1b7598332d5232b81c4cab3c0",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_watertower_c.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_containers_c.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "d2f2768b599414d72b9437fc6c6cc8ea831f18fbc401091121b3b4b432919a0d",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_containers_c.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_modern.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "6b11952f78e2da078a50bb6c001af06c5dce15817be75bc677ee671578bf0f33",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_modern.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_barn_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "5f444247986fe3b3a2422c0506fd899aa5a57c1e29b2b6dd85154095524c7739",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_barn_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_frathouse_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "602bf78134d4a2429785b225b62a7684359b9017629b488083282009fc2b6da6",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_frathouse_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_motel.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "f751baf2aee8da05ad283b2f08a9192f040c3adf91614d1edcde8588a3a4b2bf",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_motel.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_sfhouse_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "20012bd8ea7b3c03736dfc4e64f6307b09e50165601eaaaf7cefb09548f295d4",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_sfhouse_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_apartments_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "d956a3119bfcfc2dc8caff8861d8ae0cdfe325e89007b1a9d2d43926270119cd",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_apartments_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_bunker_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "56c0e5100b6c0685c51c297492ae4a92742ae966d7dca51d97a93de43c61309b",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_bunker_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_cabin_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "30ebc90212125dc618452121e60c6b5b8d6685a2c826bebb6f4920d964436b45",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_cabin_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_treehouse_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "fac1c2e8fe95481a7b5b33c2a5ef5f9b647dd6224569dfe7af458402294b6dc7",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_treehouse_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_skullhouse.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "8795ebce254226bb2b11a79e5e2decb6dfaae27655c979b2223050e05be9c015",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_skullhouse.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_sillyhats.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "322ae1502f39c3600a937c0810d796cfbf1ac7467899a90ad44aa775e025e6a0",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_sillyhats.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_donuts_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "a7a8394a07ccbc9936fe8233a75b1a472ea533d9bd7197367e970eca6fccb081",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_donuts_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_icecream_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "4f0a543470b4a8facd94439c616399931391fd161dc16b0c0c8e4352119432d3",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_icecream_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_foodtruck_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "b01a76c1570ac325bdd365af02978ec733a82da7e04bc5ac34987c9addb90142",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_foodtruck_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_circus.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "d582b2b9dfb897210067352d630ff6c5133de3e22430439e7185903ffc517d84",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_circus.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_cupcakes_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "7bf7c9dd210a9482227b2c0c1ba80b76fdfa92db8174d220182ba9628e479a9a",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_cupcakes_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_pumpkin.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "3bbf8df835f35975f123ea677c29639b6718068ba4ea74d7a74e572f015918cc",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_pumpkin.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_roundhouse_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "26fc57b83736bee4dc98b48373075407dee048e21cc8707205a5813eb8ecf666",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_roundhouse_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_tentcamp_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "cf144e3dcd9e3afe1730c800ad1a53e3576547614be6bd07b185c5084e3f52d2",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_tentcamp_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_houseboat_c.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "3a32dcf4c28a429f8e3ba3d945b536f88f692ddcef700ee7ff1b06ecf1583abb",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_houseboat_c.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_wagon.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "d278bade4d4ca7a77e718200e0a1d2a42f4904794722363e50ec77d48c8db0af",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_wagon.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_lighthouse.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "22189aa8d059950db610a0f1e5a645d1b3efb9b3acfc713b3f4068dbafa8b2bb",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_lighthouse.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_artgallery_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "8cc7a44ce61b320604addbb58e061cab12f5f984f01bb6651dc08dea0856c211",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_artgallery_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_bowling_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "b93dfff6631bdab791c4bf7b5859f2d45d6cf77a87f14229059db7728081949c",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_bowling_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_burgers_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "d05fff639d4086b2f50a09ce46aca7eead998540db6c20827ec487533338839a",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_burgers_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_chainsaws_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "5b376423c90f86db6370f447c2770ac9f1481f7acf78e408672ecf7eb594b490",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_chainsaws_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_sushi_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "9ebb8813cad1ac55ca207da0306e931d01635d7ddd99c98e3a8ff3120d58423b",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_sushi_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_petstore_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "c918079495479fe8cddb39bdaa69caed5864091e2c64254573b8ca0bb31f6b2b",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_petstore_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_arcade_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "ab5ecce925ef4b64d2e868312ac45c2856be2a7ec1c6059769b1e72457d5089b",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_arcade_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_armory.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "768b0aca0fee5501ed19faa5a0213873f3ac2fb74c6f016d292335a788f5dbfa",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_armory.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_artsupplies.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "0ba90486e0ae5b2add77d3415edc17cec863af207a5a8bb6af667e3e72a8050e",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_artsupplies.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_barbwirestore_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "f30409cbbacf9aa61a9f90c4b34bc0b3287bcdb270284d823410ed809f1c296f",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_barbwirestore_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_barber.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "a70537d21473a56d805b555a5bdf8b6a664b78c2953c99dd6bd4306ef756d29c",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_barber.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_barrelncrate_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "b1b7141a747ce9ecad54655dea7ed7dc4f21f14889c7158f94841496d8667f47",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_barrelncrate_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_baseball_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "6b49b6cf90609208ee906505375fafdbb5ea34faa8f5ac23edcb11d369b6ed21",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_baseball_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_bikestore_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "12764a078fccee88a542a4b30f22823bcdcbca3c08b7d1536c4587f49d06681d",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_bikestore_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_boats.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "011a839ec671d78d3523740abc2e5f3ef4314512b59db795ced29ef3e6f21a85",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_boats.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_bombs.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "095ee2c272b43c74c28e2255e1a1ab792725d4205c03330a84b2f0cabce49aa2",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_bombs.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_bookstore_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "308a3ca2b68888a7e6d42f7ef3b8a607d69d3d7e5b502192c1baa6bff7909b82",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_bookstore_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_booyahgames_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "839d15073047aa1bf8883f623798b097f9bfe4528559f9c6b0de730150b28b2c",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_booyahgames_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_butcher_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "37c27919532796d2c1f4410c6425da4e2dce9ce87b005935d26a102fbc373ff1",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_butcher_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_candystore.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "10f8f31fb7061502c78fe05ef93667457dc252f7c377524e6ed0c13208fe7cd5",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_candystore.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_cardboard.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "35d45f13270bc28f2a8db744b3f79b2bb5b78507405fa5446e0765d092ec69cf",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_cardboard.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_cardealership.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "73be1a644e17498291f7ccffc1b3c7e59fd904ee8ef90a809a686ea694538215",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_cardealership.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_casino.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "865e4650ae8e40de8e79fe6374ceb4c14cce38f13524480da32736e3e09471b7",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_casino.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_casts_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "204d27e2768bbcd00a675f74bdead7d593d1c9414b69656da7a101c8eb22a1e9",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_casts_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_chinesefood.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "e2cd674747be39b020f07ad53a33a4910931aec437808ffd6e25fa82e57f4996",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_chinesefood.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_circlemart.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "e48c0ff10358f8196c033baa764928c443acab9d536f80b4b818d2da824dba4d",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_circlemart.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_thriftstore_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "b380476f992a00992930aba8db01b1dc8b098403199a6eece14d57226f1923b4",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_thriftstore_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_comics_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "320ad30ca135816111fdf408059bb67f7b5998da10c6a23842c8678864971fc2",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_comics_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_computers.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "7644d12d4c9a75cf9105ffacd53a9d40cc7acf40f183d6624f8ace3bbed0d74c",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_computers.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_costumes.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "14bd96a49cdd5d2b106e2e640dfcf6feacff2d318c7bd06cd90db7f228a26700",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_costumes.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_superstore.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "6f6e842990eb23618ec860d52944550a1e1605a389d626ea45134b1f8190c210",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_superstore.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_diner_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "ad35c118f90579515fe25e11131d84e3747c63ddde8caec95409b46a5be70095",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_diner_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_eyewear.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "544c2887fccabf2d36f302710ee48c657e18e3c9db9ae6022a796c34d2f6e387",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_eyewear.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_fancyfood_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "ddb71514bfd9be8e8b720fbaed6501f11c88e4ce8ae3fce0ec566b3674e9a1ec",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_fancyfood_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_fancymen.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "75e6685a947e314d01b1d4b49b6c57fc32b33a12a1634fa9119c5fb03106f338",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_fancymen.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_giftstore.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "5340ec05bdcd216843d876d1e402a9c59f6ee3f566c34ffc14b12c6305a0176e",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_giftstore.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_gloves.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "46418f1c22cbfa5ae446d8a2f5fa9a2a04ee53d36c5052819c2960c3ecb3d5e6",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_gloves.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_gokart_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "994415cb7b3fe5984af18483574b9439ed7eb7b306a1c56a72524f75ab667a0f",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_gokart_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_goldgrills.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "b539bd7fb30e30be48429722631b6603555e03a01f59bd39991021661bcf8031",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_goldgrills.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_gym_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "a2eb9a5d8e12f1ae8862a5179bbfedb09d9664540bfc1242ef9055ab13a6c9a7",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_gym_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_hardwarestore_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "c5708e951f6db3b2ec32c219e4a0099c1eecd2292b670a45b4914c4f95dedf92",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_hardwarestore_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_healthfood.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "d0365cea8553089b0df5b8dd0e835c9cf9fe572b34534f7d55b5c08edd3e643d",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_healthfood.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_horsedealer.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "78e3acc99c8519d340b9e6282ac97682b09143c7fa1ce871238a515eb727775f",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_horsedealer.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_lasergrid.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "30d22a3767e3a4e44685fb75b377a4438d10bcc3b09cbb29dcf542a2476859c5",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_lasergrid.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_rifles.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "2b58eb83487a495a53ca5ef1bbc444b004b378c2b6f983ca8f71e3f5a8d98179",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_rifles.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_machetehut_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "9045a7492207af7594684106c8e8be179c05bbb85cd386046ea13983ce583731",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_machetehut_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_magicshop.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "c8be991df3126bb71bcc0bb8862e4d07280a2b631545cdcb40c080231b28dcda",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_magicshop.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_golf_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "c50da69f186c218bf1d08bec1741d9605d5d055bd31c92e863c2e3df61549d34",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_golf_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_gattlinggun.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "3af725b96bce51e3a4c4f4228417ae9aa751137d767e5638f7a240997c38a298",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_gattlinggun.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_motorcycles.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "c61c0fdc04880f159e06bbc055b8df930812f56f3f7866876b7dd689f68cc92c",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_motorcycles.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_movietheater_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "ae1dbf97ac862d6b163a08d554738772b719d03d8b3c498e673ad65ceba1f282",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_movietheater_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_rollerblades.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "54003f9f4474f3c829a92a05a6cab86d57deab60bf63376e2dd51c6356806827",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_rollerblades.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_museum_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "23f69706a2282b27b8baad4821c1d2fcd68741b86400a3c34ac3f6c7f66d06c7",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_museum_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_music.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "e2d20c4b889213f5ece308aeb864780f8eb3d0b20b9b546b3c805e66d2d895e6",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_music.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_mustache.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "77aaef61e121b59f2602ba6feb170ce21911f58f7aa4d1c7d5d2504fc7aeead8",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_mustache.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_nightclub.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "8b7a34721834caf215c6894e51a44a64b3fe65235d3e2959953f8ca8afefc690",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_nightclub.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_dojo_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "29818c04b14633bc039839f5fe7deb314f5337c4244e4aa0bee12b74e0bee88c",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_dojo_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_observatory.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "61594a2091753a8d6e10c7d8504cb3b8f42c338be0b9131b72dd13ab65e12f57",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_observatory.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_oven.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "acf09c04d90d3a9f4941a1fbdd8973e2ab1c5468efcbb8814a13fed00cac4de0",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_oven.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_plants_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "86b03daefb6210ca79a28b1bf53c1b1d31f822bfb122a545e0b29ba84a830e56",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_plants_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_plasticsurgery.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "50a4d787af838e34d1f38eac27ee72e952f0e956c9d7dfca2d38d1e01084d296",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_plasticsurgery.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_portraits.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "23dda3698dcae6397ebcc4590eef26ae0d3ec6a750be933f280d8c04fd058bae",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_portraits.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_powerplant.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "dde1cb0e23ca21e71e373cbdd7e44616bc5f85f1866cc8e10ee6cc4cab7d90ba",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_powerplant.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_prosthetics.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "a70272a33cbd93812235ebf4be56893df09376fb09bec24e179b1d53549c5bdc",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_prosthetics.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_pub_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "a5a54b0935762c38c3a74eafc296d40d2798ed15e4581dfd774bae31df27a875",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_pub_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_records.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "d233e0cb0578927e0388dfbea1a950a1b225df370301c3485a98d2e01231c168",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_records.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_revolvers.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "7e3f239688927eb72a336ddb80a4fc7d56e7cbd3127237839861d39d4d50c656",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_revolvers.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_robots.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "b0fc86e3fe86e9a42bb57aaab8f686e75118f57c788df18044b53bf1d21f157a",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_robots.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_sciencelab.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "71cc30f0357303f44de72ce4e6e7cdaa04edc8aa7ab67934cf7ad40d967ee252",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_sciencelab.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_scooter.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "ef60a880507f9f88058f39f76fc0ec1de0dd7c65bc576174dce06998eb10ad57",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_scooter.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_shootingrange_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "35109b777d0b54ea121fadc96fb3113a9398250d16b042a0879e228d86feffa1",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_shootingrange_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_shotgunhut_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "0950f2d7d013d0f94b35ac72e23a2b2bf6b00aa2ff6fd2857bcdb650659c3a1a",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_shotgunhut_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_skatepark.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "a18fc2a581ffb7e7b145633ee5993321daa5ca0a4caafb3725ab38e6e1dfe9ac",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_skatepark.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_sodafactory.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "01285583a3d5ad3119f59daf2f82e412fc491b4a8c0ba2146c35c3f21017abca",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_sodafactory.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_supermarket.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "518a78e97b3c81e64456d6266118ed49d15979a112ea8c98f5f3e463b85178e4",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_supermarket.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_taqueria_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "9448e00f6623934f5ac3638461a21f4fe40ff17c9df0868688b2b7297e33a8ec",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_taqueria_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_taser.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "a40617ff2538e8f360f338f02c272f7617176be6003a7e506a8e0ce2ba069f65",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_taser.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_tattoo.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "8a23fc5ab789dc30da176e0c089317906eddb3b3dbcb7218fb9641b81686dc1e",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_tattoo.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_telescope.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "1bca5714608366dacb96eb752fc918be270464953a0d95ca621a92a75463e56b",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_telescope.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_tentforbites_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "0b5d963c2c38c76491e48547d3b8266bb577d702da45565759cf924c74e92775",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_tentforbites_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_thrillerdance_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "ee8ad147d042985e2dc6bce3d03ad34046129e65728eb1c608a94cdf13be3ba4",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_thrillerdance_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_towntours.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "b9f6282eeedb2a99c8335153dad4eb5c72e22186cb34d6c2204f9cd51fb4bdd2",
+    "width": 256,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_towntours.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_radio.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "c13f1bdca5e6232d8850ef036582b264ae978fb7c8f3174c33ee4df3f8f2544f",
+    "width": 512,
+    "height": 512,
+    "reason": "Experimental reconstructed modular artwork after original absence audit; original rig, zero-area anchor, frame geometry and animations preserved. Not authentic recovered pixels.",
+    "source_file": "assets/experimental/bldg_radio.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_toystore_b.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "e5dd9151cedd90278e35c7373e35976fd08927bdcfc0e5f43eec40529bd671e2",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_toystore_b.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_truckstore.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "3cc47c0a521dbbe66319606d488d6f349e52b0400ac8fe6aa48275861acb6e92",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_truckstore.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_tvstation.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "83625614ec10a08c66891fa7215f04d4d83ac39f3eace1e5e94f10b1b82e99f8",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_tvstation.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_underwear.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "57993f5e51a3fda6ec1f374491d1fdd0d99cd66744142df51572ad1a29d1db46",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_underwear.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_videorental.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "0ffe8acb63f180c5659cdf2c882c55d89b47d4375db9f2cc8aabbfd0ab1a8609",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_videorental.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_emeraldcity.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "bff3cca4194469bec22f3c112960a1f34235ca44389a82c0d5c243314d86bd1d",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_emeraldcity.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_snaketemple.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "8aa2b2c6df695ef22927c235506927f93194349148a865c2911c1d750718d52e",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_snaketemple.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_zeppelin.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "fda800b603b2dcbcb41df67199d4aaf80f03664e6ac2813594ef51eddb2b68db",
+    "width": 1024,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_zeppelin.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_UFO.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "bcfaa724b78d9282b4655e28ab689597a47e6105fd25a3ea6d08a9aa8eff56f9",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_UFO.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_sandcastle.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "8c5a6acad95728a5c57e508d4a87c4b9878a61a250994656cc4edb9d66fd813a",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_sandcastle.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_clown.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "278f3d29099fdd13e7494fe002ec5ae866a5d47a041e795982a4b206e4d7a412",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_clown.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_mummycrypt.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "9644802f97bb1cbff5ea23c6ff2d691f7b26b4c8d5f831248eafca05861de2ce",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_mummycrypt.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_couchfort.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "26543fd4ef3c45648b600d9e7881d84e8fd919e38e2938aefe3cbda161eb734b",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_couchfort.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_invisiblehouse.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "70fd5f2f4a5ba92e8ac0b40e382eec3951383b3ec39c97899d3303b65e209261",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_invisiblehouse.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_cubehouse.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "129d63bccd185a0d838e0b8362e98ba82d42d589de97691592ddb04da82122c1",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_cubehouse.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_outpost_2_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "ef49455841b34982e4e3a4b1efd670552d9f86867ccc12a72c24bfcb57e7463b",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_outpost_2_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_outpost_3_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "8fb7c9407a3d99f7318346f411bf9f7548129a5c5724e46f52399742e3a61ab0",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_outpost_3_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_lego.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "5bb7f93c73809159ca3e54e469f3e2999c8e29e6f72dc5e6d554c702f33d90e9",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_lego.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_pawn.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "1364e9fc0fc61e1ee1f0c40c751fe75233d0b7ab06b4d18e670ab6f762a961da",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_pawn.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_therapy_a.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "ffb70ad78e219e216ec02d78ff5ee5512ffe5067b84b411b83ee67b2ef887348",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_therapy_a.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_goldrush.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "e7dcc06a95308a9799283eb80635c461cb9ea9ca4232b7da8dcbc0b91cbac749",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_goldrush.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_steampunk.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "12a20402fed996f5f33db5fc3f1f2a2cda0b867cdf8ca4f0afbb0c4e87e618c4",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_steampunk.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_prison.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "df8c8392da8835bebbe244049e3d481542655cca65b02853bee16a38c7af1e2d",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_prison.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_hamster.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "4f4b634e3ec09a30df1dcce7685665b11e2e120a699070b11ef056734721cdad",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_hamster.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_vampire.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "74cfdf99cc54a7e29c4416f3553e10311e009057eba104dabb829bd7f7fcd61a",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_vampire.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_piratehouse.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "173e96b2449328b0a262c58056f2b71afd8a03ef3a12e27f505e9bdd354bd8fc",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_piratehouse.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_shoehouse.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "5d6e3ce61cb0da89d6982581498df04fc387370d86aaf318b92e2511bdc3c7f6",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_shoehouse.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_bigtree.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "a32735127d49113184dc4cbbc9971f02d43c9c56cfd4a669ddbaf1ba401ab17a",
+    "width": 1024,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_bigtree.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_winchester.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "35438ca5475ef902c3c232c91de7d3b38b9eb3eaec9aac03b4d672c84b9bf360",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_winchester.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_footballstadium.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "c4b5ab5f7114425b77103120000c67436995461a9c420231b26b6af6b6f8ad81",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_footballstadium.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_carnival.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "89bb58633f1f93703acac1088a6f265528150399dcae646711179400e40d5361",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_carnival.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_german.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "496f09e83a8af06f3e6fda6de67801955400522fa00425ecbb257214199cb5a8",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_german.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_northpole.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "ff8b76d160899bb178b38995a7eef6245a8db2e841c383c42099cb55fdde4384",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_northpole.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_redcarpet.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "2f6d8489825553dd44917fc7dfcaf1f5013d3d5ef71ae09e9fca5b58ba2db03b",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_redcarpet.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_divebar.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "ebb4d58adc1b41d7cb0d25a76642853ccee6228509f3734e9c79c1a609998a46",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_divebar.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_petcemetary.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "a664a3313c2ae76b0d01f0a209221b5710d23b04981bf2a66d309f083f9f2af4",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_petcemetary.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_zombielab.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "2af255205c0a00021cbe3d8fdbef26d6c7ee4b034d5a817f3fbd626d6568bc42",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_zombielab.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_mine.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "4e37c66beb79a606553bd505e26c62f8b5008e1dee7c477b2e8bad2c77eaf0ac",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_mine.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_aquarium.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "f42b39b86eddab50ea23125f124a070d03e6241427976373000d2f6f0eefdb87",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_aquarium.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_drivein.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "9e970ca2e15ea4d4016e5cfda6e8ac5175c907124cff30230c660b0dd4093fa5",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_drivein.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_scrimshaw.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "35607de11727b67c604373047c6f23285b4685f112fd6346499fbeb9d62634c1",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_scrimshaw.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_ghosthunter.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "180efcd65732c1ec44103f37ad80447c04626c7d767515aabf939b2722262360",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_ghosthunter.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_megapet.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "714069f4c2c1fb5ec05e035130dbed5e8d4f37c222d9f47ab52ecf1a7ea0b57a",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_megapet.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_blacksmith.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "bf0389651c0f114387f361654b50f719957f56b3bf6a8010a368594a7f9b0bc7",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_blacksmith.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_pork.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "88e02a9cc9971e7b0581ae49a2cb5cc9c67494c1d67b854f07482ac2479490eb",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_pork.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_abandonedmall.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "7d9b5bb879a955fa1c20de6c2d8e0179763f25bd26c7580950d01fc6d7bbf774",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_abandonedmall.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_wrestling.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "ac96acd76eb9c4451b7dc0985e855d6830e3f2504ccab18124d9e51021059b90",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_wrestling.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_cavehouse.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "6f72ad1e808d15ef6b4deeb0e9aa1d1a12aefad06667ce6043206b9c78b72edc",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_cavehouse.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_crime.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "cf5907efbb477b9b5eaa8af0555acdd3af919eb1dd06a947cfc2af4d02687c4b",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_crime.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_turkeyhouse.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "61eb546f80a8fdd920251304fcb1d709e905a1bdeb18f4f0420fc0f729bfbd01",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_turkeyhouse.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_planehouse.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "9974218cbdb5dff790b5a6a6106b0d45e2283a4ee3a7700d45b2bec52cb86722",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_planehouse.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_oasis.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "df81bb6d633b3588b897c5710c96c702a465411fa8658bba76cbbfdfcf0e2fbd",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_oasis.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_underpass.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "1a186655d12a133ac7d7b473a1d34caca9e17dee33bc56d2406389e9a6c88844",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_underpass.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_boneyhouse.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "d36e7df59fc38981b01b74b2d74cc56559eaae5b51523f44d49d7f1f00b3a064",
+    "width": 512,
+    "height": 512,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_boneyhouse.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_scrooge.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "a1114fb70bf007cab6fbf2b1357dabec37e2b4bd9b28212c01c078e4aca3b63c",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_scrooge.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_xmasstreehouse.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "a6fe3993342fad53c42f16082d0a40585df9fa8ba477779b79b9fd6c48e3520c",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_xmasstreehouse.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_snowman.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "62ddb9b2388aa2b890b0e3cab47093516952ade3ead3c26449107a90ee2a4c2c",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_snowman.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_santashop.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "5fd981a3155a2d732d57f4439f2047c975a6bbf747945d42dcfeade21c9f46c8",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_santashop.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_deerstable.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "c787bab15eac558d90437cf7674355eb069daa48a78847408715660dd9c70a06",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_deerstable.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_treelot.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "9120d34d6c47b0d9e0d85cea5d878e27bdcebbc290f994396bebdaf47de1be29",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_treelot.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_lovehate.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "8c9c455857435784c64ff1943a20aa86b14d9fcc2b710e164b8fc2a502809cb8",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_lovehate.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_frankenstein.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "bdc66c70b19b87f7475ef0de939d97c966a217eaad2f67e60ab039d2d0072167",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_frankenstein.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_playland.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "e8caa5eb3170db90c90912ff65643e4463df8cac76d66e3e396073cd4d8524da",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_playland.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_parasite.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "ff89fdf55e82a1340afda89e8273fe8fd56522b6c33dce91a56e2936cdd13ad0",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_parasite.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_scaryride.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "36f8e77592e97bfc226d298629a873723517abc39fa132640e7d499a4032d562",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_scaryride.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_sideshow.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "56dc5625906c8d570aa5710127b8156e930b987d6fb1642fa63953a64325aa7f",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_sideshow.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_taxidermy.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "fb5fbe0804386796b7be51922522f89b167296b58ee5d1a207c637758ac49534",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_taxidermy.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_hedgemaze.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "1daee1b15f953db4d6799f661fafb23b021d5a44067e9d3e5e525d33b78ee780",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_hedgemaze.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_brainfactory.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "d16d141976d7f528abbc0d1563aef95de3f19ab64ece0ad434144ec2dcc82ece",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_brainfactory.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_superbuffet.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "a247b654970429e5010d63e57552ef7f0d37f32af7be0f5634bea2fd832454ea",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_superbuffet.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_turkeyfarm.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "cb6ca2c6ede624a2a354a0ea7a2bcf55ae5959761aa8a043df3f877f29a504eb",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_turkeyfarm.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_biggame.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "936104d60c67e030cb3ee06e2c455fa1979d897a186273690a69c13cb03f36c2",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_biggame.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_vintagegame.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "02b965900351765a18328b740316bba01e746a59ab1725fd4d104560c86ba3e9",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_vintagegame.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_movieset.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "3129bda97eaec1a4c0f267e575cf635acc930acdc156cf0568214983490ed1b6",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_movieset.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_pumpkinpatch.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "149e87317f2a06a9cb88cb68870d290656b3e2d745877c21c109a8bc46f22e96",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_pumpkinpatch.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_buildzombie.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "62cc3d810615e7e1a352cc47447caf58b328181df2fbd51f795300cade97c2d4",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_buildzombie.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_baseballstadium.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "ce65bedcb3a6610591c48ef294106d8d12ef01736de67b1b18b71ccd41fb70db",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_baseballstadium.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_lamp.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "faae23cb6ce0d38ad6514ffc8a69d65b30309d242597175764adcf8861c9a151",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_lamp.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_crematorium.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "c7f5608d34827300bc3f1e460c183337429df69c41127db2aba48803f74880b2",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_crematorium.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_houseofair.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "95fe393ec3e5b0f8f9640744d570a42ece77c65978368af428605be30df53b2f",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_houseofair.pvr.ccz"
+  },
+  {
+    "resource_name": "business_textures-hd/bldg_university.pvr.ccz",
+    "kind": "recreated_experimental",
+    "sha256": "e805b9574b2ad581a324b27e5db6a5a53b51d5ed67c4ed9c1c4762cced5a0088",
+    "width": 512,
+    "height": 1024,
+    "reason": "AI fallback after original payload absence audit and successful original PVR control; not authentic recovered artwork",
+    "source_file": "assets/experimental/bldg_university.pvr.ccz"
+  }
+]

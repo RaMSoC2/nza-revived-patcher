@@ -1,0 +1,15 @@
+{
+  "version": "0.3.0-rc.1",
+  "android_version_code": 5,
+  "input_sha256": "167a4ac5d2fe653e3403212d37959b954d5f07dd6505456ea85aeb9d7d222312",
+  "client_engine_sha256": "a29fd871c6217d392b0728139732bb9d1968774373e5422ac9b1b5c5241fd24d",
+  "foundation_sha256": "8fe5191f6f6d8fe688e92eb239d15dfd0ba4abdf9c5f8d4f78cded856a55e76a",
+  "resource_count": 217,
+  "package": "com.ramsoc2.nzarevived",
+  "runtime_commit": "d6066b9b9e61de27041ba6e1f3c499c080c9e2b7",
+  "public_release_allowed": false,
+  "places_authority": "com.ramsoc2.nzarevived.nearby",
+  "places_integrated": true,
+  "places_default_enabled": true,
+  "legacy_socket_guard": "seccomp-tsync"
+}

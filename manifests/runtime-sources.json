@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "runtime_commit": "d6066b9b9e61de27041ba6e1f3c499c080c9e2b7",
+  "sources": {
+    "zettabridge": {
+      "filename": "zettabridge-d6066b9.zip",
+      "url": "https://codeload.github.com/ZailoxTT/ZettaBridge/zip/d6066b9b9e61de27041ba6e1f3c499c080c9e2b7",
+      "sha256": "3c0943e3062a45fe06e48a9d71177c5d214bbc5d2e84654f805b4907d8af1e6f"
+    },
+    "dynarmic": {
+      "filename": "dynarmic-86458a0.zip",
+      "url": "https://codeload.github.com/Vita3K/dynarmic/zip/86458a0bd369d63ba4c2ef812cacbb6c9080c065",
+      "sha256": "176daae989540eec406e86c4b06c0e72ccb97e1cb2953f4fed24b37ce63e6780"
+    },
+    "boost": {
+      "filename": "boost_1_88_0.zip",
+      "url": "https://archives.boost.io/release/1.88.0/source/boost_1_88_0.zip",
+      "sha256": "8ee21476f1aca1978339f0f4a218b9b8a6746eec83070f32630f97b09c7e91b7"
+    },
+    "gsi": {
+      "filename": "aosp-arm64-sysroot-gsi.zip",
+      "url": "https://dl.google.com/developers/android/cinnamonbun/images/gsi/aosp_arm64-exp-CP41.260814.003.B1-16166531-e6cb3bc5.zip",
+      "sha256": "e6cb3bc521fb4a8b4c8e62f8557c6ae0ff10662a6838cfb346a32ec9c9134e22"
+    }
+  },
+  "contains_runtime_binaries": false,
+  "public_release_allowed": false,
+  "tools": {
+    "jdk": {
+      "filename": "OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip",
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip",
+      "sha256": "f9d6e191ab098c0d416e7d588a24420a8621cd2f4720dab2459b8b7b2d2d8b4e",
+      "strip_root": true
+    },
+    "build_tools": {
+      "filename": "build-tools_r35_windows.zip",
+      "url": "https://dl.google.com/android/repository/build-tools_r35_windows.zip",
+      "sha256": "5753c679a1b90bcf6fbc9945a2ce39dfb9e74f1df0831a1e1866ae5b594326f0",
+      "strip_root": true
+    },
+    "ndk": {
+      "filename": "android-ndk-r29-windows.zip",
+      "url": "https://dl.google.com/android/repository/android-ndk-r29-windows.zip",
+      "sha256": "4f83a1a87ea0d33ae2b43812ce27b768be949bc78acf90b955134d19e3068f1c",
+      "strip_root": true
+    },
+    "cmake": {
+      "filename": "cmake-3.22.1-windows.zip",
+      "url": "https://dl.google.com/android/repository/cmake-3.22.1-windows.zip",
+      "sha256": "c9a9d568452a20cf27d703cb21ef9529dd67bda6be048c4d4b884acb3ac3a2b8",
+      "strip_root": false
+    },
+    "platform": {
+      "filename": "platform-35_r02.zip",
+      "url": "https://dl.google.com/android/repository/platform-35_r02.zip",
+      "sha256": "0988cacad01b38a18a47bac14a0695f246bc76c1b06c0eeb8eb0dc825ab0c8e0",
+      "strip_root": true
+    },
+    "hidden_api": {
+      "filename": "hiddenapibypass-6.1.aar",
+      "url": "https://repo1.maven.org/maven2/org/lsposed/hiddenapibypass/hiddenapibypass/6.1/hiddenapibypass-6.1.aar",
+      "sha256": "e3161dd21c97a4540b1698a33f7062aeaa1450008e1e2176070e5380f7a6324c",
+      "classes_sha256": "6f50c4d202acb8152901716df3a1f94b2181e33aa0d14c9bdb2579cbc21c0832",
+      "strip_root": false
+    }
+  }
+}

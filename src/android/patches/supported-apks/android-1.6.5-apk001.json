@@ -1,0 +1,13 @@
+{
+  "id": "APK-001",
+  "package_name": "com.booyah.zombie",
+  "version_name": "1.6.5",
+  "version_code": 1371507655,
+  "size_bytes": 48987231,
+  "sha256": "167a4ac5d2fe653e3403212d37959b954d5f07dd6505456ea85aeb9d7d222312",
+  "min_sdk": 8,
+  "target_sdk": 15,
+  "role": "verified_original_identity_and_private_lab_baseline",
+  "patcher_pipeline_validated": false,
+  "proprietary_payload_included": false
+}
